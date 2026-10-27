@@ -92,3 +92,5 @@ Format: - approach — why eliminated — evidence/source — who/date
 - Running key from natural text (Carter vols 1-3, Budge pg7145, US Declaration + Constitution, K1-K3 PT/CT, Sanborn dedication, WaPo 1990; fwd/rev, AZ/KA key numbering) under TWO arbitrary alphabets B(c)=A(p)+n(k): gate + exact check + full-text annealing of 2,018 survivors, best -481.1 (null level) vs 6/8 plants recovered at -397..-454 — iterations/it29_runkey_two_alph.py, it29b/it29c, JOURNAL it29 — 2026-10-27 (power ~75% per candidate)
 
 - Same running-key sources and 45 models as it23, allowing ONE wrong crib letter (any of 24 rows dropped): 0/2.03M offsets x 45, controls 12/12, null 0/4.5M — iterations/it23c_scan_err.py, JOURNAL it23c — 2026-10-27
+
+- Grid-route/overlay key streams (w-route H-1804: carved tableau, cipher panel, sculpture, KA26, Morse; dihedral x 4 routes, fwd/rev, all offsets, overlays) under TWO arbitrary alphabets B(c)=A(p)+n(k): 1.59M placements, 571 exact survivors annealed, best -496.5 = null — iterations/it30_route_two_alph.py, JOURNAL it30 — 2026-10-27
