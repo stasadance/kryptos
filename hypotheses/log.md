@@ -477,3 +477,18 @@
 
 ### H-1904 Method warning: SA "solutions" of K4 under two-alphabet periodic models   [status: NOTE]  w-anneal 2026-10-27
 - At p≥35, annealing random shuffles of K4 reaches −3.9 to −4.2 per quadgram of English-like salad, at or above genuine English. Any claimed decrypt of this kind needs a matched shuffled-ciphertext null and controls.
+
+### H-2101 Concrete key stream + TWO arbitrary alphabets is identifiable by full-text annealing at 97 letters   [status: SUPPORTED (synthetic)]  w-synth 2026-10-27
+- Claim: H-1404/H-1804/H-601 survivors are "crib-untestable" but not data-untestable: key entropy ≈172+log2N bits vs quadgram budget 249 bits.
+- Test: sa.c (workers/w-synth/scripts) on 12 controls: 11/12 recovered (acc ≥0.90); K4 under 40 random relation-satisfying streams: best −498..−550 vs English −400..−434.
+- Result: supported; proposed task "decide class C" in STATUS.md §6.1. findings/w-synth.md.
+
+### H-2102 GEN p≥8, Quagmire IV p≥30, Q3 p≥41, unstructured OTP-like position keys are information-limited (no search can decide them from 97 letters + 24 cribs)   [status: SUPPORTED]  w-synth 2026-10-27
+- Test: unicity budget (cribs 112.8 bits + 73·D; D4 measured 1.86) vs key entropy; cross-checked with w-anneal T19 spurious ≥ true at p≥30 and GEN nulls beating English.
+- Result: supported. Only new information (K5 depth, more cribs, alphabet/keyword restriction) can reopen them.
+
+### H-2103 Residual single-alphabet autokey models (CT-autokey SAT L, PT-autokey Beau L=6-12) are identifiable; earlier SA failure was search failure   [status: OPEN]  w-synth 2026-10-27
+- Test: vig1 known-key SA (CT-autokey) / chain-propagation search (PT-autokey) vs shuffled-K4 null.
+
+### H-2104 Exact generator nulls (w-keygen, w-route, w-transkey; ~21M configs) are fragile to one crib-position carving error   [status: OPEN]  w-synth 2026-10-27
+- Test: rerun with 24 single-deletion sets and BERLINCLOCK ±1 shift; compare to a shuffled-CT control through the same pipeline.
