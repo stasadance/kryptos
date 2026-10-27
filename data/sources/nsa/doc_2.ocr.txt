@@ -1,0 +1,767 @@
+=====PAGE p-1
+\
+\
+
+‘DOCID: 4056 G8GENRAL
+
+SECURITY CLASSIFICATION
+NSA STAFF PROCESSING FORM
+To EXREG CONTROL NUMBER KCC CONTROL NUMBER 2 CONTROL NUMBER
+DDO 2-054-98
+THRU” : ACTION EXREG SUSPENSE
+; [_] APPROVAL
+
+SUBJECT . KCC SUSPENSE
+CIA KRYPTOS Sculpture -- The Challenge and (_] action
+Resolution (U) INFORMATION ELEMENT SUSPENSE
+DISTRIBUTION.
+zp} 223
+SUMMARY “(b) (3)-P.L. 86-36
+
+1. (U) In response to your request we have put together a package
+
+chronologically outlining the events in our decryption (89%) of the CIA
+courtyard KRYPTOS sculpture. Also attached is a copy of the original mem-
+orandum to Adm. McConnell with attachments providing the cipher, the cryp-
+tography employed, and the respective decrypts.
+
+2. (U) The initial examination of the cipher revealed that it was
+likely to consist of three cryptographically distinct sections. Basic com-
+puter diagnostic tools confirmed this hypothesis. Subsequent analysis and
+solution, however, did not require any compute power.
+
+3. (C) Parts 1-3 were solved within two days of receiving the
+informal tasking from Chief, Z. Another day was spent on the final section
+and a decision was made to stop any further work. Given the suspected
+cryptography, the last section is too short to solve without diverting a
+great deal of effort from operational problems.
+
+¥ (b) (3)-P.L. 86-36
+
+COORDINATION/APPROVAL
+
+OFFICE NAME AND DATE ; PHONE OFFICE. NAME AND DATE PHONE
+209 |] jp» |5043s j
+
+“ 2 Drafter | T 4451s
+= ORG. PHONE (Secure) DATE PREPARED
+Foproved for Release by NSA on 05-21-2072, FOIA
+
+SOSSHED EYEE 7 base #61194
+NSN: 7540-FM-001-5465 LASSI Dated 29 May toeF
+
+DECLASSIFY ON: X1, X5 -GONFIDENAAL—
+
+N
+
+=====PAGE p-2
+‘DOCID: 4050989
+
+Chronological history of NSA personnel and their involvement
+in the partial decryption of the KRYPTOS sculpture
+located in the CIA courtyard
+
+* 1988 - The CIA Fine Arts Commission approves James Sanborn’s
+proposal.
+
+* 1990 -.The artwork, titled Kryptos, is dedicated. A portion of
+this work of art consists of a classic Vigenere Square and 870
+characters of cipher punched through two large copper sheets.
+
+« 1991 - While on a trip to the CIA headquarters, an informal
+group comprised mainly of Cryptanalysis interns, handwrites the
+cipher onto sheets of paper , and distributes it to any and ail
+interested cryptanalysts back at NSA.
+
+* 1992 - Official challenge for solution is relayed through DCI
+at a Gold Bug award ceremony.
+
+= 1992 - mr.[__—sds the first person to decrypt a portion
+of the cipher. The cipher™system used is a polyalphabetic sub-
+stitution using eight alphabets..The decrypted text accounts
+for the last 373 characters from thé-first section of 436, but
+the initial $53 characters resist decryption. Because of this,
+analysts concede that four distinct sections are.likely, with
+this being the second section. ~ (b) (3)-P.L. 86-36
+
+* 1992 - Mr.| _ jis’the second person to success-—
+fully decrypt a portion of the cipher. That portion is the
+third section involving 337 characters and employing a transpo-
+sition system using a matrix with dimensions 4 X 86. .
+
+* 1992 - As the third successful cryptanalyst, Mr.f—sSY
+successfully decrypts the initial 63 characters of the cipher,
+which is the first section. It also uses a polyalphabetic sub-
+stitution, but with 10 alphabets. :
+
+* 1992 - An informal document is produced detailing the solution
+of the three sections. These three sections comprise the first
+773 characters out of 870 total, leaving the last 97 characters
+unresolved.
+
+* 1993 - A formal letter is sent to Adm. McConnell (DIRNSA)
+detailing the story, and is returned with a request that it be
+forwarded to Adm. Studeman at CIA. ;
+
+* 1998 - There is renewed interest from the CIA, with an eye
+towards a technical article for an internal publication.
+=====PAGE p-3
+_DOCID:
+
+DATE:
+
+REPLY TO
+ATTN OF:
+
+SUBJECT:
+
+To:
+THRU:
+
+Of HeuU b:
+Sock
+
+Fhe 13
+
+* 4050989
+
+UNITED STATES GOVERNMENT
+1993
+
+randum
+$ Foewaied To Abwirar
+
+STubemav For \NFO.
+
+CIA KRYPTOS Sculpture ~—- Challenge and Resolution +S6ue}+—
+INFORMATION MEMORANDUM a ;
+Ge
+
+mM Oa
+pyorr YF, exec/pir hae
+
+9 June Z-043-S3
+
+The KRYPTOS sculptures, located at t nee ana
+yard of the new CIA headcuarters, series of
+containing code which begins as Morse and
+complexity es the st ronework extends urtvard.
+flat ce engraved
+message the focus
+2. (20U0+ In November, @ of cryptanaiy
+i ically respon: the chalienge
+e four cipher iS used to Ssnczx
+text had been esed and compl
+5S empioyed for nerypti oF
+iodic polvalph sub on
+sition ic er. xD ba)
+5 constitutes Di
+racters contin lu
+Attached, =
+yotograpnie
+rtions of th
+I a to
+an
+a
+
+Copy of Sculpture Picture i :
+Copy of Cipher : (b) (3)-P.L. 86-36
+
+Enews
+OPTIONAL 5 %
+
+FOR OFFICIALUSE-ONEY— =a
+
+i)
+
+i
+=====PAGE p-4
+=====PAGE p-5
+' 4050989
+
+*
+
+“DOcID
+
+‘CIPHER
+
+KRYPTOS SCULPTURE
+
+THs
+
+oT
+
+DKERNSHGNFI
+
+ZL
+
+K
+cH
+
+RFAXKYUSDJI
+YOTOUKXQBOVYUVLIULTR
+
+ZL
+
+Aa
+fu
+
+is}
+
+JYOQOTMKYRDMFED
+
+v
+
+HZ2WET2YVGW
+
+JUD.EE
+
+B
+
+fa
+
+XHQRILIG.
+
+JU
+
+QZDQMMIAGP
+
+UNA
+
+NG
+
+RP
+
+DAGOVF
+LBQCRTBUIDF
+
+=
+N
+
+TIMVMZdITANOQOLVKQ
+QzG2Z2LECGYUKU
+
+JTRR
+
+H
+WHKUWQLS2Z2FTI
+
+TTBS
+KS JHK
+
+fr
+fe]
+
+F
+DWKEKB
+
+VLDKEFEZMOQQTLTTUG
+
+IYCUQZERE
+
+DF
+
+FURE
+
+HO?
+
+HHDODODUV
+
+z
+
+UF X HHODREPF
+
+IP
+
+K2Z2Z2BSFDOVGOG
+
+Fl
+
+fru
+
+HQONTGPUAHCNUVPDIMODOCLOAOUMUNEDFEFO
+
+EF
+E
+
+R
+
+LZ2Z2VR
+
+MJ
+
+‘BEDMHODA
+HRO
+
+4
+
+DOUM
+
+TEOIBGE
+SNOS
+
+HNL
+
+NODYA
+
+Ez
+
+DYSHNATIA
+
+MR
+
+=
+
+WX MN
+
+s
+
+4
+
+N
+cH
+
+ATI
+
+RNG
+
+NE
+
+> UDRET
+
+NRAHCTEN
+
+bal
+
+Et
+
+1e3]
+
+YOQHE
+MATEGYE
+
+ie)
+
+ie]
+
+fl
+
+it
+
+fet
+
+RL
+ERTNRT
+
+RI
+
+Eg
+
+2
+
+ENAT
+
+AMHHEW
+
+TBRSP
+
+fry
+Hi
+fx]
+
+E
+
+A
+G
+
+ARM
+ROA
+AOS
+
+fay
+fl
+hl
+
+A AH
+
+ZEDDNI
+
+BS
+
+IT
+
+DDRYDLOR
+
+AARD
+
+HAGtTOD
+
+HNLSSTTRIVDOHWROBKR
+
+HULBSOLITI
+
+ECDMRI
+UOXOG
+
+RNGKSSO
+
+BBWFLURVOQOP
+UDIAWIN
+GKUHUAUDTD
+
+F
+
+Ar
+
+FBN
+
+OsTQSSEKZZWATIARK
+
+VTTMZFPKWGODKZxXTICD
+
+TWwtr
+
+AR
+
+EXC
+=====PAGE p-6
+“DpOCID: 4050989
+
+PART 1
+
+KM
+be
+0)
+Q
+Ie
+ie]
+'g
+9)
+pa
+
+—
+0
+Ja
+
+ue
+py
+i)
+1°)
+(0)
+ct
+Pp
+Q
+wn
+&
+ty
+o)
+ct
+le
+ct
+ia
+t
+Pp
+Q
+m
+@
+J
+
+'S
+Io
+Oo
+—
+p
+o
+10
+
+Plain component: Keyword mixed sequence based on KRYPTOS
+
+Cipher component: Keyword mixed sequences based on KRYPTOS
+
+Repeating Key: PALIMPSEST.
+
+-Index letter: K
+P: KRYPTOSABCDEFGHISTLIMN QUOVWKZ
+Cl: PTOSABCDEFGHI JLUMNOUVWXKZKRY
+c2: ABCDEFGHIJSJILUM N Q UVWXZ2KRYPTO S
+C3: LMNQUVWXZKRYPTOSAZBCDEFGHI SA
+c4: TTLMNQUVWXZ2ZKRYPTOSRBCDEFCH
+c5: MNQUVWXZKRYPTOSASESECDEBFEHIIL
+cé: PTOSZRBCDEFGHIITLMNQUVWXZEKERY
+C7: SA BCDEFCGHITLMNQUVWZXZKRYPTO
+C8: 2rGHITLMNQ UVWXZKRY?FTOSABCD
+c9: SABCDEFTFGCHITLMNQUVWKXZKRYPTO
+
+“ClIO:TOSABCDEFGHIILMNGQUVWKXZKRY P
+
+EMUPTPHZLRF AXYUSDJKZL DKRNSHGNEFI VUYOTQUXOR
+BETWEENSUS TLESHADING ANDTHABSCE NCEOFLIGHT
+
+QVYUVLLTRE VIYQTMKYRD MID
+LIESTHENUA NCEOFIQLUS ION
+
+un
+
++FrOoue) 2
+
+w
+
+so
+
+sy
+
+ced and punctuated, it reed
+
+“BETWEEN SUBTLE SHADING AND TH ABSENCE OF LIGHT LIES TEE NUANCE OF
+' ILLUSION”
+=====PAGE p-7
+*DOcLD: 4050989
+
+cl:
+C2:
+C3:
+C4:
+C5:
+cé:
+C7
+cs
+VIPOUDES
+ITWASTOT
+CPFQZDOM
+YUSEDTHE
+FRETUNGE
+ONWASGAT
+ARRYIZET
+ANUNKNOW
+
+_VH?DWKBF
+
+fo
+AW
+
+OO Ul
+
+dg
+mob a Gy
+GQ He MM IZ it
+
+my
+
+1
+a
+
+hOoOoOZ
+a Une)
+aa
+
+Yhp ig
+
+ow wot
+
+waa
+
+Bi Sy
+
+Woe
+
+le fa ka pk a feu
+
+t
+
+pow
+Hw
+He
+KOU
+Hw
+A)
+di
+i <,
+
+Poet
+bs ow
+4a
+tofu
+wy
+mx
+mo
+
+ik
+
+—
+ot
+
+«
+
+a
+
+Hm
+Po
+
+BIO
+on
+pao
+me
+ou
+
+Ml
+
+KZEMVOUF
+NLOCATIO
+
+U FPWNTDK
+
+ba Gy ma Cy
+
+Ww
+I
+
+Ma
+
+ao
+Qo
+
+Hed
+nw
+ays
+HE <
+
+ty In
+Hom
+
+Hou
+yO
+Poa
+Zr
+an
+m™
+HG
+Lie
+
+aN
+
+min
+mw
+oq
+eo]
+
+|
+Hs
+A]
+
+I YCUQZERE
+
+IS?THEYSH OULDITSB URIEDOUT
+
+VRRGEFFV
+INUTESSI
+
+UNLAVIDX
+HEEXACTL
+
+QNTGPUAE
+GEXTHIRT
+
+ie)
+x
+
+D
+T
+
+x
+I
+
+hy Ok
+H<
+
+a
+BP
+
+3B
+N
+
+FLGGTEZ?F
+OCATION?0
+
+CNUV?2DGM
+YEIGHTDE
+
+PNFQXEZL
+VESECOND
+
+MNQUVWXZKR
+
+westait
+
+EINGISBJL35
+
+TEDUNDER
+
+KUWOLS2Z5
+NGLEYKNO
+
+KZSSFDQV
+NLYWWTHAIL
+
+QCLQUMUN
+GREESFIF
+
+GREDNQIM
+SNORTHSE
+
+ution emDloving
+
+3 on KRYPTOS
+on KRYPTOS
+
+QCETSu0Dr
+
+GROUNDTO
+
+TIHHDDDU
+WABOUTTH
+
+MOQQJULTT
+EWHEREXW
+
+GOGIPUFX
+SWASHISL
+
+EDFQELZZ
+TYSEVENM
+=====PAGE p-8
+*DOCID::* 4050989
+
+cl
+3
+wo
+1)
+
+(first 12
+
+Route: Bottom to top -
+
+ISLOWLYDESPARATLY SLOWLY THEREMA INSOFPASSAGEDE
+IASREMOVEDWI THTREMSLINGHANDSIMADEATINY BREACH
+LEALITTLEIINSERTEDTHECANDLEANDPEEREDINTHEH
+FLICKERBUTDRE SENTLYDETAILSOFTHEROOMWITHINEM
+1 1 1 9 8 7
+2 1 )
+
+BRISTHATENCUMBEREDTHELOWERPARTOF THEDOORWAYW
+INTHSUP PERLEFTHANDCORNERANDTHENWIDENINGTHEH
+OTATRESCAP INGFROMTHECHAMBERCAUSEDTHEFLAMETO
+ERGEDFROMTHEMISTXCANYOUSEHEANYTEINGO
+
+6 5 4 3 2 i
+
+“SLOWLY DESPARATLY SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT ENCUM-
+BERED TEE LOWER PART OF THE DOORWAY WAS REMOVED. WITH TREMSLING
+HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER, AND THEN,
+WIDENING THE HOLE A LITTLE, I INSERTED THE CANDLE AND. PEERED IN. THE
+HOT AIR ESCAPING FROM THE CHAMBER CAUSED THE FLAMZ TO FLICKER, BUT
+PRESENTLY, DETAILS OF THE ROOM WITHIN EMERGED FROM THE MIST X CAN
+YOU SEE ANYTHING Q”.
+
+Note: The The Tomp of Tut-Ankh-Amen wric-
+ten Dy Mr,
+

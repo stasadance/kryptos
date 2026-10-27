@@ -1,0 +1,888 @@
+=====PAGE p-01
+*pocID: 4051151
+
+—SCHAIBEN FARTS —
+: UNITED STATES GOVERNMENT
+DATE: 26 March 1992
+oo "((3).P L. 86-36
+
+REPLY TO “
+
+ATTN OF: Z441
+
+SUBJECT: KRYPTOS sculpture
+
+To: a 4 4
+
+4eeuey;- In response to a direct challenge from the Central
+Intelligence Agency, NSA analysts have successfully diagnosed and
+read a major portion of the KRYPTOS sculpture, located in the
+courtyard of CIA in Langley, Virginia. As of 1 Dec 92, the cipher
+has been divided into four sections, with complete analysis and
+decryption completed on the first 3 parts.
+
+‘da 880+ Cipher parts 1 and 2 were encrypted using a
+polyalphabetic substitution system. Part 1 employed 10 alphabets,
+while part 2 used 8 alphabets. The third section was encrypted using
+a route transposition on a width of 86.
+
+Ly Geese; The decrypted text.of part 1: "Between subtle shading and
+the absense of light lies the nuance of iqlusion.[sic]"
+
+ly #BO8ST- The decrypted text of part 2: "It was totally: invisible.
+
+How’s that’ possible? They used the earth’s magnetic field. The
+
+information was gathered and transmitted underground to an unknown
+
+location. Does Langley know about this? They should. It’s buried
+out there somewhere. Who knows the exact location? Only W.W. This.
+was his last message. Thirty-eight degrees, fifty-seven minutes, six
+
+point five seconds north. Seventy-seven degrees, eight minutes,
+
+forty-four seconds west. I.D. by rows."
+
+Ly +£6u0}+ The decrypted text of part 3: "Slowly, desperatly[sic],
+slowly, the remains of passage debris that encumbered the lower part
+of the doorway was removed. With trembling hands I made a tiny
+breach in the upper left hand corner, and then, widening the hole a
+little, I inserted.the candle and peered in. The hot air escaping
+from the chamber caused the flame to flicker, but presently, details
+of the room within emerged from the mist. Can you see anything?
+Q(sic]"
+
++POUC+ Although ideas abound, a successful break into part 4 has
+not been made, and analysts continue to work for a solution.
+
+pproved for Release by NSA on 05-21-2013,
+EOIA Case #61191
+
+—COMBIBDEMHALHSI—
+
+OPTIONAL FORM NO. 10
+
+(REV. 1-80)
+
+GSA FPMR (41 CFR) 101-17.6
+5010-114 (COMPUTER FACSIMILE)
+=====PAGE p-02
+“DocID: 4051151
+
+INTRODUCTION
+
+a
+
+her The following paper will take a technical look at the
+solution to a major portion of the KRYPTOS sculpture located in
+the courtyard of the Central Intelligence Agency in Langley, Vir-
+ginia. Before starting on the technical details, let’s take a
+quick look at the history of the sculpture, as well as a few com-
+ments from the sculptor.
+
+Ut power In June 1988, a Fine Arts Commission project was
+announced by the CIA to acquire art work for the new CIA Headquar-—
+ters building. When the selection process had been.completed, the
+Director of Central Intelligence approved the proposal submitted
+by James Sanborn, a Washington area artist, to create a two-part
+sculpture at the west entrance to the new Headquarters building,
+and in the courtyard of the complex. In the fall of 1990 the work
+was unveiled at a dedication ceremony at the CIA.
+
+U oto. According to Mr. Sanborn, “the stonework at the
+entrance and in the courtyard served two functions. First, it cre-
+ates a natural framework for the project as a whole and is part of
+a landscaping scheme designed to recall the natural stone out-
+cropping that existed on the site before the Agency, and that will
+endure as do mountains. Second, the tilted strata tell a story
+like pages of a document. Inserted between these stone “pages” is
+a flat copper sheet through which letters and symbols have been
+cut. This code, which includes certain ancient ciphers, begins as
+International Morse and increases in complexity as you move
+through the piece at the entrance and into the courtyard. Its
+placement in a geologic context reinforces the text’s “hidden-
+ness” as if it were a fossil or an image frozen in time.”
+
+UY ABGUO} This paper’s purpose is to concentrate solely on the:
+copper sheets located in the courtyard through which letters and
+question marks were cut out. It will look at the diagnosis,
+exploitation and eventual solution of the majority of the cipher
+-contained in the sculpture.
+=====PAGE p-03
+EC fd apes
+Paseo
+
+Sear
+UVWXZKRYPTOSABCDEFGHISJILMN
+
+VWXZKRYPTOSABCDEFGHISTILMN
+VWXZKRYPTOSABCDEFGHIJSTLMN
+
+TNQUVWXZKRYPTOSABCDEFGHISTLMN
+U QUVWXZKRYPTOSABCDEFGHISTILMN
+
+One half of the sculpture contains the following Vige-
+VUVWAZKRYPTOSABCDEFGHIITJLUMN®G
+
+which uses mixed sequences based on the keyword KRYPTOS.
+
+ap
+
+=
+
+—-EOGO}+
+
+nere square,
+ABCDEFGHIUJKLMNOPQRSTUVWXYZABCD
+
+A KRYPTOSABCDEFGHIJLUMNQUVWXZKRYP
+BRYPTOSABCDEFGHIJLMNQUVWXZ2KRYPT
+CYPTOSABCDEFGHIJLMNQUVWXZKRYPTO
+DPTOSABCDEFGHIJLIUMNQUVWXZKRYPTOS
+ETOSABCDEFGHIJLMNQUVWX2ZKRYPTOSA
+FOSABCDEFGHIJULUMNQUVWXZKRYPTOSAB
+GSABCDEFGHIJLUMNQUVWX2Z2KRYPTOSABC
+HABCDEFGHISTLMNQUVWX2ZKRYPTOSABCOD
+I BCDEFGHIJLMNQUVWX2ZKRYPTOSABCODE
+JTCDEFGHIIJLMNQUVWXZKRYPTOSABCODEF
+K DEFGHIJLMNQUVWXZKRYPTOSABCDEFG
+LEFGHIJLMNQUVWXZKRYPTOSABCDEFGH
+MFGHITLUMNQUVWXZKRYPTOSABCDEFGHI
+
+4051151
+
+NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+
+OHITLMNOQOUVWXZKRYPTOSABCDEFGHIJIL
+PIJLMNQUVWX2Z2KRYPTOSABCDEFGHIJSTILIM
+
+THE KRYPTOS SCULPTURE
+uf
+
+“DOCID:
+
+OD > RManN Mm
+ODP EXNM
+Opp RMN
+ap
+
+WVWXZKRYPTOSABCDEFGHIJTIJLMNQUYV
+x WX¥ZKRYPTOSABCDEFGHIVJILMNQUVW
+YXZKRYPTOSABCDEFGHIJLMNQUVWX
+
+the 15th line is as
+
+at the end of
+This Vigenere square will turn out to
+
+YE"
+
+he extra letter
+in the sculpture.
+
+T
+
+ABCDEFGHITKLMNOPQRSTUVWKYZABCOD
+
+Z2KRYPTOSABCDEFGHIIJIJLMNQUVWKZKRY
+play a key roie in reading 2 of the 3 cipher sections exploited by NSA
+
+it appears
+analysts.
+=====PAGE p-04
+4051151
+
+“DociD:
+
+Line
+
+Pa
+
+#ou6+ Following is the other half of the main sculpture.
+
+ty.
+
+numbers and underlining have been added for reference purposes only,
+
+and are not a part of the sculpture.
+
+1
+
+QVYUVLLTREVIYQTMKYRDMFD
+
+EMUFPHZLRFAXYUSDIKZLDKRNSHGNFIVSG
+
+HZWETZYVGWHKKQETGFQUINCE
+
+GGWHKK?PDOEMCPFQZDQMMIAGPFXHQRLG
+
+Q XQB
+J DEE
+
+2 YQT U
+3 VFEFP U
+
+4
+5
+
+TIMVMZIJANQLVKQEDAGDVFRPIJUNGEUNA
+
+Q2ZGZLECGYUXUEENJTBILBQCRIBIDFHIR R
+YIZETKZEMVDUFKSJHKFWHKUWQLSZFETI
+
+6
+7
+8
+9
+
+HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE
+
+EVLDKFEZMOQQILTTUGSYQPFEUNLAVIDX
+
+10 FLGGTEZ?FKZBSFDQOVGOGIPUFXHHODRKF
+1l FHQNTGPUAECNUVPDIJIMQCLQUMUNEDFQ
+
+12 ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE
+
+13 DNQFMPNZGLFLPMRIJIQYALMGNUVPDXVKP
+
+144 DQUMEBEDMHDAFMIJIGZNUPLGEWJLLAETG
+
+15 ENDYAHROHNLSRHEOCPTEOIBIDYSHNATIA
+146 CHTNREYULDSLLSLLNOHSNOSMRWKMNE
+
+17 TPRNGATIHNRARPESLNNELEBLPITIACAE
+18 WMTWNDITEENRAHCTENEUDRETNHAEOE
+
+19 TFOLSEDTIWENHAEIOYTEYQHEREENCTAYCR
+20 EIFTBRSPAMHHEWENATAMATEGYEERLB
+
+21 TEEFOASFIOTUETUAEOTOARMAEERTNRTI
+22 BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB
+
+23 AECTDDHILCEIHSITEGOEAOSDDRYDLORIT
+
+24 RKLMLEHAGTDHARDPNEOHMGFMFEUHE
+
+25 ECDMRIPFEIMEHNLUSSTTRIVDOHW2OBKR
+26 VOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+
+27 TWTQSTQOSSEKZZ2WATITIKLUDIAWINFBNYP
+
+2B VTTMZFPKWGDKZXTICDIGKUHUAUECKCAR
+
+‘Ly 4086+ An initial look revealed a number of oddities.
+
+the inclusion of question marks.
+
+First was
+
+It was not known if these were being
+
+or if
+
+after the
+
+used to signify a transition from one cipher system to another,
+
+they acted as punctuation for the plaintext.
+
+Immediately
+
+halfway point was the word END which may be a coincidence or it might
+
+refer to the end of some cryptosystem.
+
+This was a distinct possibil-
+
+actually raised
+perhaps signaling
+
+the beginning of a different cryptosystem. All of these peculiarities
+
+would eventually be explained through the reading o
+
+the cipher.
+
+Tollowed END were
+
+and:R that
+slightly when compared to the surrounding letters,
+
+A,
+
+ity because the Y,
+
+the majority of
+
+£
+=====PAGE p-05
+‘Docip: 4051151
+
+DIAGNOSIS
+
+FS. the initial diagnosis of this cipher revealed the prob-
+able use of at least 3 separate cryptographies. The main reason
+for this assumption was that beginning with line 15, and proceed-
+ing through to line 25, numerous analysts noticed that a frequency”
+count of the letters observed would roughly match that of the
+English language. If lines 15-25 used some particular cryptosys-
+tem, then it was likely that another was used for lines 1-14 and
+yet another one used for lines 26-28. That would yield a probable_-
+minimum of 3 distinct cryptosystems in use.
+
+Ss A statistical analysis of the first section (lines 1-
+14) showed a particular roughness on a width of 8. The most common
+explanation for width roughness is that of a polyalphabetic sub-
+stitution system. In such a system, a message is encrypted using
+multiple simple substitutions, employing each. substitution in a
+predetermined order. In this particular case, the width of 8 is a
+probable indication of 8 cipher alphabets being used.
+
+uj. 46;- The second section was already partly diagnosed, based
+solely on analysts “eyeballing” the cipher. Statistical programs
+confirmed that this section had the characteristics of English
+plain text, though obviously mixed up in some manner. The most
+likely explanation for this is a transposition system, perhaps a
+keyed columnar transposition. In such a.system, the plain text is
+inscribed horizontally into a matrix, normally a. rectangle, and
+then the letters are extracted vertically, according to a pre-
+determined sequence. :
+
+4HH4.6—(s7"| }
+| | the data also revealed a bias in the third
+section at an interval of 7. There is no specific cryptography
+that would give such a result, but a number of them could yield
+such results under certain circumstances, some of which will be
+discussed in detail in a later section. After solution. of other
+parts, we discovered that this section was actually the fourth’
+' part of the problem. Read on for how this was discovered.
+
+(b)(1)
+(b)(3)-50 USC 403
+(b)(3)-P.L. 86-36
+=====PAGE p-06
+Cece
+
+‘pocip: 4051151
+
+THE FIRST BREAKTHROUGH
+
+: Kg Under the hypothesis that the first section employed a
+polyalphabetic substitution with 8 alphabets, a frequency count
+was done for each alphabet in the cipher. It was assumed that the
+alphabets were used in a sequential order, i.e., alphabet #1 was
+used to encipher characters number 1, 9, 17, 25, etc.; Alphabet #2
+was used for characters 2, 10, 18, 26, etc. .
+
+ABCDEFGEREIsgSJSKULUMNOPQRSTUVWX Y 2@
+--4222222i31dt31i312-+823282c-012d2128-8!2 4
+21-35 434-65142--+23312d123d13-+212
+3--31-73132d312d122--i1021313112<4i71
+13 -312-+-+1274-+4-52-+-+472 - 2 «21 3
+3131113 72-22-23d312-33-+32-°838d2i1+l031« 2 2
+1--47912T212d12131262---842122-d324d2323«21«5
+-2-i164423i1--+ 3 6 - 111325 29-+-2 - 3
+-123164373-264d1265 1124-+-+233--i281 -
+
+6*+9f Using the above frequency counts, it was hoped that one
+could place the alphabet sequence right on top of each row, though
+at some offset, and get something that would at least roughly
+match what you might expect to see. This did not lead to a hoped
+for solution. Since the accompanying Vigenere Square was based on
+the keyword KRYPTOS, the frequency counts were next sorted based
+on the same keyword mixed sequence.
+
+KRY PTOSABCODEFGHISTILMNOUV WK Z
+18:i13-+22--+4222222d3212i31-82d212183C2- 4
+13 1212-3212231-35 434-542-3313 - 2
+224-+3-+323-+-+3i1-+7313212d122~.101 312121
+7-15 4--123+383i12--i122 4-4 2072 - 2«~«32
+--23--13121i3113 72-222d3d1233212-312
+Piazi-s-sda-+sdad’it--+4791212d1312d1642-4 42-2123 «5
+- 1-125 -21-+2-+3126423d31-8386d212d31229 = 2 3
+6-122%1---1216373 - 1512433 -- -
+
+Sr Using the frequency count this way, it appeared possi-
+ble to place a keyword mixed alphabet on at least some of these
+rows. In the third row for example, the following appeared to be a
+good alignment. : ,
+224-3-+13-+-+3i1312-+7838i3131d122i1013121221
+LMNQUVWXZKRYPTOSABCDEFGHISA
+=====PAGE p-07
+fan 2b 5 ra
+
+“DocID: 4051151
+
+U sr In the sixth row the following looked like a good
+alignment as well. :
+l1idiz-+212-3ai13i1-+-+479°12d12<121312¢642-4<42-d13¢5
+QuvwxaZ2z2KReYPTOSABCDEFGHITLMN
+Moy Using some of these assumptions and cribbing in words
+where needed, a solution was effected. Following are the plain
+alphabet, the 8 cipher alphabets, and a decryption of the text
+that was readable. Note two items: 1) there is a repeating key ‘of
+ABSCISSA under the index letter of K in the plain alphabet, and;
+
+2) the readable text actually begins with the cipher letter V at
+the beginning of the third line of the sculpture.
+
+P: KRYPTOSABCDEFGHIJLMNQUVWXZ
+Cl: ABCDEFGHIJLMNQUVWXZKRYPTOS
+C2: BCDEFGHIJLMNQUVWXZKRYPTOSA
+C3: SABCDEFGHIJLMNQUVWXZKRYPTO
+C4: CDEFGHIJLMNQUVWXZKRYPTOSAB
+C5: LILMNQUVWXZKRYPTOSABCDEFGH
+C6: SABCDEFGHIJLMNQUVWXZKRYPTO
+C7: SABCDEFGHIJLMNQUVWXZKRYPTO
+C8: ABCDEFGHIJLMNQUVWXZKRYPTOS
+
+VFPJUDEE HZWETZYV GWHKKQET GFQJNCEG GWHKK?DQM
+ITWASTOT ALLYINVI SIBLEHOW STHATPOS SIBLE?THE
+
+CPFQZDQM MIAGPFXH QRLGTIMV MZJANQLV KQEDAGDV
+YUSEDTHE EARTHSMA GNETICFI ELDXTHEI NFORMATI
+
+FRPJUNGE UNAQZGZL ECGYUXUE ENJTBULB QCETBJUDF
+ONWASGAT HEREDAND TRANSMIT TEDUNDER GROUNDTO
+
+HRRYIZET KZEMVDUF KSJHKFWH KUWQLSZF TIHHDDDU
+ANUNKNOW NLOCATIO NXDOESLA NGLEYKNO WABOUTTH
+
+VH?DWKBFU FPWNTDKI YCUQZERE EVLDKFEZ MOQQJLTT
+IS?THEYSH OULDITSB URIEDOUT THERESOM EWHEREXW
+
+UGSYQPFE UNLAVIDX FLGGTEZ?F KZBSFDQV GOGIPUFX
+HOKNOWST HEEXACTL OCATION?O NLYWWTHI SWASHISL
+
+"HHDRKFFH QNTGPUAE CNUVPDJM QCLQUMUN EDFQELZ@Z
+ASTMESSA GEXTHIRT YEIGHTDE GREESFIF TYSEVENM
+=====PAGE p-08
+‘DOCID: 4051151
+
+.VRRGKFFV OEEXBDMV PNFQXEZL GREDNQFM PNZGLFLP
+INUTESSI XPOINTFI VESECOND SNORTHSE VENTYSEV
+
+MRJQYALM GNUVPDXV KPDQUMZB EDMHDAFM JGZNUPLG
+ENDEGREE SEIGHTMI NUTESFOR TYFOURSE CONDSWES
+
+EWJLLAET G
+TIDBYROW s
+
+tf 420807 Here is a more readable version, with punctuation
+added: :
+
+“IT WAS TOTALLY INVISIBLE. HOW’S THAT POSSIBLE? THEY USED THE
+EARTH’S MAGNETIC FIELD. THE INFORMATION WAS GATHERED AND TRANS-—
+MITTED UNDERGROUND TO AN UNKNOWN LOCATION. DOES LANGLEY KNOW
+ABOUT THIS? THEY SHOULD. ITS BURIED OUT THERE SOMEWHERE. WHO KNOWS
+THE EXACT LOCATION? ONLY W.W. THIS WAS HIS LAST TRANSMISSION.
+THIRTY-EIGHT DEGREES, FIFTY-SEVEN MINUTES, SIX POINT FIVE SECONDS
+NORTH. SEVENTY-SEVEN MINUTES, FORTY-FOUR SECONDS WEST. I.D. BY
+ROWS.”
+
+U reser The reference to W.W. is presumed to be William Web-—
+ster, former director of the CIA. The coordinates given are a
+location within the CIA grounds, most likely the main complex or
+the courtyard area. The meaning of “I.D. BY ROWS” is not known at
+this time. The repeating key of ABSCISSA is defined by Webster’s
+New World Dictionary as, “the horizontal Cartesian coordinate on
+a plane, measured from the y-axis along a line parallel with the
+x-axis to point P”.
+
+U er After reading this section, it became apparent that the
+sculpture contained a minimum of 4 parts with one preceding this
+polyalphabetic section (the first two lines), and two following.
+More on that a little later.
+=====PAGE p-09
+eit a oe
+
+SORIBEM HAH
+
+oe ai (b\(1)
+
+DOCID: 4051151 HO oo usc 40
+
+: (b)(3)-P.L. 86-36
+(
+
+b)(3)}-18 USC 798
+
+THE SECOND BREAKTHROUGH
+
+LOWS ts As stated earlier, the section that began at. line «15
+and most likely finished at line 25 (now referred to as section 3)
+was a probable transposition system. | |
+
+“Nonetheless, analysis continued.
+
+SEs, The attack that was eventually successful on this por-
+tion was one of cribbing by brute force. It was noted that there
+was a single occurrence of the letter Q, and just 5 occurrences of
+the letter U, a likely combination. The 3 or 4 letters surrounding
+the Q were paired with the corresponding letters surrounding each
+U. The results were as follows:
+
+YN YT Y F YT YF
+TR TE TI TU TM
+EE EN EO EE EF
+YY YE YT YT YE
+Qu Qu Qu Qu Qu
+HL HD HE HA HH
+ED ER ET EE EE
+ES EE EU EO EE
+NL NT NA NT NC
+
+id_t6+ though many wrong turns were taken, the third pair of
+columns proved correct and the letter T was placed in front of the
+HE, produced the word THE. The best combination that matched with
+the remainder was this: ,
+
+PrmrOHO Pr aaer
+Zam mMoKnsaK
+PGHAGHOH”®
+
+“ 46+ Many of the trigraphs above looked plausible. Using the
+letter G in front of the QU, pairs of columns were cribbed to form
+INGQU, with the following alignment yielding the best looking
+results: ; .
+
+CORI EHHACTSt
+
+=====PAGE p-10
+eet
+
+DociID: 4051151
+
+AASaMHAHRPTO
+MAHUB SHARES
+PMOH Ar TAH
+2mAmMmMOKRHAK
+PaOHmMaGHOHSs
+
+3
+
+SS Continuing to use column matching with the remainder of
+the cipher, a solution was discovered that used an incompletely
+filled 4 X 86 matrix. That solution follows, but because the
+matrix is 86 columns wide, the representation has been split into
+two pieces: . ot
+
+SLOWLYDESPARATLY SLOWLY THEREMAINSOFPASSAGEDE
+ASREMOVEDWITHTREMBLINGHANDSIMADEATINYBREACH
+OLEALITTLEI INSERTEDTHECANDLEANDPEEREDINTHEH
+FLICKERBUTPRESENTLYDETAILSOFTHEROOMWITHINEM
+
+BRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORWAYW
+INTHEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEH
+OTAIRESCAPINGFROMTHECHAMBERCAUSEDTHEFLAMETO
+ERGEDFROMTHEMI STXCANYOUSEEANYTHINGO
+
+\\ 48F Further, a very logical key was discovered. The cipher
+that started this section was from line 15:
+
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAT
+
+This section can be located in the recovered plaintext, and is
+inscribed in the matrix from bottom to top, beginning near the end
+or the message and proceeding towards the front of the message.
+
+SLOWLYDESPARATLYSLOWLY THEREMAINSOFPASSAGEDE
+‘ASREMOVEDWITHTREMBLINGHANDS IMADEATINYBREACH
+OLEALITTLEIINSERTEDTHECANDLEANDPEEREDINTHEH
+FLICKERBUTPRESENTLYDETAILSOFTHEROOMWITHINEM
+1 1 1 9 8 7
+2 1 0
+=====PAGE p-11
+duc 4
+nae a OE
+
+Doctp: 4051151
+
+BRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORWAYW
+INTHEUPPERLEF THANDCORNERANDTHENWIDENINGTHEH
+-OTAIRESCAPINGFROMTHECHAMBERCAUSEDTHEFLAMETO
+ERGEDFROMTHEMISTXCANYOUSEEANYTHINGO
+6 5 4 3 2 1
+AE, proceeding backwards in this manner and labeling each
+column with a number, it becomes obvious that there is indeed a
+“method to the madness”. What follows is the label for each column
+written out in order, on a width of 7: .
+
+49 12 61 24 73 36 85
+48 11 60 23 72 35 84
+47 10 59 22 71 34 83
+
+39 02 51 14 63 26 75
+38 01 50 13 62 25 74
+
+37 86
+ce Looked at this way, the patterns within each of the 7
+columns are plain, with the possible exception of the “86” at the
+bottom of the second column. Further, a common procedure in colum-
+nar transposition systems is to extract columns of the matrix in
+an order determined by a specific key, often denoted by a keyword
+. to make the key easy to remember. To generate a numerical key
+
+based on a keyword of KRYPTOS for example, number the keyword
+based on alphabetical order:
+
+K R ¥ P fT O S
+147 3 6 2 «5
+
+Li,
+“5+ Note how a variation of KRYPTOS (spelled backwards and
+wrapped around the ends) fits the columns of the matrix:
+
+R K S'O T PB Y
+4 1 °5 2 6 3 7
+49 12 61 24 73 36 85
+
+48 11 60 23 72 35 84
+47.10 59 22 71 34 83
+
+39 02 51 14 63 26 75
+38 01 50 13 62 25 74
+37 86
+=====PAGE p-12
+‘Dpoctp: 4051151
+
+DO pgud} Although this may or may not be the way ‘the system
+was originally set up by Sanborn, it is likely to be very close to
+the truth. The entire text of section 3 follows, with appropriate -
+punctuation:
+
+“SLOWLY DESPARATLY SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT
+ENCUMBERED THE LOWER PART OF THE DOORWAY WAS REMOVED. WITH TREM-—
+BLING HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER,
+AND THEN, WIDENING THE HOLE A LITTLE, I INSERTED THE CANDLE AND
+PEERED IN. THE HOT AIR ESCAPING FROM THE CHAMBER CAUSED THE FLAME
+TO FLICKER, BUT PRESENTLY, DETAILS OF THE ROOM WITHIN EMERGED FROM
+THE MIST X CAN YOU SEE ANYTHING Q”
+
+Pp 4Eeter In the first line, DESPERATELY was misspelled. In
+the last line, the X acts as a period, though other areas of the
+text should have used periods as well. The Q at the end of the
+text appears to act as a question mark, though the sculpture had a
+question mark that delineated the end of this section. Earlier, it
+was noted that in line 15 the Y, A, and R were slightly raised in
+relation to other surrounding letters. That had no affect on read-
+ing this section.
+
+L\ epeber If you have ever read about King Tut, the passage
+may have sounded familiar to you. It is a paraphrasing from the
+book “The Tomb of Tut-ankh-amen” written by Howard Carter.
+=====PAGE p-13
+ete Sate
+
+‘poctp: 4051151
+
+THE THIRD BREAKTHROUGH
+
+es The last portion read was the first 2 lines of the
+cipher, section 1. A statistical analysis revealed that this sec-
+tion had width properties that were significant, similar to the
+first breakthrough, but this time on a width of 5, again implying
+a polyalphabetic system. Assuming another polyalphabetic system
+using 5 alphabets, the frequency count follows:
+
+ABCDEFGHISIJKLMNOPQRSTUVWXYZ
+1--21--2---12---2----2----
+-----112--+32121-----+--11-1-1
+---21------112-1---1-2121--15-
+-----2-------1--33--2----
+
+-i-11212-+-31--1---1--22-31----
+
+gy As before, it was hoped that you could place another
+alphabet on top of these frequency counts, hopefully resulting in
+something that would match up nicely. Since the keyword-mixed
+alphabet based on KRYPTOS was used before, we expected that it
+might be a good choice here. Therefore, a frequency count based on
+that assumption is given below:
+
+KRYPTOSABCDEFGHISTLUMNQUVWX2Z
+-------+12--21--2--12-2-2-64-
+2---+--+------11--3211--11-11
+2ils5-1-----1------1-1-1--1-
+-3-----+-----2------3132--+-1
+---12-+2-21-221--21-1----1---
+
+Strsj—the small number of characters made solution difficult
+in either case, but as before, analysis continued. Beginning with
+a likely starting point, the third alphabet with cipher value Y
+appearing .5 times was assumed to be a plain value E. Due to a
+higher occurrence of the more common letters, the output appeared
+to be better using the KRYPTOS alphabet, which results in the fol-
+lowing: ”
+
+EMUFP HZLRF AXYUS DJKZL DKRNS HGNFI VJYQT QUXQB
+-T.. ..8.. ..E.. ..1.. ..D.. ..B.. ..B.. ..G..
+
+QVYUV LLTRE VJYQT MKYRD MFD
+.E.. ..N.. ..BE.. ..L.. ..N
+
+“*—$+ Through trial and error, another KRYPTOS alphabet was
+placed against the frequencies in the first alphabet, which
+=====PAGE p-14
+Cog figs et
+
+DociD: 4051151
+
+yielded the following reasonable text patterns:
+
+EMUFP HZLRF’ AXYUS DJKZL DKRNS HGNFI VJYQT QUXQB
+B.T.. E.K.. T.E.. A.C.. A.D... E.Y.. N.E.. L.A..
+
+QVYUV LLTRE VJYQT MKYRD MFD
+L.E.. H.G.. N.E.. I.E... I.N
+
+U tea With those recoveries in place, further progress was>
+soon made. It was noted that if the last 3 letters of plain were
+ION, then cipher VJYQT (which occurs twice) would become plain
+NCE..
+
+EMUFP HZLRF AXYUS DJKZL DKRNS HGNFI VJYOT QUXQB
+BET.. EMK.. TLE.. ACC.. AND.. ESY.. NCE.. LHA..
+
+QVYUV. LLTRE VJYOT MKYRD MFD
+LIE.. HDG.. NCE.. INE.. ION
+
+Shes While portions of the text seemed to have good recover-
+ies, such as AND, NCE, LIE, and ION, other portions appeared less
+encouraging, like EMK, and HDG. Further scrutiny revealed that
+the “good” recoveries occurred in every other group of 5 letters.
+Using 10 alphabets instead of 5 would eliminate the “bad” recover-—
+ies. Looking back at the width statistics, width 10 had also
+scored high, and the width of 5 was probably a reflection of that.
+
+EMUFPHZLRF AXYUSDJKZL DKRNSHGNFI VJYQTQUXQB
+
+LIE....... NCE....... ION
+
+itis} Evaluating this new approach, it seemed that the end of
+the text should.be TION or SION, and that the 2 occurrences of NCE
+would be preceded by a vowel. The following alignment of the tenth
+alphabet provided that:
+
+EMUFPHZLRF AXYUSDJKZL DKRNSHGNFI VJYQTQUXQB
+=====PAGE p-15
+poctp: 4051151
+
++S} Notice that the 2 occurrences of NCE are preceded by E
+and A, exactly as expected. Further cribbing ensued, which even-—
+tually yielded the following set of alphabets and the following
+
+decryption:
+Ps KRYPTOSABCDEFGHIIJLMNQUVWXZ
+Cl: PTOSABCDEFGHIJTJLMNQUVWXZKRY
+c2: ABCDEFGHIJLMNQUVWXZKRYPTOS
+C3: LMNQUVWXZKRYPTOSABCDEFGHIJA
+C4: TJILMNQUVWXZKRYPTOSABCDEFGH
+C5: MNQUVWXZKRYPTOSABCDEFGHIJSIL
+C6: PTOSABCDEFGHIJIJLMNQUVWXKZKRY
+C7: SABCDEFGHIJLMNQUVWXZKRYPTO
+C8: EFGHIJLUMNQUVWXZKRYPTOSABCOD
+C9: SABCDEFGHIJIJLMNQUVWXZKRYPTO
+ClO:TOSABCDEFGHIJLMNQUVWXK2ZKRYP
+EMUFP HZLRF AXYUS DJKZL DKRNS HGNFI VJYQT QUXQB
+BETWE ENSUB TLESH ADING ANDTH ABSCE NCEOF LIGHT
+
+QVYUV LLTRE VJYQT MKYRD MFD
+LIEST HENUA NCEOF IQLUS ION
+
+(FOUO) Respaced and punctuated, it reads:
+
+“BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NUANCE
+OF ILLUSION”
+
+i 4"eu6} In the original decrypt, the word ILLUSION was mis-
+spelled as IQLUSION. The source of this quote is currently
+unknown. The repeating key of PALIMPSEST, below the index letter
+K, has a very interesting definition when viewed in conjunction
+with the sculpture. It is defined by Webster’s New World Dictio-
+nary as, “a parchment, tablet, etc., that has been written upon or
+inscribed two or three times, the previous text or texts having
+been imperfectly erased and remaining, therefore, still partly
+visible”. Another definition from Webster’s Third New Interna—
+tional Dictionary is “a memorial brass having earlier engraving
+on the side opposite to that which is exposed”.
+=====PAGE p-16
+‘DOCID: 4051151
+
+THE FOURTH BREAKTHROUGH? ?
+
+Sets Unfortunately, a fourth breakthrough has not yet
+occurred. There are only 97 characters remaining in section 4, but
+the first section contained just 63 characters and was exploited,
+meaning a solution is certainly possible, depending on the cryp-
+tosystem. A statistical analysis of this portion showed some
+roughness on interval 7. This could be a characteristic of plain-
+text auto-key, if the alphabet used has a high frequency letter
+assigned the value of 0. Another hypothesis is that this last sec-
+tion employs both of the systems already used. First the message
+is encrypted using some set of alphabets, as was done in the first -
+and third breakthroughs, and then the cipher is put through a
+transposition, such as that used in the second breakthrough. If
+the original text had a repeat at a distance of 7 apart (or per-—
+haps 14 or even 21 apart), then after transposing the text, the
+repeat would now show up in the interval statistic rather than the
+width statistic.
+
+th 46° There is no solution at the current time, although some
+attempts have been made using plaintext auto-key and other
+attempts using transposed substitution as the enciphering mecha-
+nism.
+=====PAGE p-17
+‘Doctp: 4051151
+
+RECAP
+
+U_pexe} The first. section that reads are the first 2 full
+lines of cipher, a total of 63 characters. The cryptography is a
+periodic polyalphabetic substitution system employing 10 alpha-
+bets. The plain and cipher components are both a keyword mixed
+sequence based on KRYPTOS, using a repeating key of PALIMPSEST
+below the index letter K. The plaintext reads:
+
+“BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NUANCE
+OF ILLUSION” :
+
+U +Bee6+ The second part: reads using the cipher from lines 3-
+14, a total of 370 characters. The cryptography is another peri-
+odic polyalphabetic substitution, employing 8 alphabets. The
+plain and cipher components are both a keyword mixed sequence
+based on KRYPTOS, using a repeating key of ABSCISSA below the
+index letter K. The plaintext reads:
+
+“IT WAS TOTALLY INVISIBLE. HOW’S THAT POSSIBLE? THEY USED THE
+EARTH’S MAGNETIC FIELD. THE INFORMATION WAS GATHERED AND TRANS-—
+MITTED UNDERGROUND TO AN UNKNOWN LOCATION. DOES LANGLEY KNOW
+ABOUT THIS? THEY SHOULD. ITS BURIED OUT THERE SOMEWHERE. WHO KNOWS
+THE EXACT LOCATION? ONLY W.W. THIS WAS HIS LAST TRANSMISSION.
+THIRTY-EIGHT DEGREES, FIFTY-SEVEN MINUTES, SIX POINT FIVE SECONDS
+NORTH. SEVENTY-SEVEN MINUTES, FORTY-FOUR SECONDS WEST. I.D. BY
+ROWS.” :
+
+U petey The third section uses the cipher contained in lines
+14 through the question mark in line 25. The ‘cryptography is a
+keyed columnar transposition. The matrix is an incompletely
+filled 4 X 86, using a key of KRYPTOS that has been numerically
+keyed and repeated 13 times. The plaintext reads:
+
+“SLOWLY DESPARATELY SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT
+ENCUMBERED THE LOWER PART OF THE DOORWAY WAS REMOVED. WITH TREM-—
+BLING HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER,
+AND THEN, WIDENING THE HOLE A LITTLE, I INSERTED THE CANDLE AND
+PEERED IN. THE HOT AIR ESCAPING FROM THE CHAMBER CAUSED THE FLAME
+TO FLICKER, BUT PRESENTLY, DETAILS OF THE ROOM WITHIN EMERGED FROM
+THE MIST. CAN YOU SEE ANYTHING?”
+
+i) +606) The fourth part has not been read, but most likely
+uses the last 4 characters of line 25, as well as the cipher in
+lines 26-28, for a total of 97 characters. It is highly probable
+=====PAGE p-18
+poctp: 4051151
+
+that KRYPTOS plays an integral part in the solution, as it did in
+the 3 parts that have been exploited. ‘

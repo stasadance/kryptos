@@ -1,0 +1,502 @@
+=====PAGE p-1
+wre
+
+“DocID: 4050988
+
+DATE: 9 June Z2-043-93
+
+% FoewArd To Admired
+
+REPLY TO
+ATTN OF:
+
+STudemav Foe \NFo,
+
+Ar
+UNITEP STATES GOVERNMENT
+
+andum
+
+SUBJECT:
+
+INFORMATION MEMORANDUM
+
+pir ve
+D/DIR 4 EXEC/DIR _)) DD
+
+i. ~ketey- The KRYPTOS seuspture, located at t
+in the courtyard of the new CIA headquarters, consis
+stone "pages" containing code which begins as Intern
+increases in complexity as the stonework extends ind
+Inserted between these stone "pages" is a flat coppe
+with letters and symbols - the enciphered message -
+of this challenge. :
+
+i
+Lget |
+— Ge"):
+
+v
+
+To:
+THRU:
+
+2. In November, a cadre of cryptanalys
+Z Group enthusiastically responded to the challenge.
+month, three of the four cipher systems used to encr
+sculpture's plain text had been diagnosed and comple
+The cryptographies employed for the encryption of tH
+involved two periodic polyalphabetic substitution cil
+columnar transposition cipher. The exploitation of
+first three parts constitutes readability of appro
+The final 97 characters continue to elude solution.
+
+a
+
+3. Seue+- «Attached, for your review, is a br
+of the employed cryptographies and the plain text de
+three exploited portions of the KRYPTOS sculpture.
+
+CIA KRYPTOS Sculpture - Challenge and Resolutio
+
+in eosey—-
+
+ne entrance and
+ts of a series of
+ational Morse and
+o the courtyard.
+rv sheet engraved
+that is the focus
+
+ts assigned to
+Within one
+
+yet the
+
+tely exploited.
+ese three parts
+phers and a keyed
+the sculpture's
+ximately 89%.
+
+lief description
+rived from the
+If your schedule
+
+permits, we would be happy to present a 15-minute bz
+KRYPTOS sculpture solution and introduce you to the
+responsible for the succe
+
+acaeing> phi proper
+
+iefing on the
+
+jcryptanalysts
+
+3 Encls:
+1. Copy of Sculpture Picture
+2. Copy of Cipher
+3. Description of Cryptographies
+cc: Z4
+Z43
+
+SECRETS Poe
+
+careTee™ Fire H drm €2 rad
+
+(b)(3)-P.L. 86-36
+
+Derived fin: MSA Class. Garde 342-94
+
+2% fray 1997-
+Rebanit, omwi KOKS
+
+orm 466 23
+
+aan i3°
+
+pproved for Release by NSA on 05-21-2073,
+OlA Case #61191
+
+=====PAGE p-2
+=====PAGE p-3
+“DOCID: 4050988
+
+CULPT! IPHER
+
+THE KRYPTO
+
+EMUFPHZURFAKYUSDJIKZLOKRNSHGNFIVG
+
+QVYUVLLTREVIYQTMKYRDMEOD
+HZWETZYVGWHKKQETGFQINCE
+
+od x
+QbhHHhaAam wag
+UBMHRHMORME
+HDmh a> mhU>
+BCHMANNMKMAAH MA
+Avhunoamanan
+mM2amiozatanad
+MDHOUD MDM > bh
+Bhm EHH BODE
+UAUODHHDDHZH
+UMOMHAAAZOU
+demmadnnwasea
+Hb>HERHMOOUDAD
+BabeZnoaxdyp
+HPOMMEVOFAMNZ
+OdHmtaDPhHMaN
+AAHHHHAAXMHY
+NHBZoOoDHAAHMH
+OOH MHP EE et
+aM fm Oh” DO A fy
+APDDMAMArbIA
+VUHMABRONUREA
+HBOpDPaAaCMHMmRHM
+AOAnxXrAMRaA AMO
+ACUHMNADUNA
+MAHUNPAMNARE
+MNP MDH Ow a mM
+MSE HHAMBRAHPDP ZH
+MPN RAAUANE
+EEUNAHUVANAD.
+WVHNHEPAMHBZA
+OHOM MM hm HAA
+
+a
+
+YS HNATA
+RWXMNE
+
+|
+P
+
+D
+
+|
+
+ENDYAHROHNLUSRHEOCPTEOTBI
+
+CHTNREYULDSLULSLLNOHSNOSM
+
+IIACAE
+
+NHAEOE
+
+TPRNGATIHNRARPESUNNELEBL
+
+WMTWNDITEENRAHCTENEUDRET
+
+a
+1)
+
+i)
+H H
+& Om
+
+4mm HO
+GH 2hH
+Bama FAW
+OM BHD
+2h Hm
+
+— hl 4] 94-2)
+HoOqguUaA
+Gas an
+OHmoo;o
+agg ad
+Hs On
+Ht AHO
+mAOm YU
+otk =
+H2daee
+HAD AHH
+qekeunw
+TAA Aw
+20D HH
+Bm eH
+
+HARDPNEOHMGEM
+
+D
+
+zeomoH
+H@H EHO
+
+Ham mH
+ANNH ED
+Raa aa
+nmaoaa
+HHm&AH-
+Oh ARMOU
+iy Hw
+He MO
+
+RKLMLEHA
+
+[aq
+Mm
+Q
+oO
+
+1°)
+a
+n
+4
+
+ee)
+
+i 4
+
+ECDMRIPFEIMEHNUSSTTRIVDO
+UOXOGHULBSOLTFBBWFLRVQQP
+
+z
+
+INFBNYP
+
+TWTQSTQSSEKZ2Z2WATITRKLUDIAW
+VTITMZFPKWGDKZXTICDIGKUHU
+
+AUEKCAR
+
+UycLAssle/ ETD
+=====PAGE p-4
+“pocID: 4050988
+
+PART 1
+
+L—
+
+Cryptography:
+
+Plain component:
+Cipher component:
+
+10 alphabets
+
+Repeating Key: PALIMPSEST
+Index letter: K
+
+P:
+Cl:
+C2:
+C3:
+C4:
+Cs:
+Cé:
+CT:
+C8:
+co:
+clo:
+
+ese; Respaced and punctueted, it reads:
+
+I nie in OE I Ie fe oO
+OPaArPHaAZGZgaH
+HOWAWODHZAOK
+PAMANnGZOUNN
+WOHUPIZQmM PAH
+AmMGHhusoOdamwo
+Tt HAXGAEDAN
+AaRaAUONS kK TOP
+yn A2Mma A SNH ew
+AHOHMDM AGMA
+maoaanKknmray
+
+EMUFPHZLREF AXYUSDUKZL
+BETWEENSUB TLESHADING
+
+QVYUVLLTRE VJIYQTMKYRD
+LIESTHENUA NCEOFIQLUS
+
+Periodic Polyalphabetic Substitution employing
+
+Keyword mixed sequence based on KRYPTOS
+
+Keyword mixed sequence based on KRYPTOS
+
+EFGHITLUMNIQUVWXZ
+HIJLMNQUVIWXZKRY
+MNQUVWXZKIRYPTOS
+YPTOSABCDEFGHIJ
+KRYPTOSABICDEFGH
+PTOSABCDEFGHIJL
+HI JLMNQUVIWXZKRY
+LMNQUVWkX Z|IKRYPTO
+VWXZ2KRYPTIOSABCD
+LMNQUVWX2Z|KRYPTO
+TJILMNQUVWIX ZKRYP
+DKRNSHGNFI VJIYQTQUXOB
+
+ANDTHABSCE NCEOFLIGHT
+
+MFD
+ION
+
+“BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NUANCE OF
+ILLUSION”
+
+=====PAGE p-5
+“DpOGID: 4050988
+PART 2
+
+Cryptography: Periodic Polyaéipnabetic Substitution employing
+
+8 alphabets
+Plain component: Keyword mixed sequence based on KRYPTOS
+Cipher component: Keyword mixed sequence based on KRYPTOS
+Repeating Key: ABSCISSA
+Index letter: K
+
+P:KRYPTOSABCDEFGHIJLMNQUVWKZ
+
+Cl: ABCDEFGHIJLMNQUVWXZKRYPTOS
+
+C2: BCDEFGHIJLMNQUVWKZKRYPTOSA
+
+C3: SABCDEFGHIJLMNQUVWXZKRYPTO
+
+C4: CDEFGHIJLMNQUVWAZKRYPTOSAB
+
+C5: LULMNQUVWKZKRYPTOSABCDEFGH
+
+C6: SABCDEFGHIJLMNQUVWXZKRYPTO
+
+C7: SABCDEFGHIJLMNQUVWKXZKRYPTO
+
+C8: ABCDEFGHIJLMNQUVWXZKRYPTOS
+VFPJUDEE HZWETZYV GWHKKQET GFQUNCEG |GWHKK?DQM
+ITWASTOT ALLYINVI SIBLEHOW STHATPOS SSIBLE?THE
+CPFQZDQM MIAGPFXH QRLGCTIMV MZJANQLV KQEDAGDYV
+YUSEDTHE EARTHSMA GNETICFI ELDXTHEIT NFORMATI
+FRPJUNGE UNAQZGZL ECGYUKUE ENJTBJLB pCETBIDE
+ONWASGAT HEREDAND TRANSMIT TEDUNDER GROUNDTO
+HRRYIZET KZEMVDUF KSJEKFWH KUWQLSZF FIHHDDDU
+ANUNKNOW NLOCATIO NXDOESLA NGLEYKNO WABOUTTH
+VH?DWKBEFU FPWNTDKI YCUQZERE EVLDKFEZ) MOQQJLTT
+IS?THEYSH OULDITSB URIEDOUT THERESOM| EWHEREXW
+UGSYQPFE UNLAVIDX FLGCTEZ?F KZ2BSFDQV| GOGIPUFX
+HOKNOWST HEEXACTL OCATION?O NLYWWTHI| SWASHISL
+HHDRKEFH QONTGPUAE CNUVPDSIM QCLQOUMUN EDFQELZZ
+ASTMESSA GEXTHIRT YEIGHTDE GREESFIF TYSEVENM
+VRRGKFEFEFV OEEXBDMV PNEQXEZL GREDNQEM PNZGLELP
+INUTESSI XPOINTFI VESECOND SNORTHSE VENTYSEV
+
+=====PAGE p-6
+‘poctp: 4050988 Sere eer —S PORE
+
+MRIQYALM GNUVPDXV KPDQUMZB EDMHDAFM
+ENDEGREE SEIGHTMI NUTESFOR TYFOURSE
+
+EWJLLAET G
+TIDBYROW Ss
+
++Fouo} Respaced and punctuated, it reads:
+
+JGZNUPLG
+CONDSWES
+
+“IT WAS TOTALLY INVISIBLE. HOW’S THAT POSSIBLE? THEY USED THE
+EARTH’S MAGNETIC FIELD. THE INFORMATION WAS GATHERED AND TRANS-—
+MITTED UNDERGROUND TO AN UNKNOWN LOCATION. DOES LANGLEY KNOW
+ABOUT THIS? THEY SHOULD. ITS BURIED OUT THERE SOMEWHERE. WHO KNOWS
+THE EXACT LOCATION? ONLY W.W. THIS WAS HIS LAST TRANSMISSION.
+THIRTY-EIGHT DEGREES, FIFTY-SEVEN MINUTES, SIX POINT FIVE SECONDS
+NORTH. SEVENTY-SEVEN MINUTES, FORTY-FOUR SECONDS WEST. I.D. BY
+
+ROWS .”
+
+Note: W.W. is presumed to be William Webster.
+refer to the location of or a location within the
+gence Agency. The significance of I.D: BY ROWS
+mined.
+
+The coordinates
+Central Intelli-
+remains undeter-
+=====PAGE p-7
+~ DOCID
+
+' PART
+
+seceetT Speeol
+
+: 4050988
+
+Cryptography: Keyed Columnar transposition
+Matrix size: Incompletely filled 4 K 86
+
+Specific key: KRYPTOS, numerically keyed and repeated 12 times
+
+(first 12 columns listed below)
+Route: Bottom to top
+
+SLOWLYDESPARATLY SLOWLY THEREMAINSOFPASSAGEDE
+ASREMOVEDWI THTREMBLINGHANDS IMADEATINYBREACH
+OLSALITTLELINSERTEDTHECANDLEANDPEEREDINTHEH
+FLICKERBUTPRESENTLYDETAILSOFTHEROOMWITHINEM
+
+1 1 1 9 8 7
+2 1 Q
+
+BRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORWAYW
+INTHEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEH
+OTATRESCAP INGFROMTHECHAMBERCAUSEDTHEHLAMETO
+
+ERGEDFROMTHEMISTXCANYOUSEHEANY THINGO
+
+6 5 4 3 2 1
+
+“SLOWLY DESPARATLY SLOWLY THE REMAINS OF PASSAGE
+
+DEBRIS THAT ENCUM-—
+
+f
+BERED THE LOWER PART OF THE DOORWAY WAS REMOVED . WITH TREMBLING
+
+HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND
+WIDENING THE HOLE A LITTLE, I INSERTED THE CANDLE
+
+CORNER, .AND THEN,
+AND PEERED IN. THE
+
+HOT AIR ESCAPING FROM THE CKAMBER CAUSED THE FAME TO FLICKER, BUT
+PRESENTLY, DETAILS OF THE ROOM WITHIN EMERGED FROM THE MIST X CAN
+
+YOU SEE ANYTHING Q”
+
+Note: The above
+r u
+
+w
+in
+"GS
+A
+y ots
+0
+ie)
+D
+Ky
+mo
+ta
+ay
+ith
+iy
+re)
+S
+3
+=
+>
+3
+lo
+ES
+ey
+lo
+lal
+
+cen Pv
+
+steer Speke
+
