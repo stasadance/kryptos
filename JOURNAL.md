@@ -138,3 +138,11 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Control.** Planted 7+10 Vig with a random alphabet recovered.
 - **Result.** K4 infeasible (refuted) for 63 of 108 configs, including all L1+L2 ≤ 11 and 8+10, 6+14, 5+8, 5+9, 6+7, 6+9. No config is K4-feasible while the nulls are infeasible, so no signal. Untestable (nulls feasible too): 45 configs, including the motivated **7+8 and 7+10**, and every pair with L1+L2 ≥ 15 except a few.
 - **Status.** Refuted where testable; KRYPTOS+PALIMPSEST / KRYPTOS+ABSCISSA under a mixed alphabet stay crib-untestable. Full lists: scratch output summarised in this entry. Same wall as before: cribs alone cannot decide models with ≥ ~15 free key values plus a free alphabet.
+
+## 2026-10-27 — Iteration 20: KRYPTOS + PALIMPSEST / ABSCISSA as a double key in one mixed alphabet
+- **Why.** It19 left 7+10 and 7+8 crib-untestable with free key values. The concrete reading is the K1/K2 keywords themselves. On the Kryptos tableau the key letters are looked up in the same alphabet as the text ("Quagmire III proper"). Then k_i = ±α(W1[i mod L1]) ± α(W2[i mod L2]), and everything is linear in α alone.
+- **Test.** `iterations/it20_keyword_pair_q3.py`. All pairs of {KRYPTOS, PALIMPSEST, ABSCISSA}, all sign combinations, Vig and Beau, plus each single keyword as a baseline. Exact CRT (mod 2 and 13) plus all-different enumeration.
+- **Control.** Planted KRYPTOS+PALIMPSEST Vig with a random alphabet recovered.
+- **Null.** 0/40 random ciphertexts feasible in every config, so the test has full power.
+- **Result.** K4 infeasible in all 30 configs. **Refuted.**
+- **Side note.** A full-text annealer for the generic 7+10 model (`iterations/it20/sa2h.c`: the crib edges determine the key from α, since all 17 key nodes form one component) reaches 0 crib violations only rarely (1 run in 6 on controls). Parked; it is not needed for the motivated instances.
