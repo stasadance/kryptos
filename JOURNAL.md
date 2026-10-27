@@ -84,28 +84,34 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Result:** look-elsewhere **P = 0.058**. Suggestive at best and not significant once all the tableau choices are counted. Sanborn has also since said BERLINCLOCK means the World Clock, not the Mengenlehreuhr. **Not pursued.**
 - **Ranking of K4's known anomalies after correction:** aligned doublets at i≡4 mod 7 (it06, ~1e-5 post hoc) ≫ width-21 vertical bigrams (FW 0.005) > multiples of 5 (0.058) > minor differences (0.145 for the max).
 
-## Iteration 12: KRYPTOS as the column key of a width-7 grid key
+## 2026-10-27 — Iteration 12: KRYPTOS as the column key of a width-7 grid key
 - **Hypothesis.** The doublet alignment (it06) comes from k_i = f(row) + g(col), width 7, with g = KRYPTOS (the 7-letter keyword of K1–K2), under an unknown plaintext alphabet (Quagmire III style) or with the ciphertext alphabet AZ or KA.
 - **Test.** `iterations/it12_kryptos_column_key.py`. Exact CP-SAT feasibility over 4 numberings × 7 offsets × {Vig, Beau} × {same, AZ, KA} = 168 configs. Row shifts f free.
 - **Control.** Planted (KA0, o=2, Vig, same) recovered.
 - **Null.** Random ciphertexts: 0, 3, 0 of 168 feasible.
 - **Result.** K4: 0 of 168. **Refuted.** The cheapest concrete keyword form of the grid key is dead; the generic grid model stays open (search-limited, it07).
 
-## Iteration 13: Stehle's DIAWINFBN lag-4 run
+## 2026-10-27 — Iteration 13: Stehle's DIAWINFBN lag-4 run
 - **Observation.** CT[55..63] = DIAWINFBN: ct[i+4] − ct[i] = 5 (AZ) for i = 55..59, i.e. INFB = DIAW + 5 and N = I + 5. Ends on the first letter of BERLINCLOCK (pos 63).
 - **Test.** `iterations/it13_lag_runs.py`. Longest run of equal lag-d differences, d = 1..12, any value, on 200k random 97-letter texts.
 - **Result.** K4 max run = 5 (lag 4); all other lags ≤ 3. P(max run ≥ 5) = 0.0021; ×2 for choosing AZ vs KA ≈ 0.004. In KA indices the differences are [5,4,5,11,4]: no structure, so if real it is an AZ-arithmetic feature.
 - **Reading.** Real but weaker than the doublets (1.5e-5), and partly post hoc (it was reported because it stood out). Mechanisms that would make it: plaintext with a 4-letter repeat there plus a key rising by 5 every 4 steps, or a key with a local period-4 difference. Neither is natural with the width-7 grid key. Logged as anomaly #2; not pursued alone.
 
-## Iteration 14: aligned doublets as copying errors
+## 2026-10-27 — Iteration 14: aligned doublets as copying errors
 - **Hypothesis.** The second letter of each residue-4 doublet is a copy of its left neighbour (a transcription slip), so ct at 26, 33, 68 (0-idx, all in cribs) is wrong. With those 3 positions masked, a periodic cipher (missed by phase 1, which tolerated only 2 errors) would fit.
 - **Test.** `iterations/it14_doublet_overwrite.py`. Vig/Beau/varBeau × AZ/KA, periods 1..48, crib consistency with the 3 positions masked.
 - **Control.** Period-11 Vig/KA with planted overwrites: unmasked fails, masked recovers period 11 (and 22).
 - **Result.** K4: only periods 27–30 fit, and those carry no crib collisions at all (vacuous). Every identifiable period fails. Null rate of a spurious period ≤ 20 with 3 random masks: 0/20000. **Refuted.**
 
-## Iteration 15: the grid key does not explain the doublets (correction to it06/it07)
+## 2026-10-27 — Iteration 15: the grid key does not explain the doublets (correction to it06/it07)
 - **Question.** It06 took the residue-4 doublets as evidence for a width-7 grid key k = f(row) + g(col). Does that model actually make doublets likely?
 - **Algebra.** Within a row, c_i = c_{i+1} ⇔ α(p_i) − α(p_{i+1}) = g(col+1) − g(col) = D. Doublets at that residue happen only when the plaintext bigram has α-difference D, which for English and a generic α is about 1/26: the same rate as a random key.
 - **Test.** `iterations/it15_grid_doublet_rate.py`, 100k English 97-letter windows (pg2600), random α, f, g vs. a structureless key.
 - **Result.** P(≥ 5 doublets at one residue of width 7): grid key 0.0019, random key 0.0008. Likelihood ratio ≈ 2.4, against the ~10⁴ the anomaly needs. **The grid-key reading of the doublets is wrong.** #8 loses its motivation; it07/it08/it12 refutations stand but the line is closed.
 - **What would explain it.** A mechanism with ciphertext feedback or deliberate copying at one column (c_{i+1} tied to c_i, not to a key difference), or chance/design by Sanborn. A copy-error mechanism under a periodic key is refuted (it14); under a non-periodic key it is untestable by cribs.
+
+## 2026-10-27 — Iteration 16: K1–K3 control and a fairer look-elsewhere for the doublets
+- **Question.** Is K4's aligned-doublet pattern unusual next to Sanborn's own K1–K3, and how much of it06's P≈1.5e-5 is tailoring?
+- **Test.** `iterations/it16_k123_doublets.py`: the it06 alignment statistic (max doublet starts at one residue, widths 2..30) on 97-letter windows of K1–K3 and K4, vs 20k random strings. Plus a less tailored joint statistic (≥5 aligned at one residue with ≥3 of them in crib zones), 200k random strings.
+- **Result.** Alignment alone: K4 = 5 (w=7, r=4), P = 0.083; K2[194:291] also reaches 5 (w=3), same P. Joint statistic: P = 0.008. Any ≥3 doublets in crib zones: P = 0.05.
+- **Correction.** It06's 1.5e-5 came from requiring *all* crib-covered pairs at the chosen (w, r) to be doublets, a condition shaped after seeing the data. A fairer figure is ≈0.01, and K2 shows comparable alignment by chance. The doublets are a weak anomaly, not a lead. #9 is parked; no doublet mechanism will be pursued further without independent support.
