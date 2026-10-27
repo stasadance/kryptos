@@ -90,3 +90,5 @@ Format: - approach — why eliminated — evidence/source — who/date
 - Keyword-pair keys KRYPTOS/PALIMPSEST/ABSCISSA (AZ or KA numbering, signs, all phases; 1,236 streams) under TWO arbitrary alphabets B(c)=A(p)+k — exact, 0/1236 feasible, null 0-4/300 — iterations/it28b_two_alph_exact.py, JOURNAL it28 — 2026-10-27
 
 - Running key from natural text (Carter vols 1-3, Budge pg7145, US Declaration + Constitution, K1-K3 PT/CT, Sanborn dedication, WaPo 1990; fwd/rev, AZ/KA key numbering) under TWO arbitrary alphabets B(c)=A(p)+n(k): gate + exact check + full-text annealing of 2,018 survivors, best -481.1 (null level) vs 6/8 plants recovered at -397..-454 — iterations/it29_runkey_two_alph.py, it29b/it29c, JOURNAL it29 — 2026-10-27 (power ~75% per candidate)
+
+- Same running-key sources and 45 models as it23, allowing ONE wrong crib letter (any of 24 rows dropped): 0/2.03M offsets x 45, controls 12/12, null 0/4.5M — iterations/it23c_scan_err.py, JOURNAL it23c — 2026-10-27

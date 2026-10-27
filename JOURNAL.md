@@ -217,3 +217,9 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 
 ## 2026-10-27 — it23 addendum 2: broad scan finished
 - The remaining 78 Gutenberg top-100 books were scanned one file per process, so a container restart can resume where it stopped. In total: 104 texts (KJV, War and Peace, Montaigne, the Manifesto, the full Gutenberg top-100), forward and reversed, **137.4M offsets × 45 models: 0 hits.** 120 (offset, model) cases stay undecided after the high-cap rescan (2e-8 of the tests). The running-key-from-a-popular-book hypothesis under one unknown alphabet is closed for this corpus. Output: `iterations/out/it23_broad_scan.out`.
+
+## 2026-10-27 — Iteration 23c: running key under one unknown alphabet with ONE wrong crib letter
+- **Why.** K1–K3 all have carving errors, and every exact running-key screen (it23) assumed all 24 crib letters are right. One error would hide a true hit.
+- **Test.** `iterations/it23c_scan_err.py`: the same 45 role/form models, passing an (offset, model) if the system minus any single crib row is feasible. Sources: K1–K3 PT/CT, the KA tableau, Sanborn's dedication, WaPo 1990, the Declaration, the Constitution, the Book of the Dead, and Carter vols 1–3, forward and reversed.
+- **Control.** 12 random models planted with one corrupted crib-position ciphertext letter: **12/12 recovered**. Null: 5 random ciphertexts × 19,903 offsets × 45 models = 4.5M tests, **0 passes**. The 23-row system still has full power.
+- **Result.** K4: 2,029,524 offsets × 45 models, **0 passes**, and 2,989 undecided at the base cap (1.5e-5 of tests, not rescanned). **Refuted**: a single crib error does not rescue a motivated-text running key under one unknown alphabet. Outputs: `iterations/out/it23c_*.out`.
