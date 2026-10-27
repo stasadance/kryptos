@@ -71,3 +71,15 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Search-limited, not information-limited.** On planted controls, all three fail before K4 is even tried.
 - **Natural instances are already dead:** the obvious concrete form, a 7-letter keyword with a row progression (e.g. KRYPTOS + s·row), was refuted under fixed tableaux (it01), under one unknown alphabet (phase-1 keygen F1, exact), under two alphabets (it05), and with dictionary-keyword alphabets (it08).
 - **Status:** generic version PARKED. It needs either a constraint-programming formulation with a language objective, or a source-based value for g (the 7 column shifts).
+
+## 2026-10-27 — Iteration 10: small key range ("minor differences")
+- **Evidence:** Bean 2021 §2.4. Ciphertext letters that encrypt the same plaintext letter lie close together in A–Z (mean distance 3.6; 1 in 240 under permutation). That suggests a digit-like key with a small range.
+- **Hypothesis:** c = β[(α(p) + d) mod 26], with key digits d ∈ [0, B−1] for small B and β ∈ {AZ, KA, reversed}.
+- **Test:** the smallest key range B that K4's cribs allow (the largest per-letter cyclic window), compared with 100,000 random ciphertexts. Script: `iterations/it10_small_key_range.py`.
+- **Result:** K4 needs B ≥ 12 under every β; O→Q,F alone needs a window of 12. Random ciphertexts need B ≤ 12 with P = 0.145. **Not significant.** A digit key (B=10) is impossible under these β. Bean's mean-distance statistic is weaker evidence than it looks: the worst letter needs a 12-wide range.
+
+## 2026-10-27 — Iteration 11: "key values are multiples of 5"
+- **Evidence:** Bean 2021 footnote 2. With plain AZ and cipher numbered by the reversed Kryptos alphabet, 13 of the 24 key values are multiples of 5 (1 in 1,470). That would point to a base-5 component, i.e. the Mengenlehreuhr.
+- **Check:** reproduced. It is the same as AZ/KA in the sum form: 13 of 24 ≡ 0 mod 5. Look-elsewhere: scan 4 plain × 4 cipher alphabets × 3 sign forms × moduli 3–7 and take the most surprising binomial tail, then compare with 3,000 random ciphertexts.
+- **Result:** look-elsewhere **P = 0.058**. Suggestive at best and not significant once all the tableau choices are counted. Sanborn has also since said BERLINCLOCK means the World Clock, not the Mengenlehreuhr. **Not pursued.**
+- **Ranking of K4's known anomalies after correction:** aligned doublets at i≡4 mod 7 (it06, ~1e-5 post hoc) ≫ width-21 vertical bigrams (FW 0.005) > multiples of 5 (0.058) > minor differences (0.145 for the max).
