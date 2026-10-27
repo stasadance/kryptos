@@ -121,3 +121,13 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Found.** The quote is in a Schneier-blog comment by "withoutwax", 17 Oct 2025, with no source. The best candidate source is the RR Auction video "Jim Sanborn Reveals New Kryptos Clues Ahead of Auction — K4 and K5 Explained" (youtube.com/watch?v=QTGcaCPIYl4, channel RR Auction Official; title confirmed via oEmbed). The Kryptosfan 2011 "chart clue about direction" post has no Sanborn quote.
 - **Blocked.** YouTube blocks caption requests from this cloud IP (RequestBlocked); not circumvented. Needs the transcript fetched from Stas's network, then a check of whether the quote is there and which chart and W it refers to.
 - **Status.** #3b moves from "source not found" to "candidate source found, waiting on transcript".
+
+## 2026-10-27 — Iteration 18: base-26 Gromark ("Vimark") under mixed alphabets
+- **Why.** Phase 1 tested Vimark only with AZ/KA tableaux and Gromark only in bases 2–16. Base 26 with a mixed alphabet was an open gap, and Scheidt's "change the language base" hint points at the Gromark family.
+- **Model.** Primer k_0..k_{n−1}, rule A k_{j+n} = k_j + k_{j+1} (ACA) or rule B k_{j+n} = k_j + k_{j+n−1}, mod 26. (i) one unknown alphabet α, Vig α(c) = α(p) + k or Beau α(c) = k − α(p); (ii) ACA shape: plain AZ or KA, unknown cipher alphabet β(c) = plain(p) + k.
+- **Method.** The crib equations are linear mod 26 in (alphabet values, primer). `iterations/it18b_vimark_linear.py` checks consistency mod 2 and mod 13 (CRT). `iterations/it18c_vimark_alldiff.py` enumerates the solution spaces and enforces the alphabet's all-different constraint exactly. A direct CP-SAT model (`it18_vimark_mixed.py`) timed out even on the control, so it was replaced.
+- **Control.** Planted n=5 rule-A key with a random α recovered.
+- **Results.**
+  - ACA shape (plain AZ/KA): K4 linearly inconsistent for n = 2..10 under both rules. Null pass rate 0–4% for n ≤ 5, 7–20% for n = 6–7, 40–80% for n = 8–10. Strong refutation for n ≤ 7 and weaker for 8–10. n ≥ 11: untestable (null ≥ 82%).
+  - One alphabet (Q3v/Q3b): K4 infeasible for n = 2..7, both rules, Vig and Beau. Null pass rate 0–8%. n = 8: the K4 solution space is too large to enumerate (undecided).
+- **Status.** Mixed-alphabet Vimark is **refuted** for primers up to 7 (one alphabet) and up to 10 (ACA shape). Longer primers stay open but carry no motivation beyond the general case.
