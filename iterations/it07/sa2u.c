@@ -36,10 +36,10 @@ int main(int argc,char**argv){
  QG=malloc(sizeof(float)*456976);FILE*f=fopen("qg.bin","rb");if(fread(QG,4,456976,f)!=456976)return 1;fclose(f);
  int p[97],bp[97];
  for(int r=0;r<R;r++){
-  for(int x=0;x<26;x++)A[x]=x; for(int x=25;x>0;x--){int y=ri(x+1),t=A[x];A[x]=A[y];A[y]=t;}
+  if(argc>8){char*I=argv[8]; for(int x=0;x<26;x++)A[x]=I[x]-65;} else {for(int x=0;x<26;x++)A[x]=x; for(int x=25;x>0;x--){int y=ri(x+1),t=A[x];A[x]=A[y];A[y]=t;}}
   for(int x=0;x<NN;x++)fre[x]=ri(26);
   inv();int v=build();dec(p);double s=score(p),cur=s-lam*v,best=-1e9;int bv=0;
-  double T0=30,T1=0.5;
+  double T0=(argc>9)?atof(argv[9]):30,T1=0.5;
   for(long it=0;it<IT;it++){
    double T=T0*pow(T1/T0,(double)it/IT);
    int mv=ri(100),a=-1,b=-1,node=-1,old=0;
