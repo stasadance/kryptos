@@ -238,3 +238,8 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Control.** it29b plants at SA_R=3: 6/8 score at or above −450 (5 full recoveries at −397 to −445, one partial), against 7/8 at SA_R=6.
 - **Result.** The best of 10,457 is −482.2. After 24 restarts, the top 50 give −477.9. The decrypts are word salad (`ZOVAROUNDHEIREPIAHANGEASTNORTHEAST…`). That is the best-of-many null tail, about 25 units below the weakest recovered plant. **Refuted** at the stated power. The whole w-transkey family is now closed under 1 or 2 arbitrary alphabets. Outputs: `iterations/out/it31_*`.
 - **Ops note.** A detached nohup job dies when the container is reclaimed after a turn ends. Long runs now go as resumable harness background tasks of ≤2 h each.
+
+## 2026-10-27 — Iteration 32: K3-matrix numeric key under TWO arbitrary alphabets
+- **Why.** It25 refuted the K3 extraction-order matrix (NSA Fig. 21) as a numeric key under one unknown alphabet. The two-alphabet form B(c) = A(p) + k was still open.
+- **Test.** `iterations/it32_k3matrix_two_alph.py`: it25's 5 readings × (n, n−1) mod 26 × 86 cyclic offsets = 860 streams, then the it29 pipeline.
+- **Result.** **0 of 860 pass the alphabet-free gate.** That gate (X28 = X66, the 22 crib inequalities, and K4's additive identity k24 + k34 = k29 + k33) is necessary for any key under this model. The chance pass rate is about 0.07%, so about 0.6 passes were expected. **Refuted** without needing the annealer.

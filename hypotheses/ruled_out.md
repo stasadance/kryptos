@@ -96,3 +96,5 @@ Format: - approach — why eliminated — evidence/source — who/date
 - Grid-route/overlay key streams (w-route H-1804: carved tableau, cipher panel, sculpture, KA26, Morse; dihedral x 4 routes, fwd/rev, all offsets, overlays) under TWO arbitrary alphabets B(c)=A(p)+n(k): 1.59M placements, 571 exact survivors annealed, best -496.5 = null — iterations/it30_route_two_alph.py, JOURNAL it30 — 2026-10-27
 
 - w-transkey transposed key streams (keyword/keyed alphabet/K1-K3 text x decimation, K3 form, keyed columnar, routes, K3 double rotation; 19.2M configs) under TWO arbitrary alphabets B(c)=A(p)+n(k): 10,457 exact survivors annealed, best -477.9 (top 50 at 24 restarts) = null — iterations/it31_transkey_two_alph.py, JOURNAL it31 — 2026-10-27
+
+- K3 extraction-order matrix (NSA Fig. 21) as numeric key under TWO arbitrary alphabets: 0/860 streams pass the necessary gate — iterations/it32_k3matrix_two_alph.py, JOURNAL it32 — 2026-10-27
