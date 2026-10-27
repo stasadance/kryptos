@@ -83,3 +83,10 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Check:** reproduced. It is the same as AZ/KA in the sum form: 13 of 24 ≡ 0 mod 5. Look-elsewhere: scan 4 plain × 4 cipher alphabets × 3 sign forms × moduli 3–7 and take the most surprising binomial tail, then compare with 3,000 random ciphertexts.
 - **Result:** look-elsewhere **P = 0.058**. Suggestive at best and not significant once all the tableau choices are counted. Sanborn has also since said BERLINCLOCK means the World Clock, not the Mengenlehreuhr. **Not pursued.**
 - **Ranking of K4's known anomalies after correction:** aligned doublets at i≡4 mod 7 (it06, ~1e-5 post hoc) ≫ width-21 vertical bigrams (FW 0.005) > multiples of 5 (0.058) > minor differences (0.145 for the max).
+
+## Iteration 12: KRYPTOS as the column key of a width-7 grid key
+- **Hypothesis.** The doublet alignment (it06) comes from k_i = f(row) + g(col), width 7, with g = KRYPTOS (the 7-letter keyword of K1–K2), under an unknown plaintext alphabet (Quagmire III style) or with the ciphertext alphabet AZ or KA.
+- **Test.** `iterations/it12_kryptos_column_key.py`. Exact CP-SAT feasibility over 4 numberings × 7 offsets × {Vig, Beau} × {same, AZ, KA} = 168 configs. Row shifts f free.
+- **Control.** Planted (KA0, o=2, Vig, same) recovered.
+- **Null.** Random ciphertexts: 0, 3, 0 of 168 feasible.
+- **Result.** K4: 0 of 168. **Refuted.** The cheapest concrete keyword form of the grid key is dead; the generic grid model stays open (search-limited, it07).
