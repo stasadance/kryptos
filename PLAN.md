@@ -1,0 +1,29 @@
+# Plan
+
+_Last updated: 2026-10-27_
+
+## Where we are
+The first phase (2026-10-26) was a broad survey, summarised in `findings/` and `hypotheses/ruled_out.md`:
+- **Facts verified** with sources (`data/known_facts.md`). Cribs: EASTNORTHEAST at 22–34, BERLINCLOCK at 64–74 (1-indexed).
+- **Ruled out** (audited, see `findings/w-audit.md`): transposition alone; monoalphabetic; periodic Vigenère/Beaufort/variant (AZ and KRYPTOS alphabets) at every period the cribs reach, even with 1–2 carving errors; autokey; Hill ≤4×4; Gromark with fixed or keyword alphabets; English running keys; keyword-driven key generators; keys read off the sculpture's grids; K3-style transposed keys.
+- **What is left:** a key that does not depend on the plaintext, under one or two unknown alphabets. The cribs alone cannot test that model (`findings/w-probable.md`, `findings/w-anneal.md`). Progress needs a *specific* key hypothesis drawn from evidence, or new data (K5).
+
+Lesson from phase 1: wide sweeps gave negatives but no direction. From here on, each step is one reasoned hypothesis.
+
+## Key facts to reason from
+- K1/K2 = Vigenère with KRYPTOS-keyed alphabet (KA = KRYPTOSABCDEFGHIJLMNQUVWXZ). If K4 reuses that tableau, its key letters at the cribs are fully known:
+  - pos 22–34: `RDUMRIYWOYNKY`; pos 64–74: `ELYOIECBAQK` (Vig/KA).
+- Self-encryptions at 33 (S→S) and 74 (K→K): key = K (shift 0 in KA) at both.
+- R→P at both 28 and 66: same key letter at 28 and 66.
+- Scheidt: K4 = "more than one stage", final "masking" so English statistics vanish; "simple", "remembered", keyword-based (Hannon 2011 notes, second-hand).
+- Sanborn: "matrix codes Ed gave me … visual systems for encoding … individualistic" (Wired 2005); "who says it is even a math solution" (2025).
+- Statistical oddities at width 7 / 21 (doubled letters, vertical repeats); NSA 1992 saw "roughness on interval 7".
+
+## Hypothesis queue (ranked)
+| # | Hypothesis | Why (evidence) | Decisive test | Status |
+|---|-----------|----------------|---------------|--------|
+| 1 | Key is a 2-D positional function on a grid layout: k = f(row) + g(col) for some width w | Sanborn's "visual/matrix" encoding; width-7/21 anomalies; NSA interval 7 | Exact linear solve on the 24 crib key values for each w and tableau; validate on planted key | NEXT |
+| 2 | The 24 known KA key letters have internal structure (tableau walk, keyword fragments, alphabet order) | If K1/K2 tableau reused, these are the actual key letters | Structural analysis of `RDUMRIYWOYNKY`/`ELYOIECBAQK` against motivated generators; one prediction per idea | queued |
+| 3 | "Matrix codes Ed gave me" names a concrete hand system | Sanborn, Wired 2005 | Source research → concrete rule → exact crib test | queued |
+| 4 | K5 in depth with K4 (shared key at same positions) | Sanborn 2025: same coding system, BERLINCLOCK at same positions | `workers/w-k5/k5_depth.py` once K5 is public | waiting on data |
+| 5 | Weltzeituhr face names as per-period alphabets (H-802) | BERLINCLOCK = World Clock | Needs pre-1997 face transcription; `tools/w-clock/face_test.py` ready | waiting on data |
