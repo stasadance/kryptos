@@ -1,0 +1,101 @@
+controls 102/108
+ct L= 1 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L= 2 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L= 3 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L= 4 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L= 5 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L= 6 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L= 7 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L= 8 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L= 9 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=10 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=11 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=12 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=13 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=14 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=15 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=16 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=17 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=18 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=19 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=20 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=21 rows=24 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=22 rows=23 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=23 rows=22 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=24 rows=21 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=25 rows=20 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=26 rows=19 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+ct L=27 rows=18 K4 hits=0 [] und=3 null mean pass=0.001 max=0.03
+ct L=28 rows=17 K4 hits=0 [] und=3 null mean pass=0.006 max=0.07
+ct L=29 rows=16 K4 hits=0 [] und=3 null mean pass=0.012 max=0.12
+ct L=30 rows=15 K4 hits=0 [] und=3 null mean pass=0.019 max=0.16
+ct L=31 rows=14 K4 hits=0 [] und=3 null mean pass=0.026 max=0.19
+ct L=32 rows=13 K4 hits=2 ['capakA-b', 'capAka-w'] und=3 null mean pass=0.036 max=0.22
+ct L=33 rows=12 K4 hits=0 [] und=3 null mean pass=0.056 max=0.33
+ct L=34 rows=11 K4 hits=6 ['capakA-b', 'capakK-b', 'capKka-w', 'cApaka-v', 'cApaka-b', 'cApaka-w'] und=3 null mean pass=0.082 max=0.40
+ct L=35 rows=11 K4 hits=0 [] und=3 null mean pass=0.062 max=0.29
+ct L=36 rows=11 K4 hits=5 ['capakK-b', 'cApaka-v', 'cApaka-b', 'cApaka-w', 'cKpaka-v'] und=3 null mean pass=0.064 max=0.34
+ct L=37 rows=11 K4 hits=5 ['capakA-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capKka-w'] und=3 null mean pass=0.073 max=0.38
+ct L=38 rows=11 K4 hits=3 ['capakK-b', 'cApaka-b', 'cApaka-w'] und=3 null mean pass=0.081 max=0.42
+ct L=39 rows=11 K4 hits=4 ['capakA-b', 'capAka-w', 'capKka-w', 'cKpaka-v'] und=3 null mean pass=0.073 max=0.31
+ct L=40 rows=11 K4 hits=3 ['capAka-w', 'capKka-w', 'cKpaka-v'] und=3 null mean pass=0.073 max=0.36
+ct L=41 rows=11 K4 hits=6 ['capakA-b', 'capakK-b', 'cApaka-v', 'cApaka-b', 'cApaka-w', 'cKpaka-v'] und=3 null mean pass=0.074 max=0.35
+ct L=42 rows=11 K4 hits=0 [] und=5 null mean pass=0.073 max=0.32
+ct L=43 rows=11 K4 hits=5 ['capakA-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capKka-w'] und=3 null mean pass=0.071 max=0.39
+ct L=44 rows=11 K4 hits=0 [] und=3 null mean pass=0.064 max=0.40
+ct L=45 rows=11 K4 hits=1 ['capAka-w'] und=3 null mean pass=0.072 max=0.37
+ct L=46 rows=11 K4 hits=4 ['cApaka-v', 'cApaka-b', 'cApaka-w', 'cKpaka-v'] und=3 null mean pass=0.078 max=0.34
+ct L=47 rows=11 K4 hits=4 ['capakA-b', 'capakK-b', 'capAka-w', 'capKka-w'] und=3 null mean pass=0.066 max=0.30
+ct L=48 rows=11 K4 hits=3 ['capakA-b', 'capakK-b', 'capAka-w'] und=3 null mean pass=0.058 max=0.30
+ct L=49 rows=11 K4 hits=0 [] und=3 null mean pass=0.082 max=0.38
+ct L=50 rows=11 K4 hits=0 [] und=3 null mean pass=0.074 max=0.35
+ct L=51 rows=11 K4 hits=4 ['capAka-v', 'capAka-b', 'capAka-w', 'capKka-w'] und=3 null mean pass=0.065 max=0.28
+ct L=52 rows=11 K4 hits=7 ['capakK-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capKka-w', 'cKpakK-v'] und=3 null mean pass=0.070 max=0.36
+ct L=53 rows=11 K4 hits=0 [] und=3 null mean pass=0.079 max=0.40
+ct L=54 rows=11 K4 hits=2 ['capakK-b', 'capAka-w'] und=3 null mean pass=0.072 max=0.34
+ct L=55 rows=11 K4 hits=0 [] und=9 null mean pass=0.075 max=0.36
+ct L=56 rows=11 K4 hits=1 ['capakK-b'] und=9 null mean pass=0.079 max=0.40
+ct L=57 rows=11 K4 hits=1 ['capakA-b'] und=9 null mean pass=0.061 max=0.34
+ct L=58 rows=11 K4 hits=0 [] und=3 null mean pass=0.069 max=0.34
+ct L=59 rows=11 K4 hits=1 ['capakA-b'] und=9 null mean pass=0.078 max=0.35
+ct L=60 rows=11 K4 hits=4 ['capakA-b', 'capakK-b', 'cApaka-v', 'cKpaka-v'] und=9 null mean pass=0.069 max=0.35
+ct L=61 rows=11 K4 hits=1 ['capakK-b'] und=9 null mean pass=0.083 max=0.38
+ct L=62 rows=11 K4 hits=0 [] und=9 null mean pass=0.061 max=0.33
+ct L=63 rows=11 K4 hits=7 ['capAka-v', 'capAka-b', 'capAka-w', 'capKka-w', 'cApaka-b', 'cApaka-w'] und=3 null mean pass=0.072 max=0.38
+ct L=64 rows=10 K4 hits=6 ['capakK-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capKka-w', 'cKpaka-v'] und=3 null mean pass=0.096 max=0.43
+ct L=65 rows= 9 K4 hits=0 [] und=3 null mean pass=0.126 max=0.51
+ct L=66 rows= 8 K4 hits=6 ['capakA-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capKka-w', 'cKpaka-v'] und=3 null mean pass=0.172 max=0.59
+ct L=67 rows= 7 K4 hits=7 ['capakK-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capKka-w', 'cApaka-v'] und=3 null mean pass=0.230 max=0.61
+ct L=68 rows= 6 K4 hits=15 ['capakA-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capAkA-v', 'capAkK-b'] und=3 null mean pass=0.311 max=0.83
+ct L=69 rows= 5 K4 hits=17 ['capakA-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capAkA-v', 'capAkA-b'] und=3 null mean pass=0.373 max=0.81
+ct L=70 rows= 4 K4 hits=30 ['capaka-v', 'capaka-b', 'capaka-w', 'capAka-v', 'capAka-b', 'capAka-w'] und=0 null mean pass=0.685 max=0.95
+ct L=71 rows= 3 K4 hits=27 ['capaka-v', 'capakA-b', 'capakK-v', 'capakK-b', 'capakK-w', 'capAka-w'] und=0 null mean pass=0.806 max=0.99
+pt L= 1 rows=22 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+pt L= 2 rows=20 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+pt L= 3 rows=18 K4 hits=0 [] und=0 null mean pass=0.000 max=0.00
+pt L= 4 rows=16 K4 hits=0 [] und=0 null mean pass=0.000 max=0.01
+pt L= 5 rows=14 K4 hits=0 [] und=0 null mean pass=0.019 max=0.15
+pt L= 6 rows=12 K4 hits=1 ['capakA-b'] und=3 null mean pass=0.041 max=0.34
+pt L= 7 rows=10 K4 hits=3 ['capAka-w', 'capKka-w', 'cApaka-v'] und=3 null mean pass=0.062 max=0.40
+pt L= 8 rows= 8 K4 hits=6 ['capAka-w', 'capKka-w', 'cApakA-v', 'cApakA-b', 'cKpakK-v', 'cKpakK-b'] und=3 null mean pass=0.280 max=0.78
+pt L= 9 rows= 6 K4 hits=10 ['capakA-b', 'capAka-w', 'capKka-w', 'cApaka-v', 'cApakA-v', 'cApakA-b'] und=0 null mean pass=0.319 max=0.92
+pt L=10 rows= 4 K4 hits=16 ['capaka-b', 'capKka-w', 'cApaka-b', 'cApaka-w', 'cApakA-v', 'cApakA-b'] und=0 null mean pass=0.675 max=0.98
+pt L=32 rows= 3 K4 hits=36 ['capakA-b', 'capakK-v', 'capakK-b', 'capakK-w', 'capAka-v', 'capAka-b'] und=3 null mean pass=0.802 max=1.00
+pt L=33 rows= 4 K4 hits=36 ['capakA-b', 'capakK-v', 'capakK-b', 'capakK-w', 'capAka-v', 'capAka-b'] und=3 null mean pass=0.733 max=0.98
+pt L=34 rows= 5 K4 hits=20 ['capakA-b', 'capakK-v', 'capakK-b', 'capakK-w', 'capAka-w', 'capAkA-b'] und=3 null mean pass=0.462 max=0.92
+pt L=35 rows= 6 K4 hits=17 ['capakK-v', 'capakK-w', 'cApaka-v', 'cApaka-b', 'cApaka-w', 'cApakA-v'] und=3 null mean pass=0.491 max=0.91
+pt L=36 rows= 7 K4 hits=17 ['capakA-b', 'capakK-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capKka-w'] und=3 null mean pass=0.392 max=0.91
+pt L=37 rows= 8 K4 hits=15 ['capakA-b', 'capakK-v', 'capakK-b', 'capakK-w', 'capAka-v', 'capAka-b'] und=3 null mean pass=0.210 max=0.79
+pt L=38 rows= 9 K4 hits=1 ['capKka-w'] und=9 null mean pass=0.144 max=0.49
+pt L=39 rows=10 K4 hits=9 ['capakA-b', 'capakK-v', 'capakK-b', 'capakK-w', 'capAka-w', 'cApaka-v'] und=3 null mean pass=0.125 max=0.60
+pt L=40 rows=11 K4 hits=3 ['capakK-b', 'cApaka-v', 'cKpaka-v'] und=3 null mean pass=0.100 max=0.48
+pt L=41 rows=11 K4 hits=10 ['capakA-b', 'capakK-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capKka-w'] und=3 null mean pass=0.085 max=0.50
+pt L=42 rows=11 K4 hits=0 [] und=5 null mean pass=0.007 max=0.03
+pt L=43 rows=10 K4 hits=3 ['capakA-b', 'capAka-w', 'cKpaka-v'] und=3 null mean pass=0.076 max=0.45
+pt L=44 rows= 9 K4 hits=2 ['capakK-b', 'cApaka-v'] und=3 null mean pass=0.099 max=0.58
+pt L=45 rows= 8 K4 hits=6 ['capakK-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capKka-w', 'cKpaka-v'] und=3 null mean pass=0.142 max=0.60
+pt L=46 rows= 7 K4 hits=10 ['capAka-v', 'capAka-b', 'capAka-w', 'capKka-w', 'capKkA-v', 'capKkK-v'] und=3 null mean pass=0.244 max=0.85
+pt L=47 rows= 6 K4 hits=16 ['capakA-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capAkA-v', 'capAkA-b'] und=3 null mean pass=0.316 max=0.86
+pt L=48 rows= 5 K4 hits=15 ['capAka-v', 'capAka-b', 'capAka-w', 'capAkA-b', 'capAkA-w', 'capAkK-v'] und=3 null mean pass=0.348 max=0.93
+pt L=49 rows= 4 K4 hits=32 ['capakK-b', 'capAka-v', 'capAka-b', 'capAka-w', 'capAkA-v', 'capAkA-b'] und=3 null mean pass=0.714 max=1.00
+pt L=50 rows= 3 K4 hits=29 ['capaka-v', 'capaka-b', 'capaka-w', 'capakA-b', 'capakK-b', 'capAka-v'] und=0 null mean pass=0.712 max=1.00

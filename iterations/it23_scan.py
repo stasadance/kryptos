@@ -60,10 +60,12 @@ RC = np.array([r[0] for r in ROLES for f in range(3)], dtype=np.int64); RP = np.
 RK = np.array([r[2] for r in ROLES for f in range(3)], dtype=np.int64); FM = np.array([f for r in ROLES for f in range(3)], dtype=np.int64)
 
 @njit(cache=True)
-def test_one(ct, key, model, cap13, cap2):
+def test_one(ct, key, model, cap13, cap2, skip=-1, mask=None):
     form = FM[model]; roles = (RC[model], RP[model], RK[model])
     M = np.zeros((24, 26), dtype=np.int64); rhs = np.zeros(24, dtype=np.int64); used = np.zeros(26, dtype=np.int64)
     for r in range(24):
+        if r == skip: continue
+        if mask is not None and mask[r] == 0: continue
         lets = (ct[POS[r]], PT[r], key[r])
         if form == 0: sg = (1, -1, -1)
         elif form == 1: sg = (1, 1, -1)
@@ -128,6 +130,23 @@ def scan(ct, txt, nmodels, cap13, cap2):
         key = np.empty(24, dtype=np.int64)
         for r in range(24): key[r] = txt[o + POS[r]]
         for m in range(nmodels): out[o, m] = test_one(ct, key, m, cap13, cap2)
+    return out
+
+@njit(parallel=True, cache=True)
+def scan_err(ct, txt, nmodels, cap13, cap2):
+    """One crib letter allowed wrong: pass if the system without some single crib row passes. Returns skip+1 or 0/-1."""
+    nofs = txt.shape[0] - 97
+    out = np.zeros((max(nofs, 0), nmodels), dtype=np.int8)
+    for o in prange(max(nofs, 0)):
+        key = np.empty(24, dtype=np.int64)
+        for r in range(24): key[r] = txt[o + POS[r]]
+        for m in range(nmodels):
+            best = 0
+            for sk in range(24):
+                v = test_one(ct, key, m, cap13, cap2, sk)
+                if v == 1: best = sk + 1; break
+                if v == -1: best = -1
+            out[o, m] = best
     return out
 
 def arr(s): return np.array([AZ.index(ch) for ch in s], dtype=np.int64)

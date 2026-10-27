@@ -171,3 +171,12 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Motivated sources, forward and reversed: 0 hits.** Carter, *The Tomb of Tut-ankh-Amen* vols 1–3 (archive.org OCR, 1923–33); Budge, *Book of the Dead* (pg7145); US Declaration and Constitution (pg1, pg5); K1–K3 plaintexts (carved spellings), K1–K3 ciphertext, the KA tableau rows.
 - **Broad scan running.** KJV and the current Gutenberg top-100 (plus War and Peace, Montaigne, Communist Manifesto), all 45 models; results appended below when finished.
 - **Not covered.** Two independent unknown alphabets (not linear, crib-untestable per H-1404), crib carving errors (the test requires all 24 crib letters exact), and texts not in the corpus.
+
+## 2026-10-27 — Iteration 24: plaintext/ciphertext autokey under one unknown alphabet, every lag (NSA's own lead)
+- **Why.** Both NSA write-ups (1992, 2007) name autokey as the obvious source of K4's interval-7 roughness, "if the alphabet used has a high-frequency letter assigned the value of 0", i.e. under a keyed alphabet. Phase 1 covered unknown-alphabet autokey only partly (CT-autokey Vig L ≤ 36, Beau L ≤ 31; PT-autokey Vig L ≤ 10).
+- **Test.** `iterations/it24_autokey_mixed.py`: the 45 role/form models of it23 (cipher, plain and key letters each valued by the unknown alphabet, AZ or KA; Vig/Beau/variant). CT-autokey k_i = c_{i−L} (primer rows dropped); PT-autokey k_i = p_{i−L}, keeping only rows where p_{i−L} is a crib letter. Exact linear test with all-different. Null: 100 random ciphertexts per lag and model.
+- **Controls.** 102/108 planted cases recovered; the 6 misses are "undecided" (solution space over the enumeration cap) at lags with ≤ 11 usable rows, where the test has no power anyway.
+- **Result** (full table `iterations/out/it24_autokey_mixed.out`):
+  - **CT-autokey: refuted for L = 1–31 in all 45 models** (K4 0 hits; null pass ≤ 3%). L ≥ 32: K4 hit counts match the null (4–15% per model), so it cannot be decided.
+  - **PT-autokey: refuted for L = 1–5 and L = 42** (0 hits, null ≤ 2%). L = 6–10, 32–50: K4 hits at chance rates, so it cannot be decided. L = 11–31 and ≥ 51: fewer than 3 crib-crib pairs, so it is untestable. **NSA's lag 7 is crib-untestable** for most role models. The same-alphabet Vigenère model, which is phase 1's case, has 0 hits.
+- **Status.** Autokey under keyed alphabets is closed wherever the cribs can decide it. The remaining lags need the full text, and autokey chains that propagate an unknown primer are not identifiable from 97 letters without a language model.
