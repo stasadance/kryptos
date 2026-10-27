@@ -187,3 +187,11 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Control.** 15/15 planted numeric-key models recovered. Null: 0 hits on 5 random ciphertexts per stream.
 - **Result.** K4: 0 hits in every stream. **Refuted.**
 - **Generic form** (`iterations/it25c_linear_row_grid_cpsat.py`). k_i = g[col] + c·row (any 7 column values, any row step) under one unknown alphabet. CP-SAT recovers the planted control. K4 is infeasible at 9 of 21 (offset, form) cases, and the rest time out at 20 s. But 2 of 18 random nulls are feasible and most time out, so the cribs decide this model only partly. Not pursued: it is the generic grid key (it07/it15) with fewer free values, and it15 already showed the grid key does not explain the doublets.
+
+## 2026-10-27 — Iteration 26: 2×2 Hill cipher under an unknown letter numbering
+- **Why.** "Matrix codes Ed gave me" (Sanborn), and the extra L on the tableau spelling HILL (Bauer/Link/Molle 2016). Phase 1 refuted Hill n = 2–4 only with A=0 or KA numbering. A Hill cipher on a keyword-mixed numbering is the natural K1/K2-style variant.
+- **Model.** Blocks at offset o ∈ {0, 1}: a(c_x) = m11·a(p_x) + m12·a(p_y) (+ b1), and likewise for c_y. For each of the 157,248 invertible M, this is linear in the unknown numbering a (and b). Enumerating every M covers both C = MP and P = MC. 11 crib blocks at each offset.
+- **Test.** `iterations/it26_hill2_mixed.py` (numba; exact CRT + all-different).
+- **Controls.** Planted linear and affine cases are each recovered as the unique passing matrix.
+- **Result.** K4: 0 of 157,248 matrices pass, linear and affine, at both offsets. Random nulls: also 0, and the test has full power. **Refuted.**
+- **Open.** n = 3 under an unknown numbering (26^9 matrices: needs a smarter row-wise method), and Hill combined with a transposition.
