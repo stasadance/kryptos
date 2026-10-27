@@ -1,6 +1,6 @@
 # Plan
 
-_Last updated: 2026-10-27 (it28)_
+_Last updated: 2026-10-27 (it36)_
 
 ## Where we are
 The first phase (2026-10-26) was a broad survey, summarised in `findings/` and `hypotheses/ruled_out.md`:
@@ -15,6 +15,20 @@ Lesson from phase 1: wide sweeps gave negatives but no direction. From here on, 
 - New exact tools: `iterations/it23_scan.py` (numba; any fixed key stream under one unknown alphabet in 45 role/form models, false-pass <1e-7 on K4), `iterations/it28b_two_alph_exact.py` (fixed stream under two arbitrary alphabets, null ~1%), it05 annealer re-used for full-text decisions.
 - Refuted: running keys from Carter/Book of the Dead/founding documents/K1–K3/Sanborn texts under one unknown alphabet; autokey (CT L≤31, PT L≤5,42) under one unknown alphabet; K3 matrix numeric key; Hill 2×2 under unknown numbering; Gromark survivors (full text); keyword-pair keys under two alphabets.
 - Blocked: AAA 2009 oral-history transcript (aaa.si.edu 403, no mirror).
+
+## Session 2026-10-27 (it29–36) summary
+- **Two-alphabet program** (B(c) = A(p) + n(k), fixed key stream). Pipeline: an alphabet-free gate with K4's additive identity, then the exact check, then crib-exact full-text annealing (it29b plants recovered 6/8). Refuted for:
+  - running keys from motivated texts (it29);
+  - w-route grid/overlay keys (it30, closes H-1804);
+  - w-transkey transposed keys (it31, 10,457 annealed);
+  - the K3 matrix (it32, 0 pass the gate).
+- **Carving-error robustness.**
+  - Running key: one wrong crib (it23c) or a 1–2 letter CT slip between the cribs (it33, H-708): 0 hits.
+  - All three big generator nulls (w-transkey, w-keygen, w-route) under drop-one and slips (it34–35): 2 chance hits, both gibberish. **H-2104 closed.** The new integer crib-relation gate is in `iterations/it34_transkey_err.py`.
+  - Broad Gutenberg running-key scan finished: 104 texts, 137M offsets, 0 hits.
+- **Open, search-limited:** PT-autokey L = 6–12 under one unknown alphabet (it36, H-2103). Annealing and CP-SAT both fail planted controls, and the windows one step from the cribs are uninformative. It needs a propagation-aware search.
+- **Data still wanted:** the pre-1997 Weltzeituhr per-face city list (H-802). Wikimedia, Flickr and Openverse return 429 to this container; retry later.
+- **Ops.** Long runs go as resumable harness background tasks of ≤2 h. Detached jobs die when the container is reclaimed. Loop state: `/mnt/project-files/k4/loop/thread_state.md`.
 
 ## Key facts to reason from
 - K1/K2 = Vigenère with KRYPTOS-keyed alphabet (KA = KRYPTOSABCDEFGHIJLMNQUVWXZ). If K4 reuses that tableau, its key letters at the cribs are fully known:
