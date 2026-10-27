@@ -115,3 +115,9 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Test.** `iterations/it16_k123_doublets.py`: the it06 alignment statistic (max doublet starts at one residue, widths 2..30) on 97-letter windows of K1–K3 and K4, vs 20k random strings. Plus a less tailored joint statistic (≥5 aligned at one residue with ≥3 of them in crib zones), 200k random strings.
 - **Result.** Alignment alone: K4 = 5 (w=7, r=4), P = 0.083; K2[194:291] also reaches 5 (w=3), same P. Joint statistic: P = 0.008. Any ≥3 doublets in crib zones: P = 0.05.
 - **Correction.** It06's 1.5e-5 came from requiring *all* crib-covered pairs at the chosen (w, r) to be doublets, a condition shaped after seeing the data. A fairer figure is ≈0.01, and K2 shows comparable alignment by chance. The doublets are a weak anomaly, not a lead. #9 is parked; no doublet mechanism will be pursued further without independent support.
+
+## 2026-10-27 — Iteration 17: source of the "flip the chart … the W up there" quote (#3b)
+- **Goal.** Find where Sanborn said it, so the rule can be read in context instead of guessed.
+- **Found.** The quote is in a Schneier-blog comment by "withoutwax", 17 Oct 2025, with no source. The best candidate source is the RR Auction video "Jim Sanborn Reveals New Kryptos Clues Ahead of Auction — K4 and K5 Explained" (youtube.com/watch?v=QTGcaCPIYl4, channel RR Auction Official; title confirmed via oEmbed). The Kryptosfan 2011 "chart clue about direction" post has no Sanborn quote.
+- **Blocked.** YouTube blocks caption requests from this cloud IP (RequestBlocked); not circumvented. Needs the transcript fetched from Stas's network, then a check of whether the quote is there and which chart and W it refers to.
+- **Status.** #3b moves from "source not found" to "candidate source found, waiting on transcript".
