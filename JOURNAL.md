@@ -131,3 +131,10 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - ACA shape (plain AZ/KA): K4 linearly inconsistent for n = 2..10 under both rules. Null pass rate 0–4% for n ≤ 5, 7–20% for n = 6–7, 40–80% for n = 8–10. Strong refutation for n ≤ 7 and weaker for 8–10. n ≥ 11: untestable (null ≥ 82%).
   - One alphabet (Q3v/Q3b): K4 infeasible for n = 2..7, both rules, Vig and Beau. Null pass rate 0–8%. n = 8: the K4 solution space is too large to enumerate (undecided).
 - **Status.** Mixed-alphabet Vimark is **refuted** for primers up to 7 (one alphabet) and up to 10 (ACA shape). Longer primers stay open but carry no motivation beyond the general case.
+
+## 2026-10-27 — Iteration 19: two superimposed periodic keys under one mixed alphabet
+- **Why.** Phase 1 (H-1501) killed k_i = a[i mod L1] + b[i mod L2] for all L1+L2 ≤ 24, but only with AZ/KA tableaux. K1/K2 used a keyed alphabet, so the mixed-alphabet version is the natural gap (e.g. KRYPTOS 7 + PALIMPSEST 10, 7 + ABSCISSA 8).
+- **Method.** The CRT enumeration from it18 blows up here (gauge freedom), so `iterations/it19b_double_periodic_cpsat.py` uses CP-SAT, with a[0] = 0 as the gauge fix and one unknown alphabet (Vig and Beau). L1 < L2, L1+L2 ≤ 20, L2 not a multiple of L1. 5 random-ciphertext nulls each. (`it19_double_periodic_mixed.py` = the failed enumeration attempt, kept for the record.)
+- **Control.** Planted 7+10 Vig with a random alphabet recovered.
+- **Result.** K4 infeasible (refuted) for 63 of 108 configs, including all L1+L2 ≤ 11 and 8+10, 6+14, 5+8, 5+9, 6+7, 6+9. No config is K4-feasible while the nulls are infeasible, so no signal. Untestable (nulls feasible too): 45 configs, including the motivated **7+8 and 7+10**, and every pair with L1+L2 ≥ 15 except a few.
+- **Status.** Refuted where testable; KRYPTOS+PALIMPSEST / KRYPTOS+ABSCISSA under a mixed alphabet stay crib-untestable. Full lists: scratch output summarised in this entry. Same wall as before: cribs alone cannot decide models with ≥ ~15 free key values plus a free alphabet.
