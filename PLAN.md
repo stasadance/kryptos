@@ -1,6 +1,6 @@
 # Plan
 
-_Last updated: 2026-10-27_
+_Last updated: 2026-10-27 (it28)_
 
 ## Where we are
 The first phase (2026-10-26) was a broad survey, summarised in `findings/` and `hypotheses/ruled_out.md`:
@@ -9,6 +9,12 @@ The first phase (2026-10-26) was a broad survey, summarised in `findings/` and `
 - **What is left:** a key that does not depend on the plaintext, under one or two unknown alphabets. The cribs alone cannot test that model (`findings/w-probable.md`, `findings/w-anneal.md`). Progress needs a *specific* key hypothesis drawn from evidence, or new data (K5).
 
 Lesson from phase 1: wide sweeps gave negatives but no direction. From here on, each step is one reasoned hypothesis.
+
+## Session 2026-10-27 (it21–28) summary
+- Sources: Big Tech Day 2013 transcript (flip-the-chart quote = K1/K2 worksheets), full NSA FOIA set via archive.org (`data/sources/nsa/`), WaPo 14 Jan 1990 "modern system" half (K3+K4).
+- New exact tools: `iterations/it23_scan.py` (numba; any fixed key stream under one unknown alphabet in 45 role/form models, false-pass <1e-7 on K4), `iterations/it28b_two_alph_exact.py` (fixed stream under two arbitrary alphabets, null ~1%), it05 annealer re-used for full-text decisions.
+- Refuted: running keys from Carter/Book of the Dead/founding documents/K1–K3/Sanborn texts under one unknown alphabet; autokey (CT L≤31, PT L≤5,42) under one unknown alphabet; K3 matrix numeric key; Hill 2×2 under unknown numbering; Gromark survivors (full text); keyword-pair keys under two alphabets.
+- Blocked: AAA 2009 oral-history transcript (aaa.si.edu 403, no mirror).
 
 ## Key facts to reason from
 - K1/K2 = Vigenère with KRYPTOS-keyed alphabet (KA = KRYPTOSABCDEFGHIJLMNQUVWXZ). If K4 reuses that tableau, its key letters at the cribs are fully known:
