@@ -39,6 +39,41 @@ def decrypt(c, a, inv, L, form, kr, p):
     return bad
 
 @njit(cache=True)
+def local(c, a, inv, L, form, kr, p, qg, W):
+    """stage-1 score: only letters ONE step from a crib (windows around ENE and BERLINCLOCK), so one wrong alphabet
+    value cannot propagate; + ENE-internal relation penalty."""
+    n = c.shape[0]; bad = 0
+    for i in range(n): p[i] = -1
+    for t in range(13): p[21 + t] = ENE[t]
+    for t in range(11): p[63 + t] = BC[t]
+    for i in range(21 + L, 34):
+        pp = p[i - L]; K = a[pp] if kr == 0 else (pp if kr == 1 else KAI[pp])
+        v = (a[p[i]] + K) % 26 if form == 0 else ((K - a[p[i]]) % 26 if form == 1 else (a[p[i]] - K) % 26)
+        if v != a[c[i]]: bad += 1
+    for i in range(n):
+        if p[i] >= 0: continue
+        if i - L >= 0 and p[i - L] >= 0 and ((21 <= i - L <= 33) or (63 <= i - L <= 73)):
+            pp = p[i - L]; K = a[pp] if kr == 0 else (pp if kr == 1 else KAI[pp])
+            ap = (a[c[i]] - K) % 26 if form == 0 else ((K - a[c[i]]) % 26 if form == 1 else (a[c[i]] + K) % 26)
+            p[i] = inv[ap]
+    for j in range(n):
+        if p[j] >= 0: continue
+        i = j + L
+        if i < n and ((21 <= i <= 33) or (63 <= i <= 73)):
+            K = (a[c[i]] - a[p[i]]) % 26 if form == 0 else ((a[c[i]] + a[p[i]]) % 26 if form == 1 else (a[p[i]] - a[c[i]]) % 26)
+            p[j] = inv[K] if kr == 0 else (K if kr == 1 else KAL[K])
+    s = 0.0
+    for i in range(n - 3):
+        if p[i] >= 0 and p[i + 1] >= 0 and p[i + 2] >= 0 and p[i + 3] >= 0:
+            s += qg[((p[i] * 26 + p[i + 1]) * 26 + p[i + 2]) * 26 + p[i + 3]]
+    return s - W * bad, bad, s
+
+@njit(cache=True)
+def score2(c, a, inv, L, form, kr, p, qg, W, stage):
+    if stage == 1: return local(c, a, inv, L, form, kr, p, qg, W)
+    return score(c, a, inv, L, form, kr, p, qg, W)
+
+@njit(cache=True)
 def score(c, a, inv, L, form, kr, p, qg, W):
     bad = decrypt(c, a, inv, L, form, kr, p); s = 0.0
     for i in range(c.shape[0] - 3): s += qg[((p[i] * 26 + p[i + 1]) * 26 + p[i + 2]) * 26 + p[i + 3]]
@@ -50,22 +85,29 @@ def anneal(c, L, form, kr, qg, iters, seed, W, T0=20.0):
     a = np.random.permutation(26).astype(np.int64); inv = np.empty(26, np.int64)
     for x in range(26): inv[a[x]] = x
     p = np.empty(c.shape[0], np.int64)
-    cur, bad, q = score(c, a, inv, L, form, kr, p, qg, W); best = cur; ba = a.copy()
+    a = anneal_stage(c, L, form, kr, qg, iters, W, T0, a, inv, p, 1)
+    for x in range(26): inv[a[x]] = x
+    ba = anneal_stage(c, L, form, kr, qg, iters, W, T0 / 4, a, inv, p, 2)
+    for x in range(26): inv[ba[x]] = x
+    s, bad, q = score(c, ba, inv, L, form, kr, p, qg, W)
+    return s, bad, q, ba, p.copy()
+
+@njit(cache=True)
+def anneal_stage(c, L, form, kr, qg, iters, W, T0, a, inv, p, stage):
+    cur, bad, q = score2(c, a, inv, L, form, kr, p, qg, W, stage); best = cur; ba = a.copy()
 
     for it in range(iters):
         T = T0 * (1.0 - it / iters) + 0.2
         x = np.random.randint(26); y = np.random.randint(26)
         if x == y: continue
         a[x], a[y] = a[y], a[x]; inv[a[x]] = x; inv[a[y]] = y
-        new, nb, nq = score(c, a, inv, L, form, kr, p, qg, W)
+        new, nb, nq = score2(c, a, inv, L, form, kr, p, qg, W, stage)
         if new >= cur or np.random.random() < np.exp((new - cur) / T):
             cur = new
             if cur > best: best = cur; ba[:] = a
         else:
             a[x], a[y] = a[y], a[x]; inv[a[x]] = x; inv[a[y]] = y
-    for x in range(26): inv[ba[x]] = x
-    s, bad, q = score(c, ba, inv, L, form, kr, p, qg, W)
-    return s, bad, q, ba, p.copy()
+    return ba
 
 def run(ct, L, form, kr, R, iters, W=40.0, T0=20.0):
     c = np.array([AZ.index(ch) for ch in ct], dtype=np.int64); best = None
