@@ -195,3 +195,9 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Controls.** Planted linear and affine cases are each recovered as the unique passing matrix.
 - **Result.** K4: 0 of 157,248 matrices pass, linear and affine, at both offsets. Random nulls: also 0, and the test has full power. **Refuted.**
 - **Open.** n = 3 under an unknown numbering (26^9 matrices: needs a smarter row-wise method), and Hill combined with a transposition.
+
+## 2026-10-27 — Iteration 27: full-text decision of the Gromark survivors (Bean 2021)
+- **Why.** Gromark (lagged-Fibonacci digit key, Scheidt's "regenerative function", "change the language base") survives the cribs only with two arbitrary alphabets. That leaves 46 primers: b10/5 (39), b10/4 (3: 3301, 6740, 9903), b8/5 (4). w-gromark disfavoured them statistically (fewer forced letters than expected) but did not decide them. With a fixed key stream, two alphabets are decidable from the full text (w-synth budget; it05 annealer 17/20 on random-key controls).
+- **Test.** `iterations/it27_gromark_fulltext.py`: for each survivor, it runs it05's crib-exact two-alphabet annealer (`sa.c`, 8 restarts × 3M steps, quadgrams from War and Peace) on the expanded Gromark key.
+- **Controls.** 8 planted Gromark encryptions (random primer, random alphabets, Austen text with cribs). 6/8 recovered (score −414 to −442, accuracy 0.85–1.0). Two base-8 plants got only partial recoveries (−480, accuracy 0.42–0.70).
+- **Result.** The best K4 survivor is b10 40909 at **−496.9**, then 84393 at −500.7. That is the random-stream null level (it05 null −498 to −521) and about 55 units below any recovered control. The decrypts are word salad (`SAKJLSANDTHASSLEINSUB…`). The b8 survivors score −510 to −570. **Refuted** for b10 (both primer lengths). b8 is refuted with less confidence, since the annealer is weaker there (2/8 base-8 controls only partial). Full output: `iterations/out/it27_gromark_fulltext.out`.
