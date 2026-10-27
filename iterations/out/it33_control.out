@@ -1,0 +1,13 @@
+control d=-2 cKpaka-v: found=True other=0 und=0
+control d=-2 capAka-b: found=True other=1 und=16
+control d=-2 cKpakA-b: found=True other=1 und=13
+control d=-1 capKka-w: found=True other=0 und=0
+control d=-1 cKpakK-w: found=True other=0 und=0
+control d=-1 capAka-b: found=True other=1 und=0
+control d=1 capKkA-v: found=True other=0 und=0
+control d=1 capakK-v: found=True other=1 und=0
+control d=1 capKkK-v: found=True other=0 und=0
+control d=2 cApaka-b: found=True other=1 und=0
+control d=2 capAka-b: found=True other=1 und=0
+control d=2 capAkK-w: found=True other=1 und=0
+controls recovered 12/12
