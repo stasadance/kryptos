@@ -61,3 +61,13 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Test:** 2,216,106 alphabets from 370k English words (keyword+rest, keyword+continue, columnar-keyed, each also reversed). 10,126 pass the filter (7,994 distinct). Each survivor then gets the exact fixed-alphabet grid test at widths 7/14/21/28/35/42, every offset: Quagmire III (β=α), plus two alphabets with β ∈ {AZ, KA, reversed AZ, reversed KA}. Script: `iterations/it08_keyword_alphabets.py`. Control: a planted keyword alphabet at w=7 was found.
 - **Result:** **0 hits at widths 7, 14, 21, 28 and 42.** The only hits are at w=35 (4 cycles): CHAVICIN, MEDALLIC, PADRINO, TINTOMETER and similar. The chance expectation there is about 0.6–2.5, so these are noise. **Refuted** for dictionary-keyword alphabets.
 - **Remaining:** an arbitrary (non-dictionary) alphabet, which needs the better solver from it07; or a different mechanism for the doublets.
+
+## 2026-10-27 — Iteration 9: solver for the generic grid key (parked)
+- **Goal:** decide the generic width-7 grid key (arbitrary α, f, g) from the full text.
+- **Tried, all calibrated on planted controls:**
+  1. A penalty annealer over α and f, g: never reached crib consistency.
+  2. A row-optimised annealer (α and g annealed, each row's f chosen optimally): never reached crib consistency.
+  3. An exact kernel parametrisation: every crib-consistent (α, f, g) is X = 13·K₂t₂ + 14·K₁₃t₁₃ (mod 26), with kernels of dimension 24 mod 2 and 24 mod 13 (`iterations/it07/kernel.py`, `sak.c`). The cribs hold by construction, but annealing cannot remove the alphabet collisions (injectivity).
+- **Search-limited, not information-limited.** On planted controls, all three fail before K4 is even tried.
+- **Natural instances are already dead:** the obvious concrete form, a 7-letter keyword with a row progression (e.g. KRYPTOS + s·row), was refuted under fixed tableaux (it01), under one unknown alphabet (phase-1 keygen F1, exact), under two alphabets (it05), and with dictionary-keyword alphabets (it08).
+- **Status:** generic version PARKED. It needs either a constraint-programming formulation with a language objective, or a source-based value for g (the 7 column shifts).
