@@ -1,0 +1,11 @@
+configs 19236102, latin 280959, identity 22374, unique 15929, exact-not-excluded 10457
+  A-dec              configs   7721268 latin   98354
+  A-dec/chunk        configs    410904 latin    6772
+  B-k3form           configs   1640010 latin   26418
+  B-k3form/chunk     configs    303480 latin    5166
+  C-col              configs   2029128 latin   30071
+  C-col/chunk        configs   2809344 latin   45628
+  D-route            configs    390000 latin    4955
+  D-route/chunk      configs   2619840 latin   42814
+  E-k3rot            configs    550272 latin    8349
+  E-k3rot/chunk      configs    761856 latin   12432
