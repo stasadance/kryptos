@@ -102,3 +102,10 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Test.** `iterations/it14_doublet_overwrite.py`. Vig/Beau/varBeau × AZ/KA, periods 1..48, crib consistency with the 3 positions masked.
 - **Control.** Period-11 Vig/KA with planted overwrites: unmasked fails, masked recovers period 11 (and 22).
 - **Result.** K4: only periods 27–30 fit, and those carry no crib collisions at all (vacuous). Every identifiable period fails. Null rate of a spurious period ≤ 20 with 3 random masks: 0/20000. **Refuted.**
+
+## Iteration 15: the grid key does not explain the doublets (correction to it06/it07)
+- **Question.** It06 took the residue-4 doublets as evidence for a width-7 grid key k = f(row) + g(col). Does that model actually make doublets likely?
+- **Algebra.** Within a row, c_i = c_{i+1} ⇔ α(p_i) − α(p_{i+1}) = g(col+1) − g(col) = D. Doublets at that residue happen only when the plaintext bigram has α-difference D, which for English and a generic α is about 1/26: the same rate as a random key.
+- **Test.** `iterations/it15_grid_doublet_rate.py`, 100k English 97-letter windows (pg2600), random α, f, g vs. a structureless key.
+- **Result.** P(≥ 5 doublets at one residue of width 7): grid key 0.0019, random key 0.0008. Likelihood ratio ≈ 2.4, against the ~10⁴ the anomaly needs. **The grid-key reading of the doublets is wrong.** #8 loses its motivation; it07/it08/it12 refutations stand but the line is closed.
+- **What would explain it.** A mechanism with ciphertext feedback or deliberate copying at one column (c_{i+1} tied to c_i, not to a key difference), or chance/design by Sanborn. A copy-error mechanism under a periodic key is refuted (it14); under a non-periodic key it is untestable by cribs.
