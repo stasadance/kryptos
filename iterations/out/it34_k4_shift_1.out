@@ -1,0 +1,11 @@
+TOTAL mode=shift d=1 configs 19236102 gate-pass 16885 hits 0 time 170s
+  A-dec              configs   7721268 gate    12505 deep-hits 0
+  A-dec/chunk        configs    410904 gate       96 deep-hits 0
+  B-k3form           configs   1640010 gate      437 deep-hits 0
+  B-k3form/chunk     configs    303480 gate      116 deep-hits 0
+  C-col              configs   2029128 gate     1527 deep-hits 0
+  C-col/chunk        configs   2809344 gate      636 deep-hits 0
+  D-route            configs    390000 gate      448 deep-hits 0
+  D-route/chunk      configs   2619840 gate      573 deep-hits 0
+  E-k3rot            configs    550272 gate      423 deep-hits 0
+  E-k3rot/chunk      configs    761856 gate      124 deep-hits 0

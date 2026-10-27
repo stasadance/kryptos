@@ -249,3 +249,13 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Test.** `iterations/it33_runkey_shift.py`: the it23 kernel with the key index of the 11 BERLINCLOCK rows shifted by d ∈ {−2, −1, +1, +2} (letters omitted or inserted). All 45 role/form models. Sources: K1–K3 PT/CT, the KA tableau, Sanborn's dedication, WaPo 1990, the Declaration, the Constitution, the Book of the Dead, Carter vols 1–3, KJV; forward and reversed.
 - **Control.** 12 plants with a real slip (1–2 CT letters dropped or inserted at a random point between the cribs): **12/12 recovered**. Null: 4 random ciphertexts × 4 shifts × 19,900 offsets × 45 models: 0 passes.
 - **Result.** 96 runs (12 texts × fwd/rev × 4 shifts), 34.0M offset-shift positions × 45 models: **0 hits** (1,457 undecided at base cap, about 1e-6). **Refuted** for these sources.
+
+## 2026-10-27 — Iteration 34: are the transposed-key nulls robust to one crib carving error? (H-2104)
+- **Why.** w-synth flagged that the big exact nulls (w-transkey's 19.2M configs, the top-ranked family) assume all 24 crib letters are carved right. K1–K3 all have errors.
+- **Test.** `iterations/it34_transkey_err.py` reruns w-transkey's generators in two modes. **drop**: any one of the 24 crib rows may be wrong. **shift d** (±1, ±2): ciphertext letters omitted or inserted between the cribs. Models: the fixed tableaux (≤1 mismatch), plus one arbitrary alphabet vig1/beau1 under 4 numberings. A new fast necessary gate uses the integer crib relations (left null space of the crib incidence matrix, restricted to relations without the dropped row), then the exact `keygen.feasible` on survivors. Quagmire-III self models were not re-tested.
+- **Control.** `iterations/it34b_control.py`: 60/60 planted keys (drop: 40 with one corrupted crib letter; shift: 20).
+- **Result.**
+  - **Shift:** 0 hits at every d. The shuffled-CT null at d=1 also gives 0.
+  - **Drop:** 1 K4 hit and 0 on the shuffled null. The hit is a keyed alphabet LAYERTWO/KA decimated mod 97 (d=65, b=74), beau1, AZ1 numbering, with crib row 2 (position 24, S) wrong. I enumerated all 240 one-alphabet solutions (CP-SAT; `iterations/it34c_check_hit.py`). The best decrypt scores −666.9 in quadgrams (English is about −400) and is gibberish: `BFWZKOOQXPBZ…EAETNORTHEAST…`. So it is a chance consistency.
+  - K4's drop gate passes 13× more configs than the shuffled null (538k vs 42k). That comes from K4's crib-graph structure, which has fewer independent relations, not from evidence for the model.
+- **Conclusion.** **H-2104 answered for w-transkey:** its null holds under one crib carving error or a 1–2 letter slip between the cribs.

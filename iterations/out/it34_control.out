@@ -1,0 +1,61 @@
+drop vig1 AZ0 bad row 21: gate=True found=True hits=[('vig1', 'AZ0', 21)]
+drop beau1 AZ1 bad row 2: gate=True found=True hits=[('beau1', 'AZ1', 2)]
+drop vig1 KA0 bad row 22: gate=True found=True hits=[('vig1', 'KA0', 22)]
+drop beau1 KA1 bad row 3: gate=True found=True hits=[('beau1', 'KA1', 3)]
+drop vig1 AZ0 bad row 5: gate=True found=True hits=[('vig1', 'AZ0', 5), ('vig1', 'AZ0', 23)]
+drop beau1 AZ1 bad row 21: gate=True found=True hits=[('beau1', 'AZ1', 5), ('beau1', 'AZ1', 21)]
+drop vig1 KA0 bad row 19: gate=True found=True hits=[('vig1', 'KA0', 19)]
+drop beau1 KA1 bad row 3: gate=True found=True hits=[('beau1', 'KA1', 3)]
+drop vig1 AZ0 bad row 10: gate=True found=True hits=[('vig1', 'AZ0', 10)]
+drop beau1 AZ1 bad row 4: gate=True found=True hits=[('beau1', 'AZ1', 4)]
+drop vig1 KA0 bad row 19: gate=True found=True hits=[('vig1', 'KA0', 15), ('vig1', 'KA0', 19), ('vig1', 'KA0', 22)]
+drop beau1 KA1 bad row 20: gate=True found=True hits=[('beau1', 'KA1', 20)]
+drop vig1 AZ0 bad row 19: gate=True found=True hits=[('vig1', 'AZ0', 19)]
+drop beau1 AZ1 bad row 13: gate=True found=True hits=[('beau1', 'AZ1', 13)]
+drop vig1 KA0 bad row 0: gate=True found=True hits=[('vig1', 'KA0', 0)]
+drop beau1 KA1 bad row 5: gate=True found=True hits=[('beau1', 'KA1', 5)]
+drop vig1 AZ0 bad row 3: gate=True found=True hits=[('vig1', 'AZ0', 3)]
+drop beau1 AZ1 bad row 8: gate=True found=True hits=[('beau1', 'AZ1', 8)]
+drop vig1 KA0 bad row 12: gate=True found=True hits=[('vig1', 'KA0', 12)]
+drop beau1 KA1 bad row 11: gate=True found=True hits=[('beau1', 'KA1', 11)]
+drop vig1 AZ0 bad row 17: gate=True found=True hits=[('vig1', 'AZ0', 17)]
+drop beau1 AZ1 bad row 8: gate=True found=True hits=[('beau1', 'AZ1', 8)]
+drop vig1 KA0 bad row 0: gate=True found=True hits=[('vig1', 'KA0', 0)]
+drop beau1 KA1 bad row 5: gate=True found=True hits=[('beau1', 'KA1', 5), ('beau1', 'KA1', 18), ('beau1', 'KA1', 23)]
+drop vig1 AZ0 bad row 3: gate=True found=True hits=[('vig1', 'AZ0', 3)]
+drop beau1 AZ1 bad row 16: gate=True found=True hits=[('beau1', 'AZ1', 16)]
+drop vig1 KA0 bad row 21: gate=True found=True hits=[('vig1', 'KA0', 0), ('vig1', 'KA0', 1), ('vig1', 'KA0', 2)]
+drop beau1 KA1 bad row 23: gate=True found=True hits=[('beau1', 'KA1', 16), ('beau1', 'KA1', 21), ('beau1', 'KA1', 23)]
+drop vig1 AZ0 bad row 14: gate=True found=True hits=[('vig1', 'AZ0', 14)]
+drop beau1 AZ1 bad row 6: gate=True found=True hits=[('beau1', 'AZ1', 6), ('beau1', 'AZ1', 15)]
+drop vig1 KA0 bad row 12: gate=True found=True hits=[('vig1', 'KA0', 2), ('vig1', 'KA0', 12), ('vig1', 'KA0', 15)]
+drop beau1 KA1 bad row 9: gate=True found=True hits=[('beau1', 'KA1', 9)]
+drop vig1 AZ0 bad row 13: gate=True found=True hits=[('vig1', 'AZ0', 13)]
+drop beau1 AZ1 bad row 13: gate=True found=True hits=[('beau1', 'AZ1', 0), ('beau1', 'AZ1', 1), ('beau1', 'AZ1', 2)]
+drop vig1 KA0 bad row 2: gate=True found=True hits=[('vig1', 'KA0', 2), ('vig1', 'KA0', 11)]
+drop beau1 KA1 bad row 10: gate=True found=True hits=[('beau1', 'KA1', 10)]
+drop vig1 AZ0 bad row 9: gate=True found=True hits=[('vig1', 'AZ0', 9)]
+drop beau1 AZ1 bad row 11: gate=True found=True hits=[('beau1', 'AZ1', 11)]
+drop vig1 KA0 bad row 0: gate=True found=True hits=[('vig1', 'KA0', 0), ('vig1', 'KA0', 13)]
+drop beau1 KA1 bad row 5: gate=True found=True hits=[('beau1', 'KA1', 5)]
+shift -1 vig1 AZ0: gate=True found=True
+shift -1 beau1 AZ1: gate=True found=True
+shift -1 vig1 KA0: gate=True found=True
+shift -1 beau1 KA1: gate=True found=True
+shift -1 vig1 AZ0: gate=True found=True
+shift -1 beau1 AZ1: gate=True found=True
+shift -1 vig1 KA0: gate=True found=True
+shift -1 beau1 KA1: gate=True found=True
+shift -1 vig1 AZ0: gate=True found=True
+shift -1 beau1 AZ1: gate=True found=True
+shift 1 vig1 AZ0: gate=True found=True
+shift 1 beau1 AZ1: gate=True found=True
+shift 1 vig1 KA0: gate=True found=True
+shift 1 beau1 KA1: gate=True found=True
+shift 1 vig1 AZ0: gate=True found=True
+shift 1 beau1 AZ1: gate=True found=True
+shift 1 vig1 KA0: gate=True found=True
+shift 1 beau1 KA1: gate=True found=True
+shift 1 vig1 AZ0: gate=True found=True
+shift 1 beau1 AZ1: gate=True found=True
+controls recovered 60/60
