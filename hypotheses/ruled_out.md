@@ -102,3 +102,5 @@ Format: - approach — why eliminated — evidence/source — who/date
 - Running key (it23 sources + KJV, 45 models, one unknown alphabet) with 1-2 CT letters omitted/inserted between the cribs (H-708): 0 hits over 34.0M offset-shifts, controls 12/12, null 0 — iterations/it33_runkey_shift.py, JOURNAL it33 — 2026-10-27
 
 - w-transkey transposed key streams (19.2M configs; fixed tableaux, vig1/beau1 under AZ/KA numberings) with ONE wrong crib letter or a 1-2 letter CT slip between the cribs (H-2104): shift 0 hits; drop 1 chance hit (gibberish, best -666.9); controls 60/60, shuffled null 0 — iterations/it34_transkey_err.py, JOURNAL it34 — 2026-10-27
+
+- w-keygen (900k streams) and w-route (3.18M) generator nulls with ONE wrong crib letter or a 1-2 letter slip between the cribs (H-2104): 1 chance hit (SHADOWFORCES progressive, gibberish best -617.8), else 0; controls 48/48, null 0 — iterations/it35_keygen_route_err.py, JOURNAL it35 — 2026-10-27

@@ -1,0 +1,97 @@
+HIT plant [('vig1', 10)]
+drop d=0 vig1: found=True
+HIT plant [('vig1', None)]
+shift d=1 vig1: found=True
+HIT plant [('vig1', None)]
+shift d=-2 vig1: found=True
+HIT plant [('beau1', 22)]
+drop d=0 beau1: found=True
+HIT plant [('beau1', None)]
+shift d=1 beau1: found=True
+HIT plant [('beau1', None)]
+shift d=-2 beau1: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', 4), ('vig1', 12)]
+drop d=0 fixed: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', None)]
+shift d=1 fixed: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', None)]
+shift d=-2 fixed: found=True
+HIT plant [('vig1', 2), ('vig1', 13)]
+drop d=0 vig1: found=True
+HIT plant [('vig1', None)]
+shift d=1 vig1: found=True
+HIT plant [('vig1', None)]
+shift d=-2 vig1: found=True
+HIT plant [('beau1', 11), ('beau1', 17)]
+drop d=0 beau1: found=True
+HIT plant [('beau1', None)]
+shift d=1 beau1: found=True
+HIT plant [('beau1', None)]
+shift d=-2 beau1: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', 1), ('vig1', 7)]
+drop d=0 fixed: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', None)]
+shift d=1 fixed: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', None)]
+shift d=-2 fixed: found=True
+HIT plant [('vig1', 14)]
+drop d=0 vig1: found=True
+HIT plant [('vig1', None)]
+shift d=1 vig1: found=True
+HIT plant [('vig1', None)]
+shift d=-2 vig1: found=True
+HIT plant [('beau1', 10)]
+drop d=0 beau1: found=True
+HIT plant [('beau1', None)]
+shift d=1 beau1: found=True
+HIT plant [('beau1', None)]
+shift d=-2 beau1: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', 3)]
+drop d=0 fixed: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', None)]
+shift d=1 fixed: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', None)]
+shift d=-2 fixed: found=True
+HIT plant [('vig1', 1)]
+drop d=0 vig1: found=True
+HIT plant [('vig1', None)]
+shift d=1 vig1: found=True
+HIT plant [('vig1', None)]
+shift d=-2 vig1: found=True
+HIT plant [('beau1', 0), ('beau1', 1), ('beau1', 2), ('beau1', 3), ('beau1', 4), ('beau1', 5), ('beau1', 6), ('beau1', 7), ('beau1', 8), ('beau1', 9), ('beau1', 10), ('beau1', 11), ('beau1', 12), ('beau1', 13), ('beau1', 14), ('beau1', 15), ('beau1', 16), ('beau1', 17), ('beau1', 18), ('beau1', 19), ('beau1', 20), ('beau1', 21), ('beau1', 22), ('beau1', 23)]
+drop d=0 beau1: found=True
+HIT plant [('beau1', None)]
+shift d=1 beau1: found=True
+HIT plant [('beau1', None)]
+shift d=-2 beau1: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', 9), ('vig1', 10)]
+drop d=0 fixed: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', None)]
+shift d=1 fixed: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', None)]
+shift d=-2 fixed: found=True
+HIT plant [('vig1', 21)]
+drop d=0 vig1: found=True
+HIT plant [('vig1', None)]
+shift d=1 vig1: found=True
+HIT plant [('vig1', None)]
+shift d=-2 vig1: found=True
+HIT plant [('beau1', 2), ('beau1', 17)]
+drop d=0 beau1: found=True
+HIT plant [('beau1', None)]
+shift d=1 beau1: found=True
+HIT plant [('beau1', None)]
+shift d=-2 beau1: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', 12)]
+drop d=0 fixed: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', None)]
+shift d=1 fixed: found=True
+HIT plant [('fixed', 'AZ', 'AZ', 'vig'), ('vig1', None)]
+shift d=-2 fixed: found=True
+HIT plant [('vig1', 1), ('vig1', 3), ('vig1', 5), ('vig1', 6), ('vig1', 8), ('vig1', 15), ('vig1', 23)]
+drop d=0 vig1: found=True
+HIT plant [('vig1', None)]
+shift d=1 vig1: found=True
+HIT plant [('vig1', None)]
+shift d=-2 vig1: found=True
+controls recovered 48/48

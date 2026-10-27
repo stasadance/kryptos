@@ -259,3 +259,15 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - **Drop:** 1 K4 hit and 0 on the shuffled null. The hit is a keyed alphabet LAYERTWO/KA decimated mod 97 (d=65, b=74), beau1, AZ1 numbering, with crib row 2 (position 24, S) wrong. I enumerated all 240 one-alphabet solutions (CP-SAT; `iterations/it34c_check_hit.py`). The best decrypt scores −666.9 in quadgrams (English is about −400) and is gibberish: `BFWZKOOQXPBZ…EAETNORTHEAST…`. So it is a chance consistency.
   - K4's drop gate passes 13× more configs than the shuffled null (538k vs 42k). That comes from K4's crib-graph structure, which has fewer independent relations, not from evidence for the model.
 - **Conclusion.** **H-2104 answered for w-transkey:** its null holds under one crib carving error or a 1–2 letter slip between the cribs.
+
+## 2026-10-27 — Iteration 35: keyword-generator and grid-route nulls under one crib error (H-2104, continued)
+- **Test.** `iterations/it35_keygen_route_err.py`, the same gate as it34 applied to two families:
+  - w-keygen's families F0–F5 plus two-keyword: 900,272 value streams.
+  - w-route's route/overlay letter streams × 4 numberings: 3,183,320.
+  - Modes: drop (one wrong crib row) and shift ±1, ±2. Models: the 12 fixed tableaux and vig1/beau1.
+- **Control.** `iterations/it35b_control.py`: 48/48 planted.
+- **Result.**
+  - **Shift:** 0 hits in both families at every d.
+  - **Route drop:** 0 hits (null 0).
+  - **Keygen drop:** 1 K4 hit (null 0): SHADOWFORCES progressive (AZ0, o=3, m=3, s=12), beau1, consistent with row 5 or row 21 dropped. All 240 alphabet solutions for either drop decrypt to gibberish: best −617.8 (`HGOHUHLODUSWKNSASZVPFEASTNORTHEAST…`) against English at about −400 (`iterations/it35c_check_hit.py`). It is a chance consistency.
+- **Conclusion.** H-2104 is closed. All three big exact generator nulls (w-transkey, w-keygen, w-route) hold under one crib carving error or a 1–2 letter slip between the cribs.
