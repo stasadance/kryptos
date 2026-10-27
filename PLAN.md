@@ -26,7 +26,7 @@ Identifiability map of every open model class: `findings/STATUS-phase1.md`.
 |---|-----------|----------------|---------------|--------|
 | 1 | Key is a 2-D positional function on a grid layout: k = f(row) + g(col) for some width w | Sanborn's "visual/matrix" encoding; width-7/21 anomalies; NSA interval 7 | Exact linear solve on the 24 crib key values for each w and tableau; validate on planted key | REFUTED (it01) |
 | 2 | The 24 known KA key letters have internal structure (tableau walk, keyword fragments, alphabet order) | If K1/K2 tableau reused, these are the actual key letters | Structural analysis of `RDUMRIYWOYNKY`/`ELYOIECBAQK` against motivated generators; one prediction per idea | NEXT |
-| 3 | "Matrix codes Ed gave me" names a concrete hand system | Sanborn, Wired 2005 | Source research → concrete rule → exact crib test | queued |
+| 3 | "Matrix codes Ed gave me" names a concrete hand system | Sanborn, Wired 2005 | Source research → concrete rule → exact crib test | NEXT |
 | 4 | K5 in depth with K4 (shared key at same positions) | Sanborn 2025: same coding system, BERLINCLOCK at same positions | `workers/w-k5/k5_depth.py` once K5 is public | waiting on data |
 | 5 | Weltzeituhr face names as per-period alphabets (H-802) | BERLINCLOCK = World Clock | Needs pre-1997 face transcription; `tools/w-clock/face_test.py` ready | waiting on data |
 | 6 | One wrong crib letter hides a true hit in earlier exact screens | K1–K3 all had carving errors; every generator screen assumed error-free cribs (`findings/STATUS-phase1.md`) | Re-run the identifiable screens with each single crib position dropped (24 cases) plus a shuffled-ciphertext control | queued |
