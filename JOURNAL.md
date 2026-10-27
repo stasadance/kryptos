@@ -278,3 +278,12 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Method 2: CP-SAT.** `iterations/it36b_ptautokey_cpsat_probe.py`: alphabet and plaintext letter variables linked by element constraints, cribs fixed. Enumeration found only 2–34 of the consistent alphabets in 120 s, and never the true one. Bigram maximisation reached −13,836 against the truth's −10,747 in 300 s on one plant, and found no feasible point at all in 300 s on another.
 - **Status.** H-2103 stays **OPEN**. The model is identifiable in principle, but neither search recovers planted keys, so K4 was not run (a K4 null would mean nothing). A decisive test needs a search that copes with propagation. Two ideas: chain-wise beam search outward from the cribs (ring by ring, keeping the top-k partial alphabets), or SAT with a quadgram objective at a much larger budget.
 - **Addendum (two-stage search).** Stage 1 scores only the letters one step from a crib: the windows [21−L, 33+L] and [63−L, 73+L], where a wrong alphabet value cannot propagate. Stage 2 then uses the full score. It still fails: 0/2 controls at 3M × 4. The diagnostic (`iterations/it36c_local_window_diag.py`) shows why. Stage-1 optima beat the true alphabet's own window score (−206 to −222 vs −225 to −237) while sharing at most 1 alphabet value with it. The windows carry too little information, since each window letter is a nearly free function of about 2 alphabet values. So the information sits only in the long chains, and there the landscape is needle-like. This is a practical identifiability barrier for PT-autokey under an unknown alphabet at L = 6–12. H-2103 stays open.
+
+## 2026-10-27 — Iteration 37: data attempt, the pre-1997 Weltzeituhr per-face city list (H-802) — BLOCKED
+- **Goal.** H-802 needs the 24 per-face city lists (pre-1997 state) for `tools/w-clock/face_test.py`.
+- **Tried.**
+  - Wikimedia Commons API and upload: still HTTP 429.
+  - Flickr static: 429.
+  - Openverse API (`api.openverse.org`): works. It indexes 240 "Weltzeituhr" images, 4 of them historic: Commons "Weltzeituhr 19690930", "19700131040NR", Bundesarchiv 183-J1001-0301-001, Flickr "WELTZEITUHR 1972". But its thumbnail proxy serves only 600 px, which is unreadable for face text, and full size returns 500 (upstream 429).
+  - A fresh web search (extended) found no per-face text list, only the facts already known: 148 cities, 24 faces, names changed in 1997.
+- **Status.** Still blocked. The next options are a browser on the user's device, or a later retry when the rate limits lift.
