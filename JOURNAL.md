@@ -537,3 +537,12 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Conclusion.**
   - Base-26 lagged-Fibonacci keys with primers ≤ 4 are dead under any two alphabets.
   - Bases 17–25 at L = 4 keep 735 crib-consistent primers. They are unmotivated (the ACA Gromark is base 10), so I am not spending a full-text annealing run (about 3 h) on them.
+
+## 2026-10-28 — Iteration 59: keys from the digits of mathematical constants
+- **Hypothesis.** The key stream is the digits of π, e, φ, √2, √3, √5, ln 2 or Euler's γ (100k digits each, mpmath), started at any offset < 100k. It is used either as Gronsfeld digits or as non-overlapping 2-digit numbers mod 26, through either one alphabet (a(C) = a(P) + k) or two arbitrary alphabets (posC(C) = posP(P) + k, which covers Vig/Beau/Var/Quagmire with any alphabets).
+- **Test** (`iterations/it59_constant_digits.py`). First the alphabet-free X28 = X66 prefilter, then the exact union-find and packing check from `tools/gromark.solve`. Planted controls: 4/4 found.
+- **Result.**
+  - **One alphabet: 0 survivors** across all 1.6M streams. This is an exact refutation.
+  - **Two alphabets: 687 survivors**, about 43 per constant and stream kind per 100k offsets. That is the same rate as random keys (compare the Gromark iid rate of about 4·10⁻⁴), so it is not evidence.
+  - At the motivated starts (offsets 0–96) only π digit pairs at offset 97 survive, which is not a natural start.
+- **Conclusion.** Digit keys from these constants are dead under one alphabet. Under two arbitrary alphabets they are dead at every natural starting offset; the other offsets survive only at chance rate, and with no motivation I am not annealing them.
