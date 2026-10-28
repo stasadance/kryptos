@@ -1,0 +1,5 @@
+words 1152052 distinct keyed alphabets 656591
+it42 PT-autokey L<=13 hits: 0 []
+it43 Quag I-III by p: [(26, 208330)]
+it46 progressive by p: [(24, 20), (25, 15332)] [('HABITUELLER', 'Q2KA', 'B', 'perperiod', 24, 1), ('HABITUELLER', 'Q2KA', 'B', 'perperiod', 24, 14), ('HABITUELLER', 'Q2KA', 'B', 'perletter', 24, 6), ('HABITUELLER', 'Q2KA', 'B', 'perletter', 24, 19), ('GESTACHELTER', 'Q2KA', 'B', 'perperiod', 24, 1), ('GESTACHELTER', 'Q2KA', 'B', 'perperiod', 24, 14), ('GESTACHELTER', 'Q2KA', 'B', 'perletter', 24, 6), ('GESTACHELTER', 'Q2KA', 'B', 'perletter', 24, 19), ('GEHATSCHELTER', 'Q2KA', 'B', 'perperiod', 24, 1), ('GEHATSCHELTER', 'Q2KA', 'B', 'perperiod', 24, 14)]
+it47 CT-autokey by L: [(70, 4), (71, 4157), (72, 9349), (73, 64260)] [(-5.721433457874117, 1, 'OMBROLOGICAL', 73, 2, 0), (-6.077018908091953, 1, 'BIRNENMOST', 73, 1, 0), (-6.112416630699521, 1, 'DURATIONAL', 73, 1, 0)]

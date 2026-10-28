@@ -415,3 +415,16 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - That gives 3 + 34 + 35 + 25 = 97 letters.
 - **Result.** All about 90 legible letters match the Kryptos K4 ciphertext exactly. The first 1–2 letters of each row sit on the curved left edge and are not sharp enough to confirm, but row lengths force the same 97-letter count. The run starts right after the "?" (supports H-211). It ends with a single blank before K1 restarts, with no extra or extra-dotted letters.
 - **Status.** H-508 is **not supported**: no difference found in the legible 90+ letters. The ~6 edge letters stay unverified at this resolution; a higher-resolution photo would settle them.
+
+## 2026-10-28 — Iteration 50: keyword-alphabet kernels on ~1.15M words
+- **Test.** `iterations/it50_big_vocab.py` reruns the it42, it43, it46 and it47 kernels unchanged on a much larger vocabulary:
+  - dwyl english-words (370k);
+  - enz german-wordlist (686k; umlauts written both as AE/OE/UE/SS and as plain A/O/U);
+  - 60×60 pairs of motivated terms.
+  - Deduplicated by resulting keyed alphabet, that is **656,591 distinct alphabets**.
+- **Result.**
+  - PT-autokey L ≤ 13: 0.
+  - Quagmire I–III: only p = 26, which is vacuous.
+  - Progressive key: p = 25 at chance level, plus 20 passes at p = 24 (5 German words × 4 shift variants). These decrypt to gibberish, e.g. HABITUELLER: `ACCDSFZPGW.....ITSBIZEASTNORTHEAST.....PUZLXJCJJT…`.
+  - CT-autokey: only L ≥ 70. Best −5.72 (L = 73, 1 crib letter checked) against English −4.2.
+- **Conclusion.** The keyword-alphabet eliminations hold over about 657k distinct English and German keyword alphabets.
