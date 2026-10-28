@@ -668,3 +668,8 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - w = 7 is SAT in all forms. it72c measured the w = 7 null rate at 900 s: 8/10, 6/10 and 8/10 SAT. So w = 7 is at the null rate and is not a signal.
   - Every other w is SAT at about the null rate.
 - **Verdict:** the doublet alignment is not explained by a grid key with one alphabet. The model is crib-untestable at w = 7.
+
+## it73 — Chaocipher exact test, second attempt: a pure SAT encoding (it71d)
+- **Encoding:** one-hot wheel states at each of 53 steps, a one-hot zenith index, and the fixed permutation transitions as bi-implications, about 3.7M clauses, solved with CaDiCaL.
+- **Result:** the first planted control was still unsolved after 2 h and was stopped. The 29-letter gap of unknown PT is too much freedom for a naive encoding.
+- **Verdict:** Chaocipher stays INCONCLUSIVE. A dedicated solver is needed, e.g. propagation from both cribs with wheel-symmetry breaking, or a published known-plaintext attack (Rubin/Kirchner) adapted to two separate cribs.

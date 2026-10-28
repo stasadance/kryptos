@@ -138,3 +138,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it70 (H-1205): free small-digit key 0..m-1, one arbitrary alphabet: UNSAT for m<=5 in all forms. Two alphabets: UNSAT for m=2. m=6 feasibility is at the null rate (P≈0.125). Controls 6/6.
 - it71: Chaocipher not refuted (statistically compatible; DFS and CP-SAT exact tests inconclusive, controls UNKNOWN).
 - it72: grid key r(row)+c(col), one arbitrary alphabet: UNSAT w=6, 9, 19, 21 (all forms), plus 15 (Vig/Var) and 5, 10, 20 (Beau). w=7 SAT at the null rate (8/10). Controls 6/6.
+- it73: Chaocipher SAT encoding: the planted control was unsolved in 2 h, inconclusive (needs a dedicated two-crib known-plaintext attack).
