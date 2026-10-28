@@ -600,3 +600,10 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Test:** the number of repeated aligned digraphs. This is invariant to the table, and the maximum is taken over alignments and over any one deleted null.
 - **Result:** K4 scores 4. The null (shuffled K4) averages 3.21, with P(null ≥ K4) = 0.37. The planted control (English plus a random table plus a null) averages 8.85, with P(planted ≤ K4) = 0.062.
 - **Verdict:** K4 is null-like. A general 26-letter digraphic cipher is disfavoured at about 6% but not rejected; the test is weak at 97 letters.
+
+## it66 — H-1502: a repeated keyword pushed through any transposition, under one standard tableau
+- **Insight:** whatever the transposition (any width, any route), the key stream is a permutation of the periodic keyword stream. So every key letter derived from the cribs must be a keyword letter, with enough multiplicity. One check covers all transpositions at once.
+- **Derived key letters:** the 24 crib positions need 12–16 distinct key letters, depending on the model (AZ/KA × Vig/Beau/Var). So any keyword with fewer than 12 distinct letters is dead under every transposition: KRYPTOS, PALIMPSEST, ABSCISSA, BERLIN, CLOCK, and so on.
+- **Dictionary:** the 49,119-keyword set from it42. Zero keywords of length ≤ 30 pass. The only passes are 676–769-letter corpus run-ons, not real keywords.
+- **Control:** a random dictionary keyword is repeated, randomly permuted, and used to encrypt English. The true keyword passed in 12/12 trials.
+- **Verdict:** H-1502 is refuted for the AZ/KA standard tableaux. A mixed-alphabet variant remains open but is crib-weak.

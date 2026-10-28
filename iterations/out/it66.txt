@@ -1,0 +1,22 @@
+keywords 49119
+control BOUNTEOUS L=9 KA f=1: found=True hits=40
+control SIMPLIFYING L=11 KA f=0: found=True hits=22
+control CYRENAIC L=8 KA f=1: found=True hits=69
+control SHELEPH L=7 KA f=2: found=True hits=174
+control ENCUMBERED L=10 KA f=0: found=True hits=18
+control REVERSES L=8 KA f=2: found=True hits=754
+control QUATIENS L=8 KA f=1: found=True hits=46
+control IMAGINETH L=9 KA f=2: found=True hits=39
+control WINDIGATE L=9 AZ f=1: found=True hits=16
+control NAVIGATING L=10 AZ f=2: found=True hits=108
+control CONFESSING L=10 KA f=0: found=True hits=17
+control ALIAM L=5 KA f=2: found=True hits=1200
+controls 12/12
+AZ 0 key letters needed: AABCCCDGGKKKLLMNORUYYYZZ distinct 14
+AZ 1 key letters needed: BCDEGGGGJJKKKKKLLOOORTUU distinct 12
+AZ 2 key letters needed: AABBCCCGJMNOPPQQQUUXYYYZ distinct 14
+KA 0 key letters needed: ABCDEEIIKKLMNOOQRRUWYYYY distinct 16
+KA 1 key letters needed: AAADFFGGGJKKLNORRTTWWXXZ distinct 14
+KA 2 key letters needed: ABCEEIIJKKLMNOPSUUXXXXZZ distinct 16
+K4 hits 13 | keyword length <= 30: 0 []
+longer hits are corpus run-ons (>=100 letters, nearly pangrams): [676, 768, 769]
