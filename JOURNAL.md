@@ -484,3 +484,15 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - CT-autokey with an AZ/KA-indexed key under one arbitrary alphabet is dead for L ≤ 31 (exact) and for the 18 identifiable configs at L = 32–60.
   - The configs at L > 60 are information-limited.
   - The a(c′) variant is undecided above L = 31.
+
+## 2026-10-28 — Iteration 54: periodic Gronsfeld (digit key) through one arbitrary alphabet (H-1205 × periodic)
+- **Hypothesis.** a(C_i) = a(P_i) ⊕ k_{i mod p}, with key digits 0–9 (Gronsfeld, as the K2 coordinates suggest), one unknown mixed alphabet, Vig / Beau / Var. The reference model with digits 0–25 is Quagmire III with an arbitrary alphabet.
+- **Exact test** (z3, `iterations/it54_gronsfeld_arb.py`; planted controls SAT 4/4).
+  - Every form is UNSAT for p = 1–22, 24, 25, 34–40, 42–45 and 48.
+  - Feasible: Beaufort at p = 23, 26, 31–33, 46, 47; all three forms at p = 27–30; Vig and Var at p = 41.
+  - **The decimal restriction never changes the verdict:** m = 10 and m = 26 agree at every p. Each key class meets at most 1–2 cribs, so the cribs cannot see the key range.
+  - Null (`it54b_null.py`): shuffled K4 is feasible for Beaufort p = 23 in 18/50 trials (m = 10) and 25/50 (m = 26). K4's SAT there is ordinary.
+- **Full-text annealing** (`it54c_sa.py`: alphabet swaps plus digit resets, quadgrams plus crib penalty). Planted controls at p = 23 Beau, p = 30 Vig and p = 41 Var recovered only 40–45%, so the method fails. This matches H-1903: these periodic models are search- and information-limited at 97 letters.
+- **Conclusion.**
+  - Periodic Gronsfeld or Quagmire III with an arbitrary alphabet is dead at the periods listed above.
+  - At the feasible periods it cannot be decided from the cribs, and annealing cannot recover planted keys. It stays open but undecidable without key structure, such as a known digit string.

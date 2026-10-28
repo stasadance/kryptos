@@ -1,0 +1,2 @@
+null p=23 m=10 form=1: sat 18/50
+null p=23 m=26 form=1: sat 25/50
