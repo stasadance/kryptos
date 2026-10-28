@@ -156,7 +156,7 @@
 - Test: restrict alphabets to keyword-derived ones (small, enumerable from a word list) — exact check, not brute force on keys.
 - Result: pending.
 
-### H-601 H-301 resolved: Gromark fixed-alphabet variants dead; arbitrary-alphabet Gromark crib-unrefutable but disfavoured   [status: REFUTED (fixed/keyword alphabets) / DISFAVOURED (arb alphabets)]  w-gromark 2026-10-26
+### H-601 H-301 resolved: Gromark fixed-alphabet variants dead; arbitrary-alphabet Gromark crib-unrefutable but disfavoured   [status: REFUTED (fixed/keyword alphabets); arb two alphabets: no English on full-text annealing (it57, search-limited)]  w-gromark 2026-10-26
 - Claim (tests H-301): a Gromark key (k_{i+n}=k_i+k_{i+1} mod b) with some plain/cipher alphabet pair produced K4.
 - Rationale / sources: Bean HistoCrypt 2021 https://ecp.ep.liu.se/index.php/histocrypt/article/view/153 ; findings/w-crib-algebra.md §7.
 - Test: exact union-find + packing solver tools/gromark.py. It reproduces Bean's 39 (b10/5), 3 (b10/4) and 4 (b8/5) and passed a 200/200 planted-cipher control.

@@ -520,3 +520,10 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
     - Lags ≥ 32 pass at near-null rates (about 78%).
   - **PT-autokey is dead for every tableau** at L = 1–4 and 42 only. For L ≥ 5, too few crib cells have a known row.
 - **Conclusion.** Ciphertext autokey of any tableau is excluded at every lag ≤ 31 except 12. An arbitrary tableau at L = 12 fits the cribs exactly but has 26² unknowns, so it is unidentifiable without structure.
+
+## 2026-10-28 — Iteration 57: the 46 Gromark survivors under two arbitrary alphabets, judged on the full text
+- **Background.** H-601: Bean's 46 crib-consistent Gromark primers (b10/5: 39, b10/4: 3, b8/5: 4; recomputed with `tools/gromark.py scan`) were only disfavoured, because the crib-forced letters are too few to score.
+- **Test** (`iterations/it57_gromark_fulltext.py`). With the primer known, the key stream is known. So B(C) = A(P) + k is Quagmire IV with a known key stream, which H-2101 / it29 showed is identifiable by crib-exact full-text annealing (it05 `sa.c`, NALPH = 2, 8 restarts × 4M steps).
+- **Controls.** 6 planted encryptions (random primer, two random alphabets, English with cribs) scored −420 to −487. Truth was recovered at accuracy 0.99, 0.86, 0.74 and 0.71; the other two reached 0.55 and 0.54.
+- **K4.** For all 46 primers the best score is ≤ −495.2 (3301 b10/4), which is below every control, including the two only half-recovered ones. All decrypts are gibberish outside the cribs (`out/it57_k4_sorted.txt`).
+- **Conclusion.** No Gromark survivor gives English under two arbitrary alphabets. H-601 moves from "disfavoured" to "refuted by full-text annealing" at search-limited strength: the annealer recovers truth in 4/6 plants, so this is strong evidence but not proof.
