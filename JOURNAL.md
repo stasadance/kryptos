@@ -759,3 +759,6 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - Controls (it86b): 6/6 planted (3 deletions, 3 shifts) hit, 0/12000 decoys hit; exact hash misses deletion plants (tolerance needed and working).
 - Result: K4 0 hits / 37 chunks; null0 0 hits / 37 chunks.
 - Verdict: DEAD, including 1-error tolerance. Next: route/transkey stream fingerprints (coach item 1).
+
+### Correction (it85/it86 nulls)
+- The "null0" runs shuffled only NON-crib CT letters. The crib hash reads only crib positions, so those nulls are identical to K4 by construction (vacuous). The valid evidence for it85/86 is the analytic chance rate (~1e-15 expected collisions) plus the planted controls (it82 6/6, it86b 6/6). Verdicts stand. Future exact crib tests use nulls that randomise the CT at crib positions, or a random-key rate test (it87b).
