@@ -1,0 +1,9 @@
+form=0 m=5: K4 unsat | nulls sat 3/40
+form=0 m=6: K4 sat | nulls sat 5/40
+form=0 m=7: K4 sat | nulls sat 15/40
+form=1 m=5: K4 unsat | nulls sat 11/40
+form=1 m=6: K4 sat | nulls sat 22/40
+form=1 m=7: K4 sat | nulls sat 35/40
+form=2 m=5: K4 unsat | nulls sat 3/40
+form=2 m=6: K4 sat | nulls sat 5/40
+form=2 m=7: K4 sat | nulls sat 15/40

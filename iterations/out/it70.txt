@@ -1,0 +1,55 @@
+control m=3 form=1: sat
+control m=5 form=1: sat
+control m=2 form=1: sat
+control m=8 form=2: sat
+control m=2 form=2: sat
+control m=2 form=2: sat
+controls 6/6
+one alph form=0 m=2: K4 unsat | nulls sat 0/5
+one alph form=0 m=3: K4 unsat | nulls sat 0/5
+one alph form=0 m=4: K4 unsat | nulls sat 0/5
+one alph form=0 m=5: K4 unsat | nulls sat 0/5
+one alph form=0 m=6: K4 sat | nulls sat 0/5
+one alph form=0 m=7: K4 sat | nulls sat 3/5
+one alph form=0 m=8: K4 sat | nulls sat 3/5
+one alph form=0 m=9: K4 sat | nulls sat 3/5
+one alph form=0 m=10: K4 sat | nulls sat 3/5
+one alph form=0 m=11: K4 sat | nulls sat 3/5
+one alph form=0 m=12: K4 sat | nulls sat 3/5
+one alph form=0 m=13: K4 sat | nulls sat 3/5
+one alph form=1 m=2: K4 unsat | nulls sat 0/5
+one alph form=1 m=3: K4 unsat | nulls sat 0/5
+one alph form=1 m=4: K4 unsat | nulls sat 0/5
+one alph form=1 m=5: K4 unsat | nulls sat 1/5
+one alph form=1 m=6: K4 sat | nulls sat 4/5
+one alph form=1 m=7: K4 sat | nulls sat 5/5
+one alph form=1 m=8: K4 sat | nulls sat 5/5
+one alph form=1 m=9: K4 sat | nulls sat 5/5
+one alph form=1 m=10: K4 sat | nulls sat 5/5
+one alph form=1 m=11: K4 sat | nulls sat 5/5
+one alph form=1 m=12: K4 sat | nulls sat 5/5
+one alph form=1 m=13: K4 sat | nulls sat 5/5
+one alph form=2 m=2: K4 unsat | nulls sat 0/5
+one alph form=2 m=3: K4 unsat | nulls sat 0/5
+one alph form=2 m=4: K4 unsat | nulls sat 0/5
+one alph form=2 m=5: K4 unsat | nulls sat 0/5
+one alph form=2 m=6: K4 sat | nulls sat 0/5
+one alph form=2 m=7: K4 sat | nulls sat 3/5
+one alph form=2 m=8: K4 sat | nulls sat 3/5
+one alph form=2 m=9: K4 sat | nulls sat 3/5
+one alph form=2 m=10: K4 sat | nulls sat 3/5
+one alph form=2 m=11: K4 sat | nulls sat 3/5
+one alph form=2 m=12: K4 sat | nulls sat 3/5
+one alph form=2 m=13: K4 sat | nulls sat 3/5
+two alph form=0 m=2: K4 unsat | nulls sat 0/5
+two alph form=0 m=3: K4 sat | nulls sat 4/5
+two alph form=0 m=4: K4 sat | nulls sat 5/5
+two alph form=0 m=5: K4 sat | nulls sat 5/5
+two alph form=0 m=6: K4 sat | nulls sat 5/5
+two alph form=0 m=7: K4 sat | nulls sat 5/5
+two alph form=0 m=8: K4 sat | nulls sat 5/5
+two alph form=0 m=9: K4 sat | nulls sat 5/5
+two alph form=0 m=10: K4 sat | nulls sat 5/5
+two alph form=0 m=11: K4 sat | nulls sat 5/5
+two alph form=0 m=12: K4 sat | nulls sat 5/5
+two alph form=0 m=13: K4 sat | nulls sat 5/5

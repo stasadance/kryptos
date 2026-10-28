@@ -632,3 +632,14 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Control:** encrypt, then delete or insert one CT letter. The true (p, d) was SAT in 6/6 runs, and 10/10 in an extra batch. A first plant had a bug at d = −1; it was fixed, and the K4 runs were unaffected.
 - **Result:** p = 1–13 is UNSAT for both d and all three forms. Some larger periods are feasible: 14, 15, 16 and 20 appear for particular (d, form) pairs, and 21–34 and 40–48 are scattered. That is about the null rate from it54, where 36% of periods were feasible at p = 23.
 - **Verdict:** a single omitted or inserted letter does not revive short-period one-alphabet keys. That leaves H-707/H-708 open only for longer periods or other families.
+
+## it70 — H-1205: a non-periodic small-digit key (each k_i free in 0..m−1) through mixed alphabets
+- **Test:** an exact z3 crib check for m = 2–13, with one alphabet (Vig/Beau/Var) and with two alphabets. Controls: 6/6 SAT.
+- **One alphabet:**
+  - m ≤ 5 is UNSAT in every form.
+  - m = 6 is SAT. it70b calibrated this against 40 nulls: the null SAT rate is 5/40 for Vig/Var and 22/40 for Beau. So K4's feasibility at m = 6 is mild (P ≈ 0.125), not a signal.
+  - m ≥ 7 is SAT at the null rate.
+- **Two alphabets:** m = 2 is UNSAT, and m ≥ 3 is SAT at the null rate.
+- **Verdict:**
+  - Small-digit masks are dead for m ≤ 5 under one alphabet and for m = 2 under two. This agrees with the it62 IC result for m ≤ 4.
+  - m ≥ 6 is not crib-testable. A full-text check would be meaningless overfitting, since each CT letter has m candidate PT letters.

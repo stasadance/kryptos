@@ -318,7 +318,7 @@
 ### H-1204 Linear or quadratic position key (Scheidt "non-linear is a quadratic way") under ANY alphabets   [status: REFUTED]  w-mask 2026-10-26
 - Result: the relations force a,b in {0,13}, i.e. period <=2, already dead.
 
-### H-1205 Small-digit (base m) key mask with mixed alphabets   [status: OPEN (constraint)]  w-mask 2026-10-26
+### H-1205 Small-digit (base m) key mask with mixed alphabets   [status: REFUTED m<=5 one alphabet, m=2 two alphabets (it70); m<=4 by IC (it62); larger m crib-untestable]  w-mask 2026-10-26
 - Result (z3): minimum m=3 with two arbitrary alphabets; m=6 with one mixed alphabet (Vig and Beau). Decimal Gronsfeld with an unknown single alphabet is crib-feasible.
 
 ### H-1206 Trifid (base-3 fractionation, 27-cell cube) mask   [status: REFUTED n<=9, n=11-13 at standard alignment; n=10 OPEN/disfavoured]  w-mask 2026-10-26
