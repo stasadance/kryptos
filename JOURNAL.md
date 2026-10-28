@@ -689,3 +689,12 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Control:** planted M-94 encryptions gave 4/4 found, each the unique hit.
 - **Result:** K4 has 0 hits at every o. The 3 nulls also give 0.
 - **Verdict:** a standard M-94 / CSP-488 cylinder is DEAD for K4, for any disk order and any offset.
+
+## it76 — Grid / "Kryptos cylinder" key k = r(row) + c(col) under the fixed AZ/KA tableaux
+- **Model:** the cylinder whose disks are tableau rows, with one generatrix per line.
+- **Test:** an exact bipartite potential check, for w = 2–96, every offset o, and AZ/KA × Vig/Beau/Var. Controls: 6/6 recovered.
+- **Result:**
+  - K4 is consistent only at w ≥ 26. There every crib column is isolated, so the check is vacuous; the nulls give the same counts (about 20.8k).
+  - Every width w ≤ 25 is DEAD for all offsets and models.
+  - The distinct-disk variant (each tableau row used once) also gives 0 for K4, but it is untested by the controls, so it is not claimed.
+- **Verdict:** the fixed-tableau grid/cylinder key is dead for line widths up to 25 (this includes 7, 21, 24 and 25). Wider lines are crib-untestable.

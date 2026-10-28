@@ -1,0 +1,12 @@
+control w=17 o=6: found=True total hits=20935
+control w=5 o=1: found=True total hits=20990
+control w=21 o=12: found=True total hits=20943
+control w=11 o=6: found=True total hits=20869
+control w=28 o=27: found=True total hits=20833
+control w=22 o=21: found=True total hits=20838
+controls 6/6
+K4 distinct=False: 20832 (alph,form,w,o) hits; widths [26, 27, 28, 29, 30, 31, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96]
+   nulls hits [20882, 20836, 20836, 20836, 20832]
+K4 distinct=True: 0 (alph,form,w,o) hits; widths []
+   nulls hits [0, 0, 0, 0, 0]
+   small-w hits: []
