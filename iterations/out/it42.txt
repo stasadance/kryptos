@@ -1,0 +1,9 @@
+keywords 49119
+control 0: SUB L=2 form=0 kr=2 found=True total hits=1
+control 1: SUBVERSION L=8 form=1 kr=2 found=True total hits=1
+control 2: CITIZENS L=4 form=2 kr=2 found=True total hits=1
+control 3: STRATEGIC L=1 form=0 kr=0 found=True total hits=1
+control 4: INDIFFERENCY L=5 form=1 kr=0 found=True total hits=1
+control 5: BROUSSE L=5 form=1 kr=0 found=True total hits=1
+controls 6/6
+K4: 0 crib-exact keyword configs (6s)

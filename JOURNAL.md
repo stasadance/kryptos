@@ -334,3 +334,12 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Test.** `iterations/it23_scan.py`, the exact crib test under one unknown mixed alphabet, 45 models; its kernel was validated by the it23 controls. Inputs: the read faces (UTC−9…+3/+4) of both layouts, in 5 orders: upper+lower per face, lower+upper, upper only, lower only, and the whole upper band then the whole lower band. Each text is scanned forwards and reversed, at every offset. Texts are 195–608 letters, in `data/clock_runkey/`.
 - **Result.** 0 hits, 0 undecided, across all 20 text/direction combinations.
 - **Conclusion.** The clock's legible text is not a running key under any one-alphabet model. The far faces are still unread, so a key window lying wholly on them stays untested.
+
+## 2026-10-28 — Iteration 42: PT-autokey under a KEYWORD-mixed alphabet (restricted H-2103 / H-1207)
+- **Why.** The general unknown-alphabet PT-autokey is search-limited (it36–38). Sanborn's K1–K3 alphabets are keyword-mixed (keyword followed by the rest of A–Z). Restricting to that construction makes the model exactly enumerable.
+- **Test.** `iterations/it42_autokey_keyword.py`. It reuses it36's exact decrypt(), which propagates the whole plaintext from the cribs.
+  - A config passes only if it reproduces the ENE-internal relations and BERLINCLOCK.
+  - Space: L = 1–13 × the 9 models (key value a(p) / AZ / KA × vig / beau / var) × 49,119 keywords. The keywords are every word of 3+ letters in the local corpora, plus K1–K3 plaintext word pairs, plus Kryptos and Berlin terms. That is 5.7M exact tests.
+  - **Controls: 6/6** planted keyword/L/model configs recovered. Each was the only hit among 2,001 keywords, so the false-positive rate is ≈ 0.
+- **Result.** **K4: 0 crib-exact configs.**
+- **Conclusion.** PT-autokey with L ≤ 13 is dead for every keyword alphabet in this 49k vocabulary, under all 9 models. That includes H-1207's Beaufort lag 7 with a keyword alphabet. Arbitrary (non-keyword) alphabets stay search-limited (H-2103 open).
