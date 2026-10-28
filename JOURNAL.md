@@ -681,3 +681,11 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - Chaocipher cannot be refuted or confirmed by the two cribs. This explains why the it71b/c/d solvers bog down.
   - A decision would need a language model over about 1e11 keys, which is out of scope under the no-brute-force rule.
   - Status: OPEN, crib-untestable.
+
+## it75 — The US Army M-94 cylinder with its 25 published disks
+- **Disks:** the alphabets from prc68.com and jproc.ca agree. They are saved in data/sources/m94_disks.txt.
+- **Model:** the PT is set in lines of 25, and the CT is read g = 1..25 rows away, with g fixed per line. The disk order is any of 25! permutations, and the line start offset o = 0..24.
+- **Test:** an exact check that enumerates g for each crib line and finds a disk assignment by bipartite matching. This covers all 25! orders at once.
+- **Control:** planted M-94 encryptions gave 4/4 found, each the unique hit.
+- **Result:** K4 has 0 hits at every o. The 3 nulls also give 0.
+- **Verdict:** a standard M-94 / CSP-488 cylinder is DEAD for K4, for any disk order and any offset.

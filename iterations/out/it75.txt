@@ -1,0 +1,34 @@
+control o=4: hits 1
+control o=13: hits 1
+control o=0: hits 1
+control o=6: hits 1
+controls 4/4
+K4 o=0: hits 0 []
+K4 o=1: hits 0 []
+K4 o=2: hits 0 []
+K4 o=3: hits 0 []
+K4 o=4: hits 0 []
+K4 o=5: hits 0 []
+K4 o=6: hits 0 []
+K4 o=7: hits 0 []
+K4 o=8: hits 0 []
+K4 o=9: hits 0 []
+K4 o=10: hits 0 []
+K4 o=11: hits 0 []
+K4 o=12: hits 0 []
+K4 o=13: hits 0 []
+K4 o=14: hits 0 []
+K4 o=15: hits 0 []
+K4 o=16: hits 0 []
+K4 o=17: hits 0 []
+K4 o=18: hits 0 []
+K4 o=19: hits 0 []
+K4 o=20: hits 0 []
+K4 o=21: hits 0 []
+K4 o=22: hits 0 []
+K4 o=23: hits 0 []
+K4 o=24: hits 0 []
+K4 total 0
+null total 0
+null total 0
+null total 0
