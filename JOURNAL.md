@@ -546,3 +546,11 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - **Two alphabets: 687 survivors**, about 43 per constant and stream kind per 100k offsets. That is the same rate as random keys (compare the Gromark iid rate of about 4·10⁻⁴), so it is not evidence.
   - At the motivated starts (offsets 0–96) only π digit pairs at offset 97 survive, which is not a natural start.
 - **Conclusion.** Digit keys from these constants are dead under one alphabet. Under two arbitrary alphabets they are dead at every natural starting offset; the other offsets survive only at chance rate, and with no motivation I am not annealing them.
+
+## 2026-10-28 — Iteration 60: keys from simple integer sequences
+- **Hypothesis.** k_i = (m·s(i+o) + c) mod 26 for 25 classic sequences (primes, prime gaps, Fibonacci, Lucas, Pell, tribonacci, Padovan, squares, cubes, triangular, pentagonal, square-pyramidal, powers of 2/3/5/7/10, Catalan, digit sums, n³ + n), with offsets o < 200, every unit m and every c < 26. Checked under one alphabet and under two arbitrary alphabets (where m and c are absorbed).
+- **Test** (`iterations/it60_integer_sequences.py`): X28 = X66 prefilter, then the exact `gromark.solve`. Planted controls pass 4/4 under both models.
+- **Result.**
+  - **One alphabet: 0 survivors** (exact).
+  - **Two alphabets: 1 survivor**, the primes starting from the 151st prime (877) at offset 150. It is unmotivated and at chance rate (1 of 4000 sequence-offset pairs). Full-text annealing on it gives −540 (−5.75 per quadgram), which is gibberish.
+- **Conclusion.** None of these simple sequences is K4's key, under one or two alphabets.

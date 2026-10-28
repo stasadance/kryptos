@@ -1,0 +1,25 @@
+control triangular o=72 m=21 c=4: one-alph pass=True two-alph pass=True
+control pell o=5 m=21 c=7: one-alph pass=True two-alph pass=True
+control pentagonal o=143 m=19 c=12: one-alph pass=True two-alph pass=True
+control primegaps o=148 m=23 c=24: one-alph pass=True two-alph pass=True
+primes: two-alph 12, one-alph 0
+primegaps: two-alph 0, one-alph 0
+fib: two-alph 0, one-alph 0
+lucas: two-alph 0, one-alph 0
+pell: two-alph 0, one-alph 0
+trib: two-alph 0, one-alph 0
+padovan: two-alph 0, one-alph 0
+squares: two-alph 0, one-alph 0
+cubes: two-alph 0, one-alph 0
+triangular: two-alph 0, one-alph 0
+pentagonal: two-alph 0, one-alph 0
+sqpyr: two-alph 0, one-alph 0
+pow2: two-alph 0, one-alph 0
+pow3: two-alph 0, one-alph 0
+pow5: two-alph 0, one-alph 0
+pow7: two-alph 0, one-alph 0
+pow10: two-alph 0, one-alph 0
+catalan: two-alph 0, one-alph 0
+digitsum: two-alph 0, one-alph 0
+ncubes_mod: two-alph 0, one-alph 0
+total two-alph survivors 12 (of 48000 (seq,o,m)), one-alph survivors 0
