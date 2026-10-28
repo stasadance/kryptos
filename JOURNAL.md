@@ -776,3 +776,8 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - Controls: plants (English with the cribs, random A, B and key) recovered 19/20 at acc ≥ 0.8; found scores −394..−436. Null: K4 under 440 random 'two'-feasible keys: per-stream mean −503.8, max −470.9; Gumbel loc −507.8, scale 6.87.
 - K4: keygen best −481.3 (N=258); route best −478.7 (N=1142). Expected null max over N is −466 / −456, so Gumbel p ≈ 1.0. Per-stream mean −506.0 vs null −503.8. Best decrypts are gibberish. Fails §3 (ii) and (iii) (English band ≥ −456).
 - Verdict: H-1404 and H-1804 under two arbitrary alphabets are CLOSED (null band; the method is shown to identify the truth). Not run: 46 Gromark primers, 13.9k transkey Q4 survivors (sample later if warranted).
+
+## it89 — K5-readiness benchmark, phase 1 (class D: K5 encrypted with K4's key, two texts in depth)
+- Tool: iterations/it89/depth.c. SA over the P4 letters and the alphabet(s), with P5 derived via A(P5)=A(P4)+B(C5)−B(C4). Cribs fixed in P4; BERLINCLOCK at 63–73 in P5 (penalty). bench.py builds plants (two English texts, random key, alphabets per class).
+- Result (12 plants per class, R=8 × 4M, quadgram scorer): known tableau acc4 mean 0.24; one mixed alphabet 0.07; two alphabets 0.08. 0/36 recovered. In 36/36 the found score (≈ −750) beats the true score (≈ −859), so this is a MODEL failure, not a search failure: quadgrams can't separate two 97-letter texts in depth.
+- Verdict: K5 depth isn't usable with the current scorer. It needs a stronger LM (5/6-gram plus word-level). Phase 2 reruns with the W4 scorer.
