@@ -762,3 +762,10 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 
 ### Correction (it85/it86 nulls)
 - The "null0" runs shuffled only NON-crib CT letters. The crib hash reads only crib positions, so those nulls are identical to K4 by construction (vacuous). The valid evidence for it85/86 is the analytic chance rate (~1e-15 expected collisions) plus the planted controls (it82 6/6, it86b 6/6). Verdicts stand. Future exact crib tests use nulls that randomise the CT at crib positions, or a random-key rate test (it87b).
+
+## it87 — exact one-arbitrary-alphabet Quagmire I/II and two-alphabet Quagmire IV on all stream libraries
+- Hypothesis: K4 = Quagmire I (PA arbitrary, CA AZ/KA) or II (CA arbitrary, PA AZ/KA; vig/beau) or IV (both arbitrary), key = a stream from keygen (900k), w-route (3.18M incl. numberings) or w-transkey (19.2M configs x 4 numberings). Supersedes coach item 1 (keyword alphabets ⊂ arbitrary).
+- Test: exact (grouped equal/distinct values of the free alphabet). Q4: keygen.feasible('two') on alphabet-free Latin survivors.
+- Controls (it87b): plants 20/20 (Q1, Q2v, Q2b, Q4 x5). Random-key rate: Q1/Q2 0 of 2M; Latin 1.68%; Q4-two 2.5% of Latin survivors.
+- Results: Q1/Q2 0 hits in all three libraries (24.0M streams). Latin pass 1.53% / 1.61% / 1.46% (chance 1.68%). Q4-two per Latin survivor per numbering: 1.87% / 2.22% / 2.56% vs chance 2.5% → no excess.
+- Verdict: Quagmire I/II with ANY alphabet DEAD for every stream library. Quagmire IV with two arbitrary alphabets is crib-undecidable (at chance rate). 15.3k Q4 survivors would need language-model completion of both alphabets (W2 class).

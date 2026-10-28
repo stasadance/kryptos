@@ -1,0 +1,259 @@
+HIT F1-progressive ('PALIMPCEST', 'AZ0', 9, 21, 8) Q4-two
+HIT F1-progressive ('PALIMPCEST', 'AZ1', 9, 21, 8) Q4-two
+HIT F1-progressive ('PALIMPCEST', 'KA0', 6, 6, 10) Q4-two
+HIT F1-progressive ('PALIMPCEST', 'KA1', 6, 6, 10) Q4-two
+HIT F1-progressive ('ABSCISSA', 'KA0', 2, 2, 19) Q4-two
+HIT F1-progressive ('ABSCISSA', 'KA0', 3, 2, 5) Q4-two
+HIT F1-progressive ('ABSCISSA', 'KA1', 2, 2, 19) Q4-two
+HIT F1-progressive ('ABSCISSA', 'KA1', 3, 2, 5) Q4-two
+HIT F1-progressive ('IQLUSION', 'AZ0', 1, 4, 21) Q4-two
+HIT F1-progressive ('IQLUSION', 'AZ1', 1, 4, 21) Q4-two
+HIT F1-progressive ('IQLUSION', 'KA0', 7, 10, 20) Q4-two
+HIT F1-progressive ('IQLUSION', 'KA1', 7, 10, 20) Q4-two
+HIT F1-progressive ('ILLUSION', 'KA0', 5, 16, 5) Q4-two
+HIT F1-progressive ('ILLUSION', 'KA1', 5, 16, 5) Q4-two
+HIT F1-progressive ('LAYERTWO', 'KA0', 2, 26, 19) Q4-two
+HIT F1-progressive ('LAYERTWO', 'KA1', 2, 26, 19) Q4-two
+HIT F1-progressive ('BERLIN', 'AZ0', 1, 13, 11) Q4-two
+HIT F1-progressive ('BERLIN', 'AZ1', 1, 13, 11) Q4-two
+HIT F1-progressive ('CLOCK', 'AZ0', 0, 3, 14) Q4-two
+HIT F1-progressive ('CLOCK', 'AZ1', 0, 3, 14) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'AZ0', 4, 17, 23) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'AZ0', 4, 24, 17) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'AZ0', 5, 4, 6) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'AZ0', 6, 1, 12) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'AZ0', 6, 1, 25) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'AZ0', 6, 11, 22) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'AZ1', 4, 17, 23) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'AZ1', 4, 24, 17) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'AZ1', 5, 4, 6) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'AZ1', 6, 1, 12) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'AZ1', 6, 1, 25) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'AZ1', 6, 11, 22) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'KA0', 2, 15, 2) Q4-two
+HIT F1-progressive ('BERLINCLOCK', 'KA1', 2, 15, 2) Q4-two
+HIT F1-progressive ('NORTHEAST', 'AZ0', 2, 5, 24) Q4-two
+HIT F1-progressive ('NORTHEAST', 'AZ1', 2, 5, 24) Q4-two
+HIT F1-progressive ('EASTNORTHEAST', 'AZ0', 9, 7, 20) Q4-two
+HIT F1-progressive ('EASTNORTHEAST', 'AZ1', 9, 7, 20) Q4-two
+HIT F1-progressive ('EASTNORTHEAST', 'KA0', 0, 3, 4) Q4-two
+HIT F1-progressive ('EASTNORTHEAST', 'KA0', 2, 1, 15) Q4-two
+HIT F1-progressive ('EASTNORTHEAST', 'KA0', 7, 10, 22) Q4-two
+HIT F1-progressive ('EASTNORTHEAST', 'KA1', 0, 3, 4) Q4-two
+HIT F1-progressive ('EASTNORTHEAST', 'KA1', 2, 1, 15) Q4-two
+HIT F1-progressive ('EASTNORTHEAST', 'KA1', 7, 10, 22) Q4-two
+HIT F1-progressive ('SHADOW', 'KA0', 2, 12, 3) Q4-two
+HIT F1-progressive ('SHADOW', 'KA0', 2, 23, 9) Q4-two
+HIT F1-progressive ('SHADOW', 'KA0', 2, 24, 9) Q4-two
+HIT F1-progressive ('SHADOW', 'KA1', 2, 12, 3) Q4-two
+HIT F1-progressive ('SHADOW', 'KA1', 2, 23, 9) Q4-two
+HIT F1-progressive ('SHADOW', 'KA1', 2, 24, 9) Q4-two
+HIT F5-colperm ('SHADOW', 'inv', 32) Q4-two
+HIT F5-colperm ('SHADOW', 'inv', 38) Q4-two
+HIT F5-colperm ('SHADOW', 'inv', 44) Q4-two
+HIT F5-colperm ('SHADOW', 'inv', 50) Q4-two
+HIT F5-colperm ('SHADOW', 'inv', 56) Q4-two
+HIT F5-colperm ('SHADOW', 'inv', 62) Q4-two
+HIT F1-progressive ('LUCID', 'KA0', 2, 2, 11) Q4-two
+HIT F1-progressive ('LUCID', 'KA0', 3, 5, 4) Q4-two
+HIT F1-progressive ('LUCID', 'KA1', 2, 2, 11) Q4-two
+HIT F1-progressive ('LUCID', 'KA1', 3, 5, 4) Q4-two
+HIT F1-progressive ('SANBORN', 'AZ0', 3, 15, 24) Q4-two
+HIT F1-progressive ('SANBORN', 'AZ1', 3, 15, 24) Q4-two
+HIT F1-progressive ('SANBORN', 'KA0', 1, 9, 19) Q4-two
+HIT F1-progressive ('SANBORN', 'KA0', 3, 12, 6) Q4-two
+HIT F1-progressive ('SANBORN', 'KA0', 4, 12, 5) Q4-two
+HIT F1-progressive ('SANBORN', 'KA1', 1, 9, 19) Q4-two
+HIT F1-progressive ('SANBORN', 'KA1', 3, 12, 6) Q4-two
+HIT F1-progressive ('SANBORN', 'KA1', 4, 12, 5) Q4-two
+HIT F1-progressive ('SCHEIDT', 'AZ0', 1, 5, 18) Q4-two
+HIT F1-progressive ('SCHEIDT', 'AZ0', 2, 18, 10) Q4-two
+HIT F1-progressive ('SCHEIDT', 'AZ0', 2, 18, 23) Q4-two
+HIT F1-progressive ('SCHEIDT', 'AZ1', 1, 5, 18) Q4-two
+HIT F1-progressive ('SCHEIDT', 'AZ1', 2, 18, 10) Q4-two
+HIT F1-progressive ('SCHEIDT', 'AZ1', 2, 18, 23) Q4-two
+HIT F1-progressive ('SCHEIDT', 'KA0', 6, 11, 9) Q4-two
+HIT F1-progressive ('SCHEIDT', 'KA1', 6, 11, 9) Q4-two
+HIT F1-progressive ('LANGLEY', 'AZ0', 1, 23, 5) Q4-two
+HIT F1-progressive ('LANGLEY', 'AZ1', 1, 23, 5) Q4-two
+HIT F1-progressive ('TUTANKHAMUN', 'AZ0', 1, 14, 20) Q4-two
+HIT F1-progressive ('TUTANKHAMUN', 'AZ0', 3, 8, 9) Q4-two
+HIT F1-progressive ('TUTANKHAMUN', 'AZ0', 4, 2, 12) Q4-two
+HIT F1-progressive ('TUTANKHAMUN', 'AZ0', 6, 11, 3) Q4-two
+HIT F1-progressive ('TUTANKHAMUN', 'AZ1', 1, 14, 20) Q4-two
+HIT F1-progressive ('TUTANKHAMUN', 'AZ1', 3, 8, 9) Q4-two
+HIT F1-progressive ('TUTANKHAMUN', 'AZ1', 4, 2, 12) Q4-two
+HIT F1-progressive ('TUTANKHAMUN', 'AZ1', 6, 11, 3) Q4-two
+HIT F1-progressive ('TUTANKHAMUN', 'KA0', 8, 11, 25) Q4-two
+HIT F1-progressive ('TUTANKHAMUN', 'KA1', 8, 11, 25) Q4-two
+HIT F1-progressive ('CARTER', 'KA0', 4, 10, 1) Q4-two
+HIT F1-progressive ('CARTER', 'KA1', 4, 10, 1) Q4-two
+HIT F5-colperm ('CARTER', 'inv', 33) Q4-two
+HIT F5-colperm ('CARTER', 'inv', 39) Q4-two
+HIT F5-colperm ('CARTER', 'inv', 45) Q4-two
+HIT F5-colperm ('CARTER', 'inv', 51) Q4-two
+HIT F5-colperm ('CARTER', 'inv', 57) Q4-two
+HIT F5-colperm ('CARTER', 'inv', 63) Q4-two
+HIT F1-progressive ('VIRTUALLYINVISIBLE', 'AZ0', 14, 13, 5) Q4-two
+HIT F1-progressive ('VIRTUALLYINVISIBLE', 'AZ0', 14, 14, 5) Q4-two
+HIT F1-progressive ('VIRTUALLYINVISIBLE', 'AZ1', 14, 13, 5) Q4-two
+HIT F1-progressive ('VIRTUALLYINVISIBLE', 'AZ1', 14, 14, 5) Q4-two
+HIT F1-progressive ('VIRTUALLYINVISIBLE', 'KA0', 15, 7, 3) Q4-two
+HIT F1-progressive ('VIRTUALLYINVISIBLE', 'KA1', 15, 7, 3) Q4-two
+HIT F1-progressive ('SHADOWFORCES', 'AZ0', 3, 3, 12) Q4-two
+HIT F1-progressive ('SHADOWFORCES', 'AZ0', 11, 12, 4) Q4-two
+HIT F1-progressive ('SHADOWFORCES', 'AZ0', 11, 13, 4) Q4-two
+HIT F1-progressive ('SHADOWFORCES', 'AZ1', 3, 3, 12) Q4-two
+HIT F1-progressive ('SHADOWFORCES', 'AZ1', 11, 12, 4) Q4-two
+HIT F1-progressive ('SHADOWFORCES', 'AZ1', 11, 13, 4) Q4-two
+HIT F1-progressive ('SHADOWFORCES', 'KA0', 11, 5, 23) Q4-two
+HIT F1-progressive ('SHADOWFORCES', 'KA1', 11, 5, 23) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'AZ0', 9, 1, 6) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'AZ0', 9, 1, 19) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'AZ0', 9, 12, 24) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'AZ0', 10, 2, 2) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'AZ0', 10, 17, 6) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'AZ1', 9, 1, 6) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'AZ1', 9, 1, 19) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'AZ1', 9, 12, 24) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'AZ1', 10, 2, 2) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'AZ1', 10, 17, 6) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'KA0', 9, 14, 12) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'KA0', 10, 11, 3) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'KA0', 10, 13, 3) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'KA1', 9, 14, 12) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'KA1', 10, 11, 3) Q4-two
+HIT F1-progressive ('LUCIDMEMORY', 'KA1', 10, 13, 3) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'AZ0', 4, 10, 14) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'AZ0', 8, 1, 7) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'AZ0', 8, 1, 20) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'AZ0', 8, 18, 2) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'AZ0', 9, 2, 18) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'AZ1', 4, 10, 14) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'AZ1', 8, 1, 7) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'AZ1', 8, 1, 20) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'AZ1', 8, 18, 2) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'AZ1', 9, 2, 18) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'KA0', 5, 2, 5) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'KA0', 6, 3, 15) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'KA1', 5, 2, 5) Q4-two
+HIT F1-progressive ('TISYOURPOSITION', 'KA1', 6, 3, 15) Q4-two
+HIT F1-progressive ('DIGETALINTERPRETATIU', 'AZ0', 2, 26, 11) Q4-two
+HIT F1-progressive ('DIGETALINTERPRETATIU', 'AZ0', 17, 3, 7) Q4-two
+HIT F1-progressive ('DIGETALINTERPRETATIU', 'AZ1', 2, 26, 11) Q4-two
+HIT F1-progressive ('DIGETALINTERPRETATIU', 'AZ1', 17, 3, 7) Q4-two
+HIT F1-progressive ('DIGETALINTERPRETATIU', 'KA0', 2, 26, 15) Q4-two
+HIT F1-progressive ('DIGETALINTERPRETATIU', 'KA0', 10, 3, 10) Q4-two
+HIT F1-progressive ('DIGETALINTERPRETATIU', 'KA0', 18, 4, 14) Q4-two
+HIT F1-progressive ('DIGETALINTERPRETATIU', 'KA0', 19, 40, 13) Q4-two
+HIT F1-progressive ('DIGETALINTERPRETATIU', 'KA1', 2, 26, 15) Q4-two
+HIT F1-progressive ('DIGETALINTERPRETATIU', 'KA1', 10, 3, 10) Q4-two
+HIT F1-progressive ('DIGETALINTERPRETATIU', 'KA1', 18, 4, 14) Q4-two
+HIT F1-progressive ('DIGETALINTERPRETATIU', 'KA1', 19, 40, 13) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 4, 12, 1) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 4, 24, 3) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 4, 25, 3) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 8, 4, 6) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 10, 6, 23) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 11, 22, 4) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 15, 13, 21) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 6, 22) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 7, 17) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 12, 6) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 12, 19) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 14, 8) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 17, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 18, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 19, 12) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 19, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 20, 12) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 20, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 21, 12) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 21, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 24, 12) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 24, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 25, 12) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 19, 25, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 21, 15, 23) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 21, 16, 23) Q4-two
+HIT F3-chain26 ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ0', 'gromark', 43) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 4, 12, 1) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 4, 24, 3) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 4, 25, 3) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 8, 4, 6) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 10, 6, 23) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 11, 22, 4) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 15, 13, 21) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 6, 22) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 7, 17) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 12, 6) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 12, 19) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 14, 8) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 17, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 18, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 19, 12) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 19, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 20, 12) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 20, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 21, 12) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 21, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 24, 12) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 24, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 25, 12) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 19, 25, 25) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 21, 15, 23) Q4-two
+HIT F1-progressive ('KRYPTOSABCDEFGHIJLMNQUVWXZ', 'AZ1', 21, 16, 23) Q4-two
+HIT F2-twokey ('KRYPTOS', 'CLOCK', 'KA0', 1, 5, 0) Q4-two
+HIT F2-twokey ('KRYPTOS', 'CLOCK', 'KA0', 1, 6, 0) Q4-two
+HIT F2-twokey ('KRYPTOS', 'EASTNORTHEAST', 'KA0', 1, 1, 6) Q4-two
+HIT F2-twokey ('KRYPTOS', 'EASTNORTHEAST', 'KA0', 1, 3, 6) Q4-two
+HIT F2-twokey ('KRYPTOS', 'EASTNORTHEAST', 'KA0', 1, 4, 6) Q4-two
+HIT F2-twokey ('KRYPTOS', 'VIRTUALLYINVISIBLE', 'KA0', -1, 1, 12) Q4-two
+HIT F2-twokey ('KRYPTOS', 'VIRTUALLYINVISIBLE', 'KA0', -1, 3, 12) Q4-two
+HIT F2-twokey ('KRYPTOS', 'VIRTUALLYINVISIBLE', 'KA0', -1, 4, 12) Q4-two
+HIT F2-twokey ('PALIMPCEST', 'VIRTUALLYINVISIBLE', 'KA0', -1, 3, 6) Q4-two
+HIT F2-twokey ('ABSCISSA', 'BERLIN', 'AZ0', 1, 1, 3) Q4-two
+HIT F2-twokey ('IQLUSION', 'BERLIN', 'KA0', -1, 2, 4) Q4-two
+HIT F2-twokey ('ILLUSION', 'CARTER', 'AZ0', -1, 1, 4) Q4-two
+HIT F2-twokey ('ILLUSION', 'TISYOURPOSITION', 'AZ0', -1, 2, 0) Q4-two
+HIT F2-twokey ('LAYERTWO', 'EASTNORTHEAST', 'KA0', 1, 7, 3) Q4-two
+HIT F2-twokey ('LAYERTWO', 'DIGETALINTERPRETATIU', 'AZ0', 1, 3, 13) Q4-two
+HIT F2-twokey ('BERLIN', 'IQLUSION', 'KA0', -1, 4, 2) Q4-two
+HIT F2-twokey ('CLOCK', 'BERLINCLOCK', 'KA0', 1, 0, 3) Q4-two
+HIT F2-twokey ('CLOCK', 'SHADOWFORCES', 'KA0', -1, 1, 8) Q4-two
+HIT F2-twokey ('CLOCK', 'DIGETALINTERPRETATIU', 'KA0', 1, 1, 11) Q4-two
+HIT F2-twokey ('BERLINCLOCK', 'NORTHEAST', 'AZ0', -1, 2, 4) Q4-two
+HIT F2-twokey ('BERLINCLOCK', 'EASTNORTHEAST', 'AZ0', 1, 3, 5) Q4-two
+HIT F2-twokey ('BERLINCLOCK', 'SHADOW', 'AZ0', 1, 6, 5) Q4-two
+HIT F2-twokey ('BERLINCLOCK', 'SANBORN', 'AZ0', -1, 4, 6) Q4-two
+HIT F2-twokey ('BERLINCLOCK', 'SHADOWFORCES', 'AZ0', 1, 6, 11) Q4-two
+HIT F2-twokey ('BERLINCLOCK', 'DIGETALINTERPRETATIU', 'KA0', 1, 4, 11) Q4-two
+HIT F2-twokey ('NORTHEAST', 'BERLINCLOCK', 'AZ0', -1, 4, 2) Q4-two
+HIT F2-twokey ('NORTHEAST', 'SCHEIDT', 'KA0', -1, 4, 4) Q4-two
+HIT F2-twokey ('EASTNORTHEAST', 'TUTANKHAMUN', 'KA0', 1, 5, 6) Q4-two
+HIT F2-twokey ('EASTNORTHEAST', 'VIRTUALLYINVISIBLE', 'KA0', 1, 7, 2) Q4-two
+HIT F2-twokey ('SHADOW', 'LUCIDMEMORY', 'KA0', -1, 2, 10) Q4-two
+HIT F2-twokey ('SHADOW', 'DIGETALINTERPRETATIU', 'AZ0', -1, 1, 16) Q4-two
+HIT F2-twokey ('SANBORN', 'BERLINCLOCK', 'AZ0', -1, 6, 4) Q4-two
+HIT F2-twokey ('SANBORN', 'TUTANKHAMUN', 'KA0', 1, 0, 5) Q4-two
+HIT F2-twokey ('SANBORN', 'VIRTUALLYINVISIBLE', 'AZ0', 1, 5, 9) Q4-two
+HIT F2-twokey ('SANBORN', 'VIRTUALLYINVISIBLE', 'AZ0', 1, 6, 13) Q4-two
+HIT F2-twokey ('SANBORN', 'SHADOWFORCES', 'AZ0', 1, 5, 10) Q4-two
+HIT F2-twokey ('SCHEIDT', 'NORTHEAST', 'KA0', -1, 4, 4) Q4-two
+HIT F2-twokey ('SCHEIDT', 'VIRTUALLYINVISIBLE', 'AZ0', 1, 4, 10) Q4-two
+HIT F2-twokey ('TUTANKHAMUN', 'CARTER', 'KA0', 1, 8, 4) Q4-two
+HIT F2-twokey ('TUTANKHAMUN', 'VIRTUALLYINVISIBLE', 'KA0', -1, 9, 15) Q4-two
+HIT F2-twokey ('TUTANKHAMUN', 'TISYOURPOSITION', 'KA0', -1, 5, 12) Q4-two
+HIT F2-twokey ('TUTANKHAMUN', 'DIGETALINTERPRETATIU', 'AZ0', 1, 7, 17) Q4-two
+HIT F2-twokey ('CARTER', 'ILLUSION', 'AZ0', -1, 4, 1) Q4-two
+HIT F2-twokey ('VIRTUALLYINVISIBLE', 'KRYPTOS', 'KA0', -1, 12, 1) Q4-two
+HIT F2-twokey ('VIRTUALLYINVISIBLE', 'KRYPTOS', 'KA0', -1, 12, 3) Q4-two
+HIT F2-twokey ('VIRTUALLYINVISIBLE', 'KRYPTOS', 'KA0', -1, 12, 4) Q4-two
+HIT F2-twokey ('VIRTUALLYINVISIBLE', 'PALIMPCEST', 'KA0', -1, 6, 3) Q4-two
+HIT F2-twokey ('VIRTUALLYINVISIBLE', 'TUTANKHAMUN', 'KA0', -1, 15, 9) Q4-two
+HIT F2-twokey ('SHADOWFORCES', 'CLOCK', 'KA0', -1, 8, 1) Q4-two
+HIT F2-twokey ('LUCIDMEMORY', 'SHADOW', 'KA0', -1, 10, 2) Q4-two
+HIT F2-twokey ('TISYOURPOSITION', 'ILLUSION', 'AZ0', -1, 0, 2) Q4-two
+HIT F2-twokey ('TISYOURPOSITION', 'TUTANKHAMUN', 'KA0', -1, 12, 5) Q4-two
+HIT F2-twokey ('DIGETALINTERPRETATIU', 'SHADOW', 'AZ0', -1, 16, 1) Q4-two
+TOTAL keygen streams 900272 latin 13788 hits 258 time 23s

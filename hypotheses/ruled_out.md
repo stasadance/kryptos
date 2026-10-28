@@ -150,3 +150,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it83/84: periodic Q1-Q3 with 3.63M keyword alphabets (1.03M English+German words): p<=25 and p=34-48 have 0 passes. p=30-33 passes language-scored: K4 best -5.86, below every null max (-5.62..-5.78). Plants 6/6 and 4/4.
 - H-2201/it85: Quagmire I–IV with 3.63M keyword alphabets × 900k keygen key streams — 0 crib-exact hits (K4 and null). DEAD.
 - it86: it85 space with 1-error tolerance (single crib-letter deletion or BERLINCLOCK ±1) — 0 hits K4 and null, controls 6/6. DEAD.
+- it87: Quagmire I/II with any one arbitrary alphabet × keygen/route/transkey libraries (24M streams) — 0 exact hits, plants 20/20. DEAD. (Q4 two-alphabet at chance: undecidable by cribs.)
