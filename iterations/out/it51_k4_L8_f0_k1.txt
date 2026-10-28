@@ -1,0 +1,1 @@
+L=8 form=0 kr=1 nodes=2 solutions=0

@@ -1,0 +1,5 @@
+7 0 0 False L=7 form=0 kr=0 nodes=100000097(CAP) solutions=12 20s
+7 0 1 False L=7 form=0 kr=1 nodes=100000070(CAP) solutions=32 20s
+7 0 2 False L=7 form=0 kr=2 nodes=100000078(CAP) solutions=51 20s
+7 1 0 False L=7 form=1 kr=0 nodes=100000108(CAP) solutions=27 26s
+7 1 1 False L=7 form=1 kr=1 nodes=100000104(CAP) solutions=99 20s

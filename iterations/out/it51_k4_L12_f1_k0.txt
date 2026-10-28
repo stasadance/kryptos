@@ -1,0 +1,1 @@
+L=12 form=1 kr=0 nodes=1000000246(CAP) solutions=0

@@ -1,6 +1,6 @@
 # Plan
 
-_Last updated: 2026-10-27 (it36)_
+_Last updated: 2026-10-28 (it51)_
 
 ## Where we are
 The first phase (2026-10-26) was a broad survey, summarised in `findings/` and `hypotheses/ruled_out.md`:
@@ -29,6 +29,11 @@ Lesson from phase 1: wide sweeps gave negatives but no direction. From here on, 
 - **Open, search-limited:** PT-autokey L = 6–12 under one unknown alphabet (it36, H-2103). Annealing and CP-SAT both fail planted controls, and the windows one step from the cribs are uninformative. It needs a propagation-aware search.
 - **Data still wanted:** the pre-1997 Weltzeituhr per-face city list (H-802). Wikimedia, Flickr and Openverse return 429 to this container; retry later.
 - **Ops.** Long runs go as resumable harness background tasks of ≤2 h. Detached jobs die when the container is reclaimed. Loop state: `/mnt/project-files/k4/loop/thread_state.md`.
+
+## Session 2026-10-28 (it39–51) summary
+- it39 H-904 periodic + block shuffle; it40–41 Weltzeituhr faces (real pre-1997 data) refuted; it42–50 keyword-alphabet restrictions of autokey/Quagmire/progressive dead over 657k alphabets; it49 Antipodes K4 = Kryptos K4.
+- **it51 closes most of H-2103:** exact propagation solver (`iterations/c/akenum4.c`, soundness controls 33/36 complete+found). PT-autokey under one arbitrary alphabet is exactly dead at L=6–7, and at L=8–10 except one capped model each. All survivors at L≤13 are non-English (≤ −5.57 vs English min −5.39).
+- Open: L=11–13 beyond the node cap (needs LM-guided completion); capped beau models L=8–10.
 
 ## Key facts to reason from
 - K1/K2 = Vigenère with KRYPTOS-keyed alphabet (KA = KRYPTOSABCDEFGHIJLMNQUVWXZ). If K4 reuses that tableau, its key letters at the cribs are fully known:

@@ -16,16 +16,16 @@ def plant(rng, L, form, kr, eng):
         v = (a[pi[i]] + K) % 26 if form == 0 else ((K - a[pi[i]]) % 26 if form == 1 else (a[pi[i]] - K) % 26)
         ct.append(AZ[inv[v]])
     return ''.join(ct), a, ''.join(P)
-def run(ct, L, form, kr, maxsol=2000000, gauge=1, timeout=600):
-    r = subprocess.run(['iterations/c/akenum', ct, str(L), str(form), str(kr), str(maxsol), str(gauge)], capture_output=True, text=True, timeout=timeout)
+def run(ct, L, form, kr, maxsol=2000000, cap=400000000, timeout=600):
+    r = subprocess.run(['iterations/c/akenum2', ct, str(L), str(form), str(kr), str(maxsol), str(cap)], capture_output=True, text=True, timeout=timeout)
     sols = [l.split() for l in r.stdout.splitlines()]
     return sols, r.stderr.strip()
 def matches(sol, a, P, form, kr):
     av = list(map(int, sol[0].split(','))); pt = sol[1]
     # allow gauge shift for vig/var with kr 1/2
-    shifts = range(26) if (kr != 0 and form != 1) else [0]
+    shifts = range(26)
     for s in shifts:
-        if all(av[x] < 0 or (av[x] - s) % 26 == a[x] for x in range(26)):
+        if any(all(av[x] < 0 or (u * av[x] - s) % 26 == a[x] for x in range(26)) for u in (1,3,5,7,9,11,15,17,19,21,23,25)):
             if all(c == '.' or c == P[i] for i, c in enumerate(pt)): return True
     return False
 if __name__ == '__main__':
@@ -35,7 +35,7 @@ if __name__ == '__main__':
         for form in range(3):
             for kr in range(3):
                 ct, a, P = plant(rng, L, form, kr, eng)
-                try: sols, info = run(ct, L, form, kr, timeout=120)
+                try: sols, info = run(ct, L, form, kr, timeout=90)
                 except subprocess.TimeoutExpired: print(f'L={L} f={form} kr={kr}: TIMEOUT'); continue
                 found = any(matches(s, a, P, form, kr) for s in sols)
                 print(f'L={L} f={form} kr={kr}: found={found} | {info}', flush=True)

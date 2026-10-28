@@ -1,0 +1,1 @@
+tol=1000 L=7 form=1 kr=0 nodes=1735525024 solutions=0

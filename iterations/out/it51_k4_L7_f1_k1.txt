@@ -1,0 +1,1 @@
+L=7 form=1 kr=1 nodes=73 solutions=0

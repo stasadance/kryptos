@@ -428,3 +428,33 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - Progressive key: p = 25 at chance level, plus 20 passes at p = 24 (5 German words × 4 shift variants). These decrypt to gibberish, e.g. HABITUELLER: `ACCDSFZPGW.....ITSBIZEASTNORTHEAST.....PUZLXJCJJT…`.
   - CT-autokey: only L ≥ 70. Best −5.72 (L = 73, 1 crib letter checked) against English −4.2.
 - **Conclusion.** The keyword-alphabet eliminations hold over about 657k distinct English and German keyword alphabets.
+
+## 2026-10-28 — Iteration 51: exact propagation solver for PT-autokey L = 6–13 under one arbitrary alphabet (H-2103)
+- **Hypothesis.** K4 = plaintext autokey, lag L = 6–13, under ONE unknown mixed alphabet a: a(c) = a(p) ⊕ K(P_{i−L}), with K = a(q) / AZ index / KA index and ⊕ = Vig / Beau / Var (9 models). it36 annealing could not decide this, because it failed its own planted controls.
+- **Tool.** `iterations/c/akenum3.c` / `akenum4.c`: exact DFS over (partial alphabet, plaintext 34–62).
+  - Every relation R_j for 21+L ≤ j ≤ 73 is propagated in both directions. Forced steps go first, then a branch on the value of the unassigned letter referenced by the most open relations.
+  - kr0 models are homogeneous linear, so a → u·a (u a unit mod 26) is a symmetry. The first value is restricted to one representative per orbit, {0, 1, 2, 13}.
+  - Two discarded versions: v2 (no degree heuristic) missed the planted truth at L = 6; CP-SAT was far too slow.
+- **Controls.**
+  - Soundness (`it51g_sound.py`): planted English plus 8 true alphabet values as hints. 33/36 searches completed and contained the truth, at L = 6, 8, 10 and 13. The 3 incomplete ones are L = 13 kr0 runs that hit the cap. No completed search ever missed the truth.
+  - Null: random ciphertexts usually finish in under 10⁵ nodes with 0 solutions. So K4's fast completions are normal, not a sign of a bug.
+  - Unhinted planted runs at L = 6: truth found in 8/9 at 10⁸ nodes.
+- **K4 results** (`iterations/it51c_k4.sh`, cap 10⁹; reruns at 10¹⁰ in `out/it51h_*`):
+
+| L | complete, 0 solutions | complete, solutions | capped |
+|---|---|---|---|
+| 6 | 8 | beau/AZ: 108 | – |
+| 7 | 9 (beau/a(q) completed at 1.7·10⁹) | – | – |
+| 8 | 8 | – | beau/a(q): 98 solutions at 10¹⁰ |
+| 9 | 8 | – | beau/AZ: 41 |
+| 10 | 8 | – | beau/a(q): 14 (10¹⁰ rerun running) |
+| 11 | 4 (all kr1/kr2 except beau/AZ) | – | 5 |
+| 12 | 0 | – | 9 |
+| 13 | 0 | – | 9 |
+
+  - Every solution found was scored on the fully determined span 21–73 (`it51e_score.py`). English with the cribs inserted averages −4.37 per quadgram; the minimum over 2000 samples is −5.39. The **best K4 solution of all lags is −5.57** (L = 12 beau/AZ: `…ORIOSOFNTBYRELBHRTSIAHXBRSSCA…`), and every one is gibberish.
+  - The beau/AZ L = 6 count of 108 has P ≈ 0.017 against 60 shuffled-K4 nulls, which is not significant after 72 configs, and its best text scores −6.10.
+- **Conclusion.**
+  - PT-autokey with one arbitrary alphabet is **exactly refuted** for L = 6, L = 7 and, apart from one model each, L = 8, 9 and 10.
+  - For the capped models at L ≤ 11, every solution found is non-English.
+  - L = 12–13 is open beyond the cap. With ≤ 1 ENE-internal relation, the solution space there grows past enumeration, so a language-model completion is needed.

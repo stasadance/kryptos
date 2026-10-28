@@ -1,0 +1,5 @@
+8 0 0 False L=8 form=0 kr=0 nodes=100000129(CAP) solutions=0 21s
+8 0 1 False L=8 form=0 kr=1 nodes=100000083(CAP) solutions=122 20s
+8 0 2 False L=8 form=0 kr=2 nodes=100000069(CAP) solutions=9 19s
+8 1 0 False L=8 form=1 kr=0 nodes=100000151(CAP) solutions=0 21s
+8 1 1 False L=8 form=1 kr=1 nodes=100000135(CAP) solutions=51 21s

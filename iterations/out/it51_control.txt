@@ -1,0 +1,8 @@
+L=6 f=0 kr=0: found=False | L=6 form=0 kr=0 nodes=400000120(CAP) solutions=0
+L=6 f=0 kr=1: found=False | L=6 form=0 kr=1 nodes=400000083(CAP) solutions=29
+L=6 f=0 kr=2: found=True | L=6 form=0 kr=2 nodes=268342 solutions=4
+L=6 f=1 kr=0: found=False | L=6 form=1 kr=0 nodes=400000128(CAP) solutions=0
+L=6 f=1 kr=1: found=True | L=6 form=1 kr=1 nodes=400000078(CAP) solutions=25
+L=6 f=1 kr=2: found=True | L=6 form=1 kr=2 nodes=400000069(CAP) solutions=9
+L=6 f=2 kr=0: found=False | L=6 form=2 kr=0 nodes=400000137(CAP) solutions=0
+L=6 f=2 kr=1: found=True | L=6 form=2 kr=1 nodes=5078061 solutions=33

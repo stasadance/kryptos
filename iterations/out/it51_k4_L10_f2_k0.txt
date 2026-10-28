@@ -1,0 +1,1 @@
+L=10 form=2 kr=0 nodes=19325694 solutions=0
