@@ -23,7 +23,7 @@ def job(a):
     res = [l.split() for l in o if l.strip()]; b = max(res, key=lambda r: float(r[0]))
     acc4 = sum(b[2][i] == p4[i] for i in NC) / len(NC); acc5 = sum(b[3][i] == p5[i] for i in range(97) if not 63 <= i <= 73) / 86
     import numpy as np
-    Q=np.fromfile('/tmp/claude-0/it27/qg.bin',dtype=np.float32); qs=lambda t: float(sum(Q[((ord(t[i])-65)*17576+(ord(t[i+1])-65)*676+(ord(t[i+2])-65)*26+ord(t[i+3])-65)] for i in range(94)))
+    import os; L=os.environ.get('LM','/tmp/claude-0/it27/qg.bin'); O=int(os.environ.get('ORD','4')); Q=np.memmap(L,dtype=np.float32,mode='r'); qs=lambda t: float(sum(Q[sum((ord(t[i+j])-65)*26**(O-1-j) for j in range(O))] for i in range(97-O+1)))
     return dict(true=round(qs(''.join(p4))+qs(''.join(p5)),1), NA=NA, seed=seed, best=float(b[0]), viol=int(b[1]), acc4=round(acc4, 2), acc5=round(acc5, 2))
 if __name__ == '__main__':
     NA, n, R, IT = map(int, sys.argv[1:5]); lam = float(sys.argv[5])

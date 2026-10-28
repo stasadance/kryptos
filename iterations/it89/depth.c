@@ -7,19 +7,23 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include <sys/mman.h>
+#include <fcntl.h>
+int ORD=4; long PW=17576;
 static float*QG; int N=97,NA,c4[97],c5[97],fix4[97],fix5[97];
 unsigned long long rs; double rnd(){rs^=rs<<13;rs^=rs>>7;rs^=rs<<17;return (rs>>11)*(1.0/9007199254740992.0);}
 int ri(int n){return (int)(rnd()*n);}
 int A[26],Ai[26],B[26],p4[97],p5[97];
 void sync(){ for(int x=0;x<26;x++)Ai[A[x]]=x; if(NA==1)memcpy(B,A,sizeof A); }
 void der(){ for(int i=0;i<N;i++) p5[i]=Ai[((A[p4[i]]+B[c5[i]]-B[c4[i]])%26+26)%26]; }
-double qs(int*p){double s=0;for(int i=0;i+3<N;i++)s+=QG[((p[i]*26+p[i+1])*26+p[i+2])*26+p[i+3]];return s;}
+double qs(int*p){double s=0;long c=0;for(int i=0;i<N;i++){c=(c%PW)*26+p[i]; if(i>=ORD-1)s+=QG[c];}return s;}
 int viol(){int v=0;for(int i=0;i<N;i++)if(fix5[i]>=0&&p5[i]!=fix5[i])v++;return v;}
 int main(int argc,char**argv){
  NA=atoi(argv[1]); char*C4=argv[2],*C5=argv[3]; int R=atoi(argv[4]); long IT=atol(argv[5]); rs=strtoull(argv[6],0,10)*2654435761ULL+99; double lam=atof(argv[7]);
  for(int i=0;i<N;i++){c4[i]=C4[i]-65;c5[i]=C5[i]-65;fix4[i]=fix5[i]=-1;}
  const char*e="EASTNORTHEAST",*b="BERLINCLOCK"; for(int j=0;e[j];j++)fix4[21+j]=e[j]-65; for(int j=0;b[j];j++){fix4[63+j]=b[j]-65;fix5[63+j]=b[j]-65;}
- QG=malloc(4*456976); FILE*f=fopen("/tmp/claude-0/it27/qg.bin","rb"); if(fread(QG,4,456976,f)){} fclose(f);
+ char*lm=getenv("LM")?getenv("LM"):"/tmp/claude-0/it27/qg.bin"; ORD=getenv("ORD")?atoi(getenv("ORD")):4; PW=1; for(int j=0;j<ORD-1;j++)PW*=26;
+ int fd=open(lm,O_RDONLY); QG=mmap(0,4*PW*26,PROT_READ,MAP_SHARED,fd,0);
  int free4[97],nf=0; for(int i=0;i<N;i++) if(fix4[i]<0) free4[nf++]=i;
  for(int r=0;r<R;r++){
   for(int x=0;x<26;x++){A[x]=x;B[x]=x;}
