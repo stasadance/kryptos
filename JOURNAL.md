@@ -527,3 +527,13 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Controls.** 6 planted encryptions (random primer, two random alphabets, English with cribs) scored −420 to −487. Truth was recovered at accuracy 0.99, 0.86, 0.74 and 0.71; the other two reached 0.55 and 0.54.
 - **K4.** For all 46 primers the best score is ≤ −495.2 (3301 b10/4), which is below every control, including the two only half-recovered ones. All decrypts are gibberish outside the cribs (`out/it57_k4_sorted.txt`).
 - **Conclusion.** No Gromark survivor gives English under two arbitrary alphabets. H-601 moves from "disfavoured" to "refuted by full-text annealing" at search-limited strength: the annealer recovers truth in 4/6 plants, so this is strong evidence but not proof.
+
+## 2026-10-28 — Iteration 58: Gromark in bases 17–26 (H-601 open remainder)
+- **Test** (`iterations/it58_vimark.py`). Exact crib scan (`tools/gromark.py`, two arbitrary alphabets) for bases 17–26 (base 26 is the Vigenère-letter, "Vimark"-style key) with primer lengths 2–4. Planted controls: 8/8 true primers found among the survivors.
+- **Result** (`out/it58.txt`).
+  - **Base 26 has 0 survivors at L = 2, 3 and 4.**
+  - Bases 17–25 have none at L ≤ 3 except base 21, L = 3 (5 survivors). At L = 4 they have 2–206 each, 735 in total.
+  - Shuffled-K4 ciphertexts give 96 to 118k survivors at b26/4. Shuffling breaks K4's fixed crib coincidences, though, including the X28 = X66 condition that every Latin tableau needs (H-1209). So K4's 0 is structural, not a statistical anomaly, and shuffled K4 is the wrong null here.
+- **Conclusion.**
+  - Base-26 lagged-Fibonacci keys with primers ≤ 4 are dead under any two alphabets.
+  - Bases 17–25 at L = 4 keep 735 crib-consistent primers. They are unmotivated (the ACA Gromark is base 10), so I am not spending a full-text annealing run (about 3 h) on them.
