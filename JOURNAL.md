@@ -781,3 +781,10 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - Tool: iterations/it89/depth.c. SA over the P4 letters and the alphabet(s), with P5 derived via A(P5)=A(P4)+B(C5)−B(C4). Cribs fixed in P4; BERLINCLOCK at 63–73 in P5 (penalty). bench.py builds plants (two English texts, random key, alphabets per class).
 - Result (12 plants per class, R=8 × 4M, quadgram scorer): known tableau acc4 mean 0.24; one mixed alphabet 0.07; two alphabets 0.08. 0/36 recovered. In 36/36 the found score (≈ −750) beats the true score (≈ −859), so this is a MODEL failure, not a search failure: quadgrams can't separate two 97-letter texts in depth.
 - Verdict: K5 depth isn't usable with the current scorer. It needs a stronger LM (5/6-gram plus word-level). Phase 2 reruns with the W4 scorer.
+
+## it89 phase 2 — K5 depth benchmark with the 6-gram scorer
+- LM (tools/lm/build_lm.py): 58.5M Gutenberg letters, interpolated absolute discounting. Held-out D = 1.82 (4-gram), 2.11 (5-gram), 2.26 (6-gram) bits/letter.
+- Depth SA with the 6-gram (R=8 × 6M): known tableau acc4 0.18, found ≥ true in 10/12; one mixed alphabet acc4 0.08, found ≥ true 4/8. 0/20 recovered.
+- Why: a per-position key costs log2 26 = 4.70 bits/letter, and two texts supply 2·D = 4.52 bits/letter at the 6-gram level, so the margin is below zero. Depth-2 with an OTP-like key is NOT identifiable with character n-grams at 97 letters. It needs a word-level model (D ≈ 3+) or a structured key.
+- Correction to STATUS row P ("IDENTIFIABLE with standard or one alphabet"): only with a word-level LM or a structured key. With an unstructured key it is MARGINAL at best.
+- K5-day procedure: (1) k5_depth.py; key letters at 64–74 equal → same key. (2) If the key is structured (class A/B/C), every exact screen and it88's sa2 run on K4+K5 jointly, which doubles the crib/text evidence. (3) If the key is unstructured, depth needs a word-level two-text decoder (not built). Benchmark tools: iterations/it89/{depth.c,bench.py}.
