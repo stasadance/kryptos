@@ -324,7 +324,8 @@
 ### H-1206 Trifid (base-3 fractionation, 27-cell cube) mask   [status: REFUTED n<=9, n=11-13 at standard alignment; n=10 OPEN/disfavoured]  w-mask 2026-10-26
 - Result: z3 over arbitrary cubes (trifid.py). Also conflicts with Sanborn's 1:1 statement; 27th symbol absent (p~0.026).
 
-### H-1207 NSA 1992: PT-autokey lag 7 with an unknown mixed alphabet   [status: Vig REFUTED; Beau OPEN low]  w-mask 2026-10-26
+### H-1207 NSA 1992: PT-autokey lag 7 with an unknown mixed alphabet   [status: REFUTED (Vig and Beau, it51 exact)]  w-mask 2026-10-26
+- it51 (2026-10-28): exact propagation search (middle chain + BERLINCLOCK backward, not just crib-internal relations as in w-mask z3) completes with 0 solutions for Beau L=7 under key a(q)/AZ/KA (1.7e9 nodes for a(q)). REFUTED.
 - Result: Vig unsat for L=1-10. Beau SAT for L=6,7,8,10-12. SA over the alphabet for Beau L=7 found no crib-consistent English (inconclusive). Content-dependent key conflicts with H-208.
 
 ### H-1208 CT-autokey with an unknown single mixed alphabet   [status: REFUTED for L<=31]  w-mask 2026-10-26
@@ -487,7 +488,7 @@
 - Test: unicity budget (cribs 112.8 bits + 73·D; D4 measured 1.86) vs key entropy; cross-checked with w-anneal T19 spurious ≥ true at p≥30 and GEN nulls beating English.
 - Result: supported. Only new information (K5 depth, more cribs, alphabet/keyword restriction) can reopen them.
 
-### H-2103 Residual single-alphabet autokey models (CT-autokey SAT L, PT-autokey Beau L=6-12) are identifiable; earlier SA failure was search failure   [status: OPEN]  w-synth 2026-10-27
+### H-2103 Residual single-alphabet autokey models (CT-autokey SAT L, PT-autokey Beau L=6-12) are identifiable; earlier SA failure was search failure   [status: PT-autokey L=6-10 REFUTED (it51/52, exact + full-text); L=11-13 incomplete, survivors gibberish]  w-synth 2026-10-27
 - Test: vig1 known-key SA (CT-autokey) / chain-propagation search (PT-autokey) vs shuffled-K4 null.
 
 ### H-2104 Exact generator nulls (w-keygen, w-route, w-transkey; ~21M configs) are fragile to one crib-position carving error   [status: OPEN]  w-synth 2026-10-27
