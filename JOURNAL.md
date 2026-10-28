@@ -359,3 +359,18 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - **Controls: 6/6.** In the control runs, chance passes ran at 1–4 per 2,000 vocabulary words, all at large p.
 - **Result.** K4 has 1 consistent config: CT alphabet POSITION, PT alphabet SPEETIVE (not a word), Vig, p = 24. Its decrypt is gibberish (`DALJICJOFK.....OBVPBDEASTNORTHEAST.....IOHWEXALAIVICZXFSPB…`; 5 classes stay unfixed), so it is chance.
 - **Conclusion.** Quagmire IV with a motivated keyword alphabet paired with any vocabulary keyword alphabet is dead at p ≤ 25.
+
+## 2026-10-28 — Iteration 45: PT-autokey lag 14–96 under a keyword-mixed alphabet
+- **Test.** `iterations/it45_autokey_keyword_long.py`.
+  - Each crib letter is propagated along its lag chain both ways. A config passes if no conflict appears.
+  - Space: 49,119 keywords × L = 14–96 × 9 models. **Controls 6/6.**
+- **Crib stage.**
+  - **Dead:** L = 14–24 and 33–49, with 0 survivors.
+  - **Few survivors:** L = 25 (5), 31 (455), 32 (4), 50 (14).
+  - **Weak:** L = 26, 30, 51 and 52.
+  - **Crib-vacuous:** 27–29 and ≥ 53, where the cribs never interact.
+  - 20.8M configs pass in total.
+- **Language stage.** `iterations/it45b_score.py` scores every passing config by mean quadgram over its fully determined non-crib quadgrams (≥ 30 required).
+  - On 97-letter English windows this score has mean −4.21 and minimum −4.73.
+  - The **best K4 config scores −6.35** (JESHIMON, L = 29), far below English. The top 15 are all gibberish.
+- **Conclusion.** PT-autokey is dead under every keyword alphabet in the vocabulary at every lag 1–96 (it42 + it45). For the crib-vacuous lags, the propagated chains still fix 42–86 letters, and none read as English.
