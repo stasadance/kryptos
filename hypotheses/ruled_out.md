@@ -143,3 +143,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it75: M-94/CSP-488 cylinder (25 published disks), any disk order (matching), any generatrix per line, any line offset: 0 hits. Controls 4/4.
 - it76: grid/cylinder key r(row)+c(col) under the fixed AZ/KA tableaux (6 models): dead for every width w<=25 and every offset. w>=26 is vacuous. Controls 6/6.
 - it77: Hagelin M-209/C-38 pin-lug key: crib-untestable (K4 and all nulls SAT).
+- it79: PT-autokey L=11 at cap 1e10: vig/var under AZ and KA plus beau-KA exactly dead; the 449 capped survivors are all gibberish (best -6.60).

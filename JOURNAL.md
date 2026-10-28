@@ -707,3 +707,9 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 ## it78 — Decidability map
 - **Contents:** a consolidated map of DEAD, crib-untestable and open families from it51–it77, plus an information budget. It is in findings/decidability_map.md.
 - **Main point:** most remaining viable families are crib-untestable rather than open. Progress now needs either new constraints (more plaintext, physical clues) or language scoring over large key spaces, which the no-brute-force rule excludes.
+
+## it79 — PT-autokey at L=11 with a 10× larger node cap (1e10)
+- **Exact dead:** 5 of the 9 models (vig-AZ, vig-KA, beau-KA, var-AZ, var-KA) die in 27 nodes, the same as at cap 1e9.
+- **Capped:** the remaining 4 hit the cap: vig-a(q) with 0 solutions, beau-a(q) with 144, beau-AZ with 245, and var-a(q) with 60.
+- **Survivors:** all 449 were completed over the full text. The best scores are −6.60, −6.86 and −6.97 per quadgram, all gibberish (English is about −4.4).
+- **Verdict:** L=11 shows no English within 1e10 nodes. The a(q) models (one arbitrary alphabet) remain capped, so they are not exhaustively closed.
