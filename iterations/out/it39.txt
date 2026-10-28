@@ -1,0 +1,20 @@
+control: true delta consistent 75/75
+p | K4: #delta GEN-ok, TAB-ok list | null mean #delta GEN, P(any TAB)
+ 1 | GEN  0/1 TAB [] | null GEN 0.00 TAB 0.000
+ 2 | GEN  0/2 TAB [] | null GEN 0.00 TAB 0.000
+ 3 | GEN  0/3 TAB [] | null GEN 0.00 TAB 0.000
+ 4 | GEN  0/4 TAB [] | null GEN 0.00 TAB 0.000
+ 5 | GEN  0/5 TAB [] | null GEN 0.00 TAB 0.000
+ 6 | GEN  1/6 TAB [] | null GEN 0.24 TAB 0.000
+ 7 | GEN  0/7 TAB [] | null GEN 0.77 TAB 0.000
+ 8 | GEN  5/8 TAB [] | null GEN 1.00 TAB 0.000
+ 9 | GEN  0/9 TAB [] | null GEN 0.00 TAB 0.000
+10 | GEN  5/10 TAB [] | null GEN 2.32 TAB 0.000
+11 | GEN  7/11 TAB [] | null GEN 3.29 TAB 0.000
+12 | GEN  7/12 TAB [] | null GEN 4.28 TAB 0.000
+13 | GEN  8/13 TAB [] | null GEN 4.99 TAB 0.000
+14 | GEN  9/14 TAB [] | null GEN 5.62 TAB 0.000
+15 | GEN 10/15 TAB [] | null GEN 6.74 TAB 0.000
+16 | GEN 12/16 TAB [] | null GEN 7.57 TAB 0.000
+17 | GEN 12/17 TAB [] | null GEN 8.18 TAB 0.000
+18 | GEN 13/18 TAB [] | null GEN 9.46 TAB 0.000
