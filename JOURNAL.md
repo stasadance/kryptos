@@ -658,3 +658,13 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - it71b: a DFS over the zenith index, from step 21 to 73 with gauge i_21 = 0, exploded in the 29-letter gap. Controls and K4 all hit the cap.
   - it71c: CP-SAT with wheel-state permutations and element constraints could not find even a planted solution in 900 s (UNKNOWN).
 - **Verdict:** INCONCLUSIVE. Chaocipher is statistically compatible, and an exact refutation needs a stronger solver (meet-in-the-middle from both cribs, or a SAT encoding with symmetry breaking).
+
+## it72 — Grid key, k = r(row) + c(col), with r free per row and c periodic in w, through one arbitrary alphabet (H-402/H-403)
+- **Motivation:** 5 of K4's 6 CT doublets start at i ≡ 4 (mod 7). This model generalises periodic keys (constant r) and clock-hand keys (linear r).
+- **Test:** an exact z3 check for w = 2–34 in 3 forms. The 30 s UNKNOWN cases were rerun at 900 s (it72b), and all became SAT. Controls: 6/6.
+- **Result:**
+  - UNSAT in all forms at w = 6, 9, 19 and 21; form-specific UNSAT also at 15 (Vig/Var) and at 5, 10, 20 (Beau).
+  - So the width-21 grid key (H-402) is dead.
+  - w = 7 is SAT in all forms. it72c measured the w = 7 null rate at 900 s: 8/10, 6/10 and 8/10 SAT. So w = 7 is at the null rate and is not a signal.
+  - Every other w is SAT at about the null rate.
+- **Verdict:** the doublet alignment is not explained by a grid key with one alphabet. The model is crib-untestable at w = 7.
