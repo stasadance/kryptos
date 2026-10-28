@@ -32,4 +32,4 @@ def null(a):
 if __name__ == '__main__':
     m, n, R, IT = sys.argv[1], *map(int, sys.argv[2:5])
     with Pool(4) as P:
-        for r in P.imap(plant if m == 'plant' else null, [(1000+s, R, IT) for s in range(n)]): print(json.dumps(r), flush=True)
+        for r in P.imap(plant if m == 'plant' else null, [(int(__import__("os").environ.get("SEED0","1000"))+s, R, IT) for s in range(n)]): print(json.dumps(r), flush=True)

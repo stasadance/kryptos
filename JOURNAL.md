@@ -769,3 +769,10 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - Controls (it87b): plants 20/20 (Q1, Q2v, Q2b, Q4 x5). Random-key rate: Q1/Q2 0 of 2M; Latin 1.68%; Q4-two 2.5% of Latin survivors.
 - Results: Q1/Q2 0 hits in all three libraries (24.0M streams). Latin pass 1.53% / 1.61% / 1.46% (chance 1.68%). Q4-two per Latin survivor per numbering: 1.87% / 2.22% / 2.56% vs chance 2.5% → no excess.
 - Verdict: Quagmire I/II with ANY alphabet DEAD for every stream library. Quagmire IV with two arbitrary alphabets is crib-undecidable (at chance rate). 15.3k Q4 survivors would need language-model completion of both alphabets (W2 class).
+
+## it88 — W2: class-C full-text annealing (two arbitrary alphabets, known key stream) on all Q4 crib survivors
+- Hypothesis: one of the Q4-two crib-feasible streams (keygen 258 = H-1404; w-route 1142 = H-1804) is K4's key with two mixed alphabets; the cribs cannot decide this (≈11 bits), but the full text can.
+- Tool: iterations/it88/sa2.c, a new crib-EXACT annealer. Union-find solves the 24 crib equations B(C)−A(P)=k; crib components move as rigid shifts and free letters swap, so every state satisfies 24/24 cribs. R=8 restarts × 2M steps.
+- Controls: plants (English with the cribs, random A, B and key) recovered 19/20 at acc ≥ 0.8; found scores −394..−436. Null: K4 under 440 random 'two'-feasible keys: per-stream mean −503.8, max −470.9; Gumbel loc −507.8, scale 6.87.
+- K4: keygen best −481.3 (N=258); route best −478.7 (N=1142). Expected null max over N is −466 / −456, so Gumbel p ≈ 1.0. Per-stream mean −506.0 vs null −503.8. Best decrypts are gibberish. Fails §3 (ii) and (iii) (English band ≥ −456).
+- Verdict: H-1404 and H-1804 under two arbitrary alphabets are CLOSED (null band; the method is shown to identify the truth). Not run: 46 Gromark primers, 13.9k transkey Q4 survivors (sample later if warranted).

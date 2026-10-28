@@ -1,0 +1,10 @@
+null per-stream n=440 mean -503.8 max -470.9; Gumbel loc -507.81 scale 6.87
+plants true -456.4 -393.6 found min -435.74
+out_keygen.jsonl: N=258 K4 best -481.28; null E[max over N] -465.7; Gumbel p 0.996
+   F1-progressive ('DIGETALINTERPRETATIU', 'KA1', 10, 3, 10)
+   OANBINGNANAPARKMEFAGREASTNORTHEASTTTAROVEIMPSEORHOOUSTTWWELLBEDBERLINCLOCKEDCDITHEREQUALRYTORBGUH
+out_route.jsonl: N=1142 K4 best -478.67; null E[max over N] -455.5; Gumbel p 1.000
+   stream SCULPT_x1 r0f rows fwd o=594 AZ0
+   TZOVPUTURDIRTENKAIEOMEASTNORTHEASTOPCHACEHOFTHISSYFAPELIAMOMEHNBERLINCLOCKDFROLHESAWATEYESONYAFRX
+combined N=1400 best -478.67 p 1.000
+K4 per-stream mean -506.0 vs null mean -503.8

@@ -151,3 +151,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - H-2201/it85: Quagmire I–IV with 3.63M keyword alphabets × 900k keygen key streams — 0 crib-exact hits (K4 and null). DEAD.
 - it86: it85 space with 1-error tolerance (single crib-letter deletion or BERLINCLOCK ±1) — 0 hits K4 and null, controls 6/6. DEAD.
 - it87: Quagmire I/II with any one arbitrary alphabet × keygen/route/transkey libraries (24M streams) — 0 exact hits, plants 20/20. DEAD. (Q4 two-alphabet at chance: undecidable by cribs.)
+- it88: Q4 (two arbitrary alphabets) with keygen (258) and w-route (1142) crib-feasible streams, crib-exact full-text SA: K4 best −478.7 vs English plants ≥ −436 (19/20 recovered), null band. CLOSED (H-1404, H-1804).
