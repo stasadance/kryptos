@@ -494,7 +494,7 @@
 ### H-2104 Exact generator nulls (w-keygen, w-route, w-transkey; ~21M configs) are fragile to one crib-position carving error   [status: OPEN]  w-synth 2026-10-27
 - Test: rerun with 24 single-deletion sets and BERLINCLOCK ±1 shift; compare to a shuffled-CT control through the same pipeline.
 
-### H-2201 Keyword-mixed alphabets at dictionary scale (49k vocabulary) x {periodic Q1-Q4, autokey, running key, stream library}   [status: REFUTED for all tested combinations]  solver it42-47, it81c, it82 2026-10-28
+### H-2201 Keyword-mixed alphabets at dictionary scale (49k vocabulary) x {periodic Q1-Q4, autokey, running key, stream library}   [status: REFUTED for all tested combinations]  solver it42-47, it81c, it82-87 2026-10-28
 - it42: PT/CT-autokey with a keyword-alphabet tableau, 49k keywords, L = 1–13: 0 crib-exact configs. Controls 6/6.
 - it44: Q1–Q3 with any 49k keyword alphabet (other side AZ/KA), Vig/Beau, p = 1–25: 0 consistent. All passes are at p = 26 (vacuous). Controls 6/6.
 - it44b: Q4 with 60 motivated × 49k, p ≤ 25: 1 chance pass (POSITION/SPEETIVE p = 24), gibberish.
@@ -502,4 +502,8 @@
 - it46/47: the same eliminations with KRYPTOS-order, reversed, columnar-keyed and sorted-columnar keyword alphabets: only vacuous or chance passes.
 - it81c: English running key under 42.8k keyed Q3 tableaux: best −5.21 (IRREPARABLE), with null P = 0.025. Null-like.
 - it82 (coach W1 a3): 253k keyword alphabets (49k words × {keyed+AZ, keyed+KA, wrap} × {fwd, rev}) × Q1/Q2/Q3, plus Q4 with 138 motivated alphabets, × the 900k-stream keygen library (periodic, progressive, chain-add, interrupted, colperm, two-key), via exact hash of the 24 crib values. Expected chance collisions 3.5e-19. Controls 6/6. K4: 0 hits.
-- Open: p = 26–48 with English fill; a 300k + German wordlist; Q4 D×D; the route/transkey libraries (not stored on disk).
+- it83/84: 3.63M alphabets (370k EN + 686k DE words × constructions) × Q1–Q3 periodic: p ≤ 25 and p 34–48 give 0 passes; p 30–33 passes language-filled: K4 best −5.86, below the null maxima (−5.62 to −5.78). Plants 6/6 and 4/4.
+- it85: the 3.63M alphabets × Q1/Q2/Q3 plus Q4 (83 motivated, both roles) × 900k keygen streams, exact hash: K4 0 hits (expected chance ~1e-15).
+- it86 (W3): the same with 1-error tolerance (24 single-crib deletions, BERLINCLOCK ±1): K4 0 hits; plants 6/6. (The it85/86 "null0" runs shuffled only non-crib letters, so they were vacuous; the evidence is the analytic rate plus the plants.)
+- it87: SUPERSET. Quagmire I/II with ANY one arbitrary alphabet (the other AZ/KA), exact, over keygen (900k), w-route (3.18M) and w-transkey (19.2M × 4 numberings): 0 hits; plants 20/20. Quagmire IV with two arbitrary alphabets passes at the chance rate (2.6% of Latin survivors vs 2.5% random), so it is crib-undecidable and goes to it88 (class-C full-text SA).
+- Open: Q4 D×D (low priority); Q4 two-arbitrary on the stream libraries (it88).
