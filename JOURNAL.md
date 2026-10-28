@@ -582,3 +582,12 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Control:** encrypt English text (with the cribs planted) using the real key text at a random offset, once per model. The scan recovered 45/45.
 - **Result:** 0 hits and 0 undecided across about 20k offset × direction checks, in every model.
 - **Next:** continue the loop.
+
+## it64 — Column IC: transposition followed by a periodic key with arbitrary alphabets
+- **Hypothesis:** the lag-7 coincidence excess from it55 means K4 is some transposition of the PT, followed by period-p substitution with p arbitrary alphabets. Each column would then be monoalphabetic English, so the mean column IC would be about 0.064 for any alphabets and any transposition.
+- **Control:** shuffled English text with p random alphabets gives a mean column IC of about 0.064 at every p. The null (shuffled K4) gives about 0.036.
+- **Result:**
+  - K4's column IC is null-like at every p. At p=7 it is 0.0419 (null P = 0.20, planted P = 0.0085).
+  - Rejected at planted P < 0.01: p = 2–9, 12, 13. Marginal: p = 14 (0.025), 10 (0.043), 11 (0.064). Those columns are too short to decide.
+  - So the lag-7 excess is not period-7 structure.
+- **Context:** a web check found the K4 plaintext is still not public. It was sold at auction in Nov 2025.
