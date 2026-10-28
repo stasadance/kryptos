@@ -309,3 +309,22 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   3. The δ = 0 GEN forced text is too sparse to test: p = 8 forces 5 letters (I, N, L, E, L), p = 11 forces 6, and p = 12 and 13 force 3 each. A crib-free row shuffle at width 7 cannot add power.
   4. Verdict: the periodic branch of H-904 is exhausted at the exact level. What remains is the non-periodic-key branch (running or generated keys), which is covered by it23–35.
 - **Addendum (cross-check plus one new exact result).** it39d's δ = 0 column matches w-crib-algebra §2 for Q4: p = 8 and 13 are SAT, p = 11 is UNSAT. It also **settles the open case Q4 p = 12: UNSAT** (z3, 30 s limit, no unknowns). So with arbitrary independent PT and CT alphabets, Quagmire IV is dead at p = 12, which w-crib-algebra left undecided (its DFS did not finish).
+
+## 2026-10-28 — Iteration 40: the pre-1997 Weltzeituhr face text obtained; H-802 tested on the real faces — REFUTED
+- **Data (it37 was blocked).**
+  - Deutsche Fotothek serves full-size scans: `fotothek.slub-dresden.de/fotos/<coll>/<sub>/<bucket>/<id>.jpg`, 1,600 px, 42 "Weltzeituhr" hits.
+  - `i0.wp.com/upload.wikimedia.org/...` proxies Commons images past the 429. Openverse supplies the file names.
+  - Transcribed two pre-1997 states from the photos:
+    - **V1**, 1971–73: Fotothek df_hauptkatalog_0174584, elb_ddrbildarchiv_0011064/65.
+    - **V2**, 1990: elb_ddrbildarchiv_0009584, plus a 1990s postcard from Badisches Landesmuseum, read via Europeana.
+  - 14 and 13 of the 24 faces are read: UTC−9…+4 and −9…+3. The far side (+5…+12, −10, −11) has no legible photo yet.
+  - The layout changed twice. In 1969 NEW YORK sat alone on its own face. By the 1980s the lists were much longer (e.g. 0: REYKJAVIK DUBLIN LONDON LISSABON ALGIER MADEIRA BISSAU / CASABLANCA CONAKRY DAKAR BAMAKO ACCRA).
+  - Data: `data/weltzeituhr_V1.txt`, `data/weltzeituhr_V2.txt`, `data/weltzeituhr_faces_notes.md`. The scans are in `/mnt/project-files/k4/data/weltzeituhr/`.
+- **Test.** `iterations/it40_clock_faces.py`: one keyed alphabet per face, built from all of that face's names.
+  - Configs: 4 name orders (upper+lower, lower+upper, upper only, lower only) × AZ/KA fill × models S1–S4 (as in `tools/w-clock/face_test.py`) × 24 alignments × 2 directions. Unread faces are skipped.
+  - Every (alignment, direction) still puts **at least 8 crib pairs (median 14) on read faces**. A true config must satisfy all of them; chance per config is ≈ 26^-8.
+  - **Control:** planted configs are fully satisfied 10/10.
+- **Result.**
+  - K4's best config satisfies only 4 of 10 eligible pairs (V1) and 5 of 18 (V2). **No config is fully satisfied.**
+  - Null (200 permuted-crib CTs): max satisfied pairs has mean 4.1 and 95th percentile 5. K4 is exactly at the null.
+- **Conclusion.** **H-802 is REFUTED** for both pre-1997 layouts, all four name orders, both fills and all models. The far faces don't matter: every alignment is already killed on the read faces. Robustness: one mis-read name changes only one face's alphabet, and K4's best configs miss most of their pairs, not one face's worth. This closes the Weltzeituhr per-face-alphabet line (with H-801, H-803 and H-804 already refuted).
