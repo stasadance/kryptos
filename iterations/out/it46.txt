@@ -1,0 +1,38 @@
+control BLUFF Q2AZ V mode=0 p=19 s=5: found=True total=32
+control PERFORMERS Q1KA B mode=0 p=19 s=15: found=True total=12
+control PLEDGED Q1KA V mode=1 p=20 s=20: found=True total=16
+control VICTURI Q1KA V mode=1 p=7 s=18: found=True total=13
+control CONSPECTI Q1KA B mode=1 p=13 s=23: found=True total=32
+control CATEGORIES Q3 V mode=1 p=17 s=11: found=True total=30
+controls 6/6
+K4: 816 consistent; by p: [(25, 816)]
+('ABLUTION', 'Q1KA', 'V', 'perperiod', 25, 2)
+('ABLUTION', 'Q1KA', 'V', 'perperiod', 25, 15)
+('ABLUTION', 'Q1KA', 'V', 'perletter', 25, 11)
+('ABLUTION', 'Q1KA', 'V', 'perletter', 25, 24)
+('ACUTIORES', 'Q3', 'V', 'perperiod', 25, 1)
+('ACUTIORES', 'Q3', 'V', 'perperiod', 25, 14)
+('ACUTIORES', 'Q3', 'V', 'perletter', 25, 12)
+('ACUTIORES', 'Q3', 'V', 'perletter', 25, 25)
+('ADJOURN', 'Q1KA', 'B', 'perperiod', 25, 10)
+('ADJOURN', 'Q1KA', 'B', 'perperiod', 25, 23)
+('ADJOURN', 'Q1KA', 'B', 'perletter', 25, 3)
+('ADJOURN', 'Q1KA', 'B', 'perletter', 25, 16)
+('ADMONITION', 'Q1KA', 'B', 'perperiod', 25, 10)
+('ADMONITION', 'Q1KA', 'B', 'perperiod', 25, 23)
+('ADMONITION', 'Q1KA', 'B', 'perletter', 25, 3)
+('ADMONITION', 'Q1KA', 'B', 'perletter', 25, 16)
+('AGGRAVATED', 'Q1AZ', 'B', 'perperiod', 25, 6)
+('AGGRAVATED', 'Q1AZ', 'B', 'perperiod', 25, 19)
+('AGGRAVATED', 'Q1AZ', 'B', 'perletter', 25, 7)
+('AGGRAVATED', 'Q1AZ', 'B', 'perletter', 25, 20)
+('AGGRIEVED', 'Q1AZ', 'B', 'perperiod', 25, 6)
+('AGGRIEVED', 'Q1AZ', 'B', 'perperiod', 25, 19)
+('AGGRIEVED', 'Q1AZ', 'B', 'perletter', 25, 7)
+('AGGRIEVED', 'Q1AZ', 'B', 'perletter', 25, 20)
+('AGROUND', 'Q1KA', 'B', 'perperiod', 25, 10)
+('AGROUND', 'Q1KA', 'B', 'perperiod', 25, 23)
+('AGROUND', 'Q1KA', 'B', 'perletter', 25, 3)
+('AGROUND', 'Q1KA', 'B', 'perletter', 25, 16)
+('ALCHEMISTS', 'Q3', 'V', 'perperiod', 25, 7)
+('ALCHEMISTS', 'Q3', 'V', 'perperiod', 25, 20)

@@ -374,3 +374,10 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - On 97-letter English windows this score has mean −4.21 and minimum −4.73.
   - The **best K4 config scores −6.35** (JESHIMON, L = 29), far below English. The top 15 are all gibberish.
 - **Conclusion.** PT-autokey is dead under every keyword alphabet in the vocabulary at every lag 1–96 (it42 + it45). For the crib-vacuous lags, the propagated chains still fix 42–86 letters, and none read as English.
+
+## 2026-10-28 — Iteration 46: progressive periodic key under keyword alphabets
+- **Test.** `iterations/it46_progressive_keyword.py` (numba).
+  - Key: k_i = k[i mod p] + s·⌊i/p⌋ (shift per period) or + s·i (shift per letter).
+  - Space: 49,119 keywords × {Q1AZ, Q1KA, Q2AZ, Q2KA, Q3} × Vig/Beau × p = 1–25 × s = 1–25. **Controls 6/6.**
+- **Result.** **0 consistent at p ≤ 24.** All 816 passes are at p = 25. That period has only 3 cross-crib constraints (positions 21/71, 22/72, 23/73), which predicts about 1,400 chance passes, so 816 is chance level.
+- **Conclusion.** Progressive periodic keys under keyword Quagmire I–III alphabets are dead for p ≤ 24.
