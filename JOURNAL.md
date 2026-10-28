@@ -648,3 +648,13 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Run:** the rerun hit the 1e10 node cap with 520 crib-consistent solutions.
 - **Result:** the it52 full-text completion gives a best of −6.58 per quadgram, which is gibberish. English with cribs scores −4.37 on average, with a minimum of −5.39.
 - **Verdict:** none of the survivors so far is English. The model is still capped, not exhausted.
+
+## it71 — Chaocipher (Byrne): untested before this
+- **Implementation:** the published algorithm reproduces Rubin's test vector.
+- **Fingerprint test (it71):** 20k simulated Chaocipher CTs (English with K4's cribs, random wheels) were compared with K4 on IC and lag-1..12 coincidences.
+  - K4's IC sits at P = 0.23 under Chaocipher. Chaocipher is statistically flat, so it cannot be told apart from K4.
+  - The only deviation is the lag-7 excess already known from it55: K4 has 9 against a Chaocipher mean of 3.4.
+- **Exact crib test:**
+  - it71b: a DFS over the zenith index, from step 21 to 73 with gauge i_21 = 0, exploded in the 29-letter gap. Controls and K4 all hit the cap.
+  - it71c: CP-SAT with wheel-state permutations and element constraints could not find even a planted solution in 900 s (UNKNOWN).
+- **Verdict:** INCONCLUSIVE. Chaocipher is statistically compatible, and an exact refutation needs a stronger solver (meet-in-the-middle from both cribs, or a SAT encoding with symmetry breaking).

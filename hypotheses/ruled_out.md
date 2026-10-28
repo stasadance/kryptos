@@ -136,3 +136,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it68: running key with the key permuted by any transposition: K1-K3 PT windows fail the count test (dead). K1-K3 CT and tableau survivors under columnar w<=7: 0 exact hits. Controls 10/10, 4/4.
 - it69 (H-708): one omitted or inserted CT letter between the cribs, with a periodic Q3 key through one arbitrary alphabet: UNSAT at p=1-13 for both d=±1 and all forms. Controls 6/6.
 - it70 (H-1205): free small-digit key 0..m-1, one arbitrary alphabet: UNSAT for m<=5 in all forms. Two alphabets: UNSAT for m=2. m=6 feasibility is at the null rate (P≈0.125). Controls 6/6.
+- it71: Chaocipher not refuted (statistically compatible; DFS and CP-SAT exact tests inconclusive, controls UNKNOWN).
