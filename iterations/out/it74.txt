@@ -1,0 +1,3 @@
+lemma check: i-sequence from (L, CT) alone equals true sequence in 200/200
+crib letters 24, distinct 13, forced coincidences 11
+log10 E[#consistent left wheels] ~ 11.0

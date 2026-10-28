@@ -673,3 +673,11 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Encoding:** one-hot wheel states at each of 53 steps, a one-hot zenith index, and the fixed permutation transitions as bi-implications, about 3.7M clauses, solved with CaDiCaL.
 - **Result:** the first planted control was still unsolved after 2 h and was stopped. The 29-letter gap of unknown PT is too much freedom for a naive encoding.
 - **Verdict:** Chaocipher stays INCONCLUSIVE. A dedicated solver is needed, e.g. propagation from both cribs with wheel-symmetry breaking, or a published known-plaintext attack (Rubin/Kirchner) adapted to two separate cribs.
+
+## it74 — Chaocipher is crib-untestable, by an analytic bound
+- **Lemma:** the left (CT) wheel's trajectory is a function of the start wheel L and the CT alone, because i_t = L_t.index(C_t). Checked on 200/200 random runs.
+- **Consequence:** for each start wheel L, the right wheel only has to satisfy 24 position = letter constraints from the cribs. The cribs have 24 letters but only 13 distinct ones, so 11 position coincidences are forced, each with probability about 1/26. The expected number of consistent L is about 26! × 26^−11 ≈ 1e11 for any 97-letter CT.
+- **Verdict:**
+  - Chaocipher cannot be refuted or confirmed by the two cribs. This explains why the it71b/c/d solvers bog down.
+  - A decision would need a language model over about 1e11 keys, which is out of scope under the no-brute-force rule.
+  - Status: OPEN, crib-untestable.

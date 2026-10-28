@@ -139,3 +139,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it71: Chaocipher not refuted (statistically compatible; DFS and CP-SAT exact tests inconclusive, controls UNKNOWN).
 - it72: grid key r(row)+c(col), one arbitrary alphabet: UNSAT w=6, 9, 19, 21 (all forms), plus 15 (Vig/Var) and 5, 10, 20 (Beau). w=7 SAT at the null rate (8/10). Controls 6/6.
 - it73: Chaocipher SAT encoding: the planted control was unsolved in 2 h, inconclusive (needs a dedicated two-crib known-plaintext attack).
+- it74: Chaocipher is crib-untestable. The left-wheel trajectory depends only on (L, CT), so about 1e11 consistent keys are expected for any CT. Not refutable by the cribs.
