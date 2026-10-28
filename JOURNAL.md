@@ -643,3 +643,8 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Verdict:**
   - Small-digit masks are dead for m ≤ 5 under one alphabet and for m = 2 under two. This agrees with the it62 IC result for m ≤ 4.
   - m ≥ 6 is not crib-testable. A full-text check would be meaningless overfitting, since each CT letter has m candidate PT letters.
+
+## it51h follow-up — beau-AZ PT-autokey L=9 at node cap 1e10
+- **Run:** the rerun hit the 1e10 node cap with 520 crib-consistent solutions.
+- **Result:** the it52 full-text completion gives a best of −6.58 per quadgram, which is gibberish. English with cribs scores −4.37 on average, with a minimum of −5.39.
+- **Verdict:** none of the survivors so far is English. The model is still capped, not exhausted.
