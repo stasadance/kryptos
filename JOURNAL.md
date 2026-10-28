@@ -746,3 +746,9 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - K4's best is −5.86 (SCHLOBRAUEIN…, Q1-AZ p = 31: "…ABANWISSO…NINSAYCRQNADAO"), which is gibberish.
   - The 5 null maxima are −5.62 to −5.78, so K4 sits below every null (Gumbel p ≈ 1).
 - **Verdict:** periodic Quagmire I–III with any of the 3.6M dictionary-keyword alphabets is dead or null-like at every p ≤ 48.
+
+## it85 — W1 a3 at big-list scale (keyword alphabets × keygen streams)
+- Hypothesis: K4 = Quagmire (Q1/Q2 with AZ/KA, Q3, Q4 over 83 motivated alphabets in both roles) keyed by one of the 900k keygen streams, alphabet from 3.63M big-list keyword constructions.
+- Method: 24-value crib fingerprint hash (it82), resumable 37 chunks. Controls inherited from it82 (6/6).
+- Result: K4 0 hits / 37 chunks; null0 (non-crib letters shuffled) 0 hits / 37 chunks. Expected chance ~1e-15.
+- Verdict: DEAD at this scale. Next: it86 error-tolerant hash (single crib deletion, BERLINCLOCK ±1).

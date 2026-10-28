@@ -148,3 +148,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it82 (W1 a3): 253k keyword alphabets (Q1-Q3, plus Q4 with 138 motivated) × the 900k keygen streams, exact hash: K4 0 hits, nulls 0. Controls 6/6.
 - it80: PT-autokey L=12-13 (cap 5e9, 9 models): 61k survivors, best full-text -6.31, gibberish. The autokey branch is closed.
 - it83/84: periodic Q1-Q3 with 3.63M keyword alphabets (1.03M English+German words): p<=25 and p=34-48 have 0 passes. p=30-33 passes language-scored: K4 best -5.86, below every null max (-5.62..-5.78). Plants 6/6 and 4/4.
+- H-2201/it85: Quagmire I–IV with 3.63M keyword alphabets × 900k keygen key streams — 0 crib-exact hits (K4 and null). DEAD.
