@@ -496,3 +496,15 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Conclusion.**
   - Periodic Gronsfeld or Quagmire III with an arbitrary alphabet is dead at the periods listed above.
   - At the feasible periods it cannot be decided from the cribs, and annealing cannot recover planted keys. It stays open but undecidable without key structure, such as a known digit string.
+
+## 2026-10-28 — Iteration 55: lag-7 roughness (H-903) and an alphabet-free coincidence lemma for CT-autokey
+- **Observation.** K4 has 9 letter coincidences at lag 7 (C_i = C_{i−7}), against a shuffled-K4 null of 3.24 ± 1.76: P = 0.004 for that lag, about 0.12 after the 30-lag look-elsewhere correction. No other lag ≤ 30 has P < 0.13. The coincidences are at i = 7, 14, 19, 22, 39, 52, 72, 83, 93.
+- **Hypothesis.** The natural generator of lag-L coincidences is ciphertext autokey, b(C_i) = b(C_{i−L}) ± a(P_i), where a and b are any two alphabets and the fed-back letter is valued by the same b.
+- **Lemma.** Under that model, C_i = C_{i−L} holds exactly when a(P_i) = 0, that is, when P_i equals one fixed letter z. On the crib positions with i ≥ L, the coincidence set must therefore equal {i : P_i = z} for a single z, or be empty. This is exact, needs no alphabet search, and holds for every a and b.
+  - Not covered: the sign-flipped feedback b(C_i) = a(P_i) − b(C_{i−L}).
+- **Controls.** 300/300 planted encryptions (random a, b, L and sign) pass.
+- **Result** (`iterations/it55_coincidence_lemma.py`, `out/it55.txt`).
+  - **Lag 7 is dead:** the coincidences at 22 (PT A) and 72 (PT C) would need two different zero letters.
+  - Also dead: L = 1, 4, 5, 10, 11, 18–20, 22–25, 42, 45.
+  - The test is weak per lag (random ciphertexts pass about 46% of the time at small L), so other lags stay open under two alphabets.
+- **Conclusion.** The lag-7 excess cannot come from ciphertext autokey at lag 7, for any pair of alphabets. Plaintext autokey at lag 7 is already exactly dead under one alphabet (it51). H-903 loses both autokey explanations; what remains is chance (global P ≈ 0.12) or a transposition or structural effect.

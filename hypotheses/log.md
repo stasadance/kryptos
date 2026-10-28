@@ -180,7 +180,7 @@
 - Test: none beyond H-901; caveat that he may not have checked K4.
 - Result: mild evidence against "fix a K4 typo first" approaches.
 
-### H-903 NSA 1992 "roughness on interval 7" in K4   [status: OPEN lead]  w-antipodes 2026-10-26
+### H-903 NSA 1992 "roughness on interval 7" in K4   [status: OPEN; both autokey explanations REFUTED (it51 PT-autokey L7 one alphabet; it55 CT-autokey L7 any two alphabets); excess P=0.004 local, ~0.12 global]  w-antipodes 2026-10-26
 - Claim: K4 has excess ciphertext repeats at distance 7 (NSA DOCID 4051151), which the NSA read as substitution followed by transposition.
 - Test: count C[i]=C[i+7]: 9/90 vs 3.46 expected; shuffle p=0.005 for d=7, but family-wise over d≤24 p=0.087.
 - Result: reproduced but weak. It goes in the same family as the w-stats width-7 doublets (post-hoc). Pair 66/73 (P→R and P→C) shows the repeats are not plaintext repeats without a transposition.

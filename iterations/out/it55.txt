@@ -1,0 +1,97 @@
+controls (planted, random a,b,L,form) pass 300/300
+L= 1: dead Z=[26, 33, 68]  null-pass 0.469
+L= 2: PASS z=None |Z|=0  null-pass 0.469
+L= 3: PASS z=B |Z|=1  null-pass 0.452
+L= 4: dead Z=[21]  null-pass 0.464
+L= 5: dead Z=[28]  null-pass 0.470
+L= 6: PASS z=None |Z|=0  null-pass 0.463
+L= 7: dead Z=[22, 72]  null-pass 0.454
+L= 8: PASS z=None |Z|=0  null-pass 0.450
+L= 9: PASS z=None |Z|=0  null-pass 0.455
+L=10: dead Z=[71]  null-pass 0.458
+L=11: dead Z=[22]  null-pass 0.454
+L=12: PASS z=None |Z|=0  null-pass 0.473
+L=13: PASS z=None |Z|=0  null-pass 0.435
+L=14: PASS z=None |Z|=0  null-pass 0.470
+L=15: PASS z=None |Z|=0  null-pass 0.466
+L=16: PASS z=None |Z|=0  null-pass 0.459
+L=17: PASS z=I |Z|=1  null-pass 0.436
+L=18: dead Z=[68]  null-pass 0.475
+L=19: dead Z=[32]  null-pass 0.454
+L=20: dead Z=[23, 33]  null-pass 0.465
+L=21: PASS z=K |Z|=1  null-pass 0.452
+L=22: dead Z=[30]  null-pass 0.488
+L=23: dead Z=[70]  null-pass 0.491
+L=24: dead Z=[70]  null-pass 0.556
+L=25: dead Z=[28]  null-pass 0.550
+L=26: PASS z=None |Z|=0  null-pass 0.600
+L=27: PASS z=None |Z|=0  null-pass 0.651
+L=28: PASS z=K |Z|=1  null-pass 0.705
+L=29: PASS z=A |Z|=1  null-pass 0.752
+L=30: PASS z=I |Z|=1  null-pass 0.756
+L=31: PASS z=N |Z|=1  null-pass 0.794
+L=32: PASS z=I |Z|=1  null-pass 0.794
+L=33: PASS z=N |Z|=1  null-pass 0.812
+L=34: PASS z=B |Z|=1  null-pass 0.830
+L=35: PASS z=None |Z|=0  null-pass 0.819
+L=36: PASS z=None |Z|=0  null-pass 0.831
+L=37: PASS z=None |Z|=0  null-pass 0.840
+L=38: PASS z=R |Z|=1  null-pass 0.845
+L=39: PASS z=None |Z|=0  null-pass 0.838
+L=40: PASS z=None |Z|=0  null-pass 0.825
+L=41: PASS z=None |Z|=0  null-pass 0.842
+L=42: dead Z=[66, 73]  null-pass 0.821
+L=43: PASS z=None |Z|=0  null-pass 0.835
+L=44: PASS z=None |Z|=0  null-pass 0.849
+L=45: dead Z=[72]  null-pass 0.832
+L=46: PASS z=None |Z|=0  null-pass 0.840
+L=47: PASS z=None |Z|=0  null-pass 0.826
+L=48: PASS z=None |Z|=0  null-pass 0.846
+L=49: PASS z=None |Z|=0  null-pass 0.832
+L=50: PASS z=O |Z|=1  null-pass 0.833
+L=51: PASS z=None |Z|=0  null-pass 0.830
+L=52: PASS z=None |Z|=0  null-pass 0.835
+L=53: PASS z=None |Z|=0  null-pass 0.836
+L=54: PASS z=O |Z|=1  null-pass 0.824
+L=55: PASS z=None |Z|=0  null-pass 0.838
+L=56: PASS z=None |Z|=0  null-pass 0.837
+L=57: PASS z=None |Z|=0  null-pass 0.833
+L=58: PASS z=None |Z|=0  null-pass 0.833
+L=59: PASS z=None |Z|=0  null-pass 0.838
+L=60: PASS z=None |Z|=0  null-pass 0.822
+L=61: PASS z=None |Z|=0  null-pass 0.825
+L=62: PASS z=None |Z|=0  null-pass 0.834
+L=63: PASS z=None |Z|=0  null-pass 0.830
+L=64: PASS z=None |Z|=0  null-pass 0.835
+L=65: PASS z=None |Z|=0  null-pass 0.857
+L=66: PASS z=None |Z|=0  null-pass 0.844
+L=67: PASS z=None |Z|=0  null-pass 0.913
+L=68: PASS z=None |Z|=0  null-pass 0.911
+L=69: PASS z=None |Z|=0  null-pass 0.925
+L=70: PASS z=None |Z|=0  null-pass 0.992
+L=71: PASS z=K |Z|=1  null-pass 0.996
+L=72: PASS z=None |Z|=0  null-pass 1.000
+L=73: PASS z=None |Z|=0  null-pass 1.000
+L=74: PASS vacuous  null-pass 1.000
+L=75: PASS vacuous  null-pass 1.000
+L=76: PASS vacuous  null-pass 1.000
+L=77: PASS vacuous  null-pass 1.000
+L=78: PASS vacuous  null-pass 1.000
+L=79: PASS vacuous  null-pass 1.000
+L=80: PASS vacuous  null-pass 1.000
+L=81: PASS vacuous  null-pass 1.000
+L=82: PASS vacuous  null-pass 1.000
+L=83: PASS vacuous  null-pass 1.000
+L=84: PASS vacuous  null-pass 1.000
+L=85: PASS vacuous  null-pass 1.000
+L=86: PASS vacuous  null-pass 1.000
+L=87: PASS vacuous  null-pass 1.000
+L=88: PASS vacuous  null-pass 1.000
+L=89: PASS vacuous  null-pass 1.000
+L=90: PASS vacuous  null-pass 1.000
+L=91: PASS vacuous  null-pass 1.000
+L=92: PASS vacuous  null-pass 1.000
+L=93: PASS vacuous  null-pass 1.000
+L=94: PASS vacuous  null-pass 1.000
+L=95: PASS vacuous  null-pass 1.000
+L=96: PASS vacuous  null-pass 1.000
