@@ -153,3 +153,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it87: Quagmire I/II with any one arbitrary alphabet × keygen/route/transkey libraries (24M streams) — 0 exact hits, plants 20/20. DEAD. (Q4 two-alphabet at chance: undecidable by cribs.)
 - it88: Q4 (two arbitrary alphabets) with keygen (258) and w-route (1142) crib-feasible streams, crib-exact full-text SA: K4 best −478.7 vs English plants ≥ −436 (19/20 recovered), null band. CLOSED (H-1404, H-1804).
 - it90: Hill n=4 affine and n=5 linear (AZ/KA numbering, every block offset; every crib letter used per row) — 0 configs consistent, plants 5/5. DEAD.
+- Classes E/G (Quagmire IV p16–28, Q3 p23/26–33 with ARBITRARY alphabets) — PARKED, search-limited, not refuted: it91 PT (6-gram, crib-locked; plants p1 4/4, p2 4/4, p4 1/4, p8 0/4, p20 0/12) and it92 nested search (p4 0/4, p8 0/4, p20 0/4); w-anneal 0/294. Keyword-built alphabets for these classes are DEAD (it83–87).
