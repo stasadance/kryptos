@@ -352,3 +352,10 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - **Controls: 6/6** planted configs recovered with their exact plaintext.
 - **Result.** **0 consistent configs at p = 1–25.** All 15,531 passes sit at p = 26, where the cribs share a single residue (73 ≡ 21 mod 26), so the test is almost vacuous there.
 - **Conclusion.** Quagmire I–III with any keyword alphabet from the 49k vocabulary are dead at every period ≤ 25. Combined with w-crib-algebra, the surviving Quagmire space is arbitrary non-keyword alphabets, or p ≥ 26.
+
+## 2026-10-28 — Iteration 44: Quagmire IV with two keyword alphabets (one motivated), periods 1–25
+- **Test.** `iterations/it44_quag4_keyword.py` (numba).
+  - One alphabet is keyed from 60 motivated terms (Kryptos, K1–K3, Berlin, clock, CIA). The other is keyed from the 49k vocabulary. Both role assignments × Vig/Beau × p = 1–25: about 3×10^8 exact class checks.
+  - **Controls: 6/6.** In the control runs, chance passes ran at 1–4 per 2,000 vocabulary words, all at large p.
+- **Result.** K4 has 1 consistent config: CT alphabet POSITION, PT alphabet SPEETIVE (not a word), Vig, p = 24. Its decrypt is gibberish (`DALJICJOFK.....OBVPBDEASTNORTHEAST.....IOHWEXALAIVICZXFSPB…`; 5 classes stay unfixed), so it is chance.
+- **Conclusion.** Quagmire IV with a motivated keyword alphabet paired with any vocabulary keyword alphabet is dead at p ≤ 25.

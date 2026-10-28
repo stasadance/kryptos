@@ -1,0 +1,10 @@
+control IDBYROWS/PROFESSED V p=8: found=True total=5
+control KRYPTOS/PROROGAT V p=14: found=True total=2
+control IDBYROWS/EMBLEM V p=16: found=True total=2
+control IDBYROWS/VALIDIS B p=14: found=True total=2
+control EASTNORTHEAST/KILL B p=16: found=True total=2
+control ABSCISSA/TURK B p=16: found=True total=2
+controls 6/6
+K4: 1 consistent (motivated x 49k x 2 roles x V/B x p<=25)
+by period: [(24, 1)]
+('POSITION', 'SPEETIVE', 'motCT', 'V', 24)
