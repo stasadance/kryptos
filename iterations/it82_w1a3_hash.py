@@ -21,11 +21,11 @@ def hv(V):   # V: (n,24) ints -> normalised hash (n,)
     D = (V[:, 1:] - V[:, :1]) % 26
     return (D.astype(np.int64) * W64).sum(1)
 def library():
-    ks = []; meta = []
+    ks = bytearray(); meta = []
     for fam in (KG.families(), KG.twokey_families()):
         for f, par, k, _ in fam:
-            ks.append([k[i] for i in POS]); meta.append((f, par))
-    return np.array(ks, dtype=np.int64), meta
+            ks.extend(k[i] % 26 for i in POS); meta.append((f, par))
+    return np.frombuffer(bytes(ks), dtype=np.uint8).reshape(-1, 24).astype(np.int64), meta
 def alph_variants(w):
     kw = ''.join(dict.fromkeys(w))
     a = KG.keyed(kw); out = [a, KG.keyed(kw, KA)]

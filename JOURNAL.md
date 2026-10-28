@@ -734,3 +734,15 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Run:** every model hit the cap. The search produced 61,232 crib-consistent solutions.
 - **Result:** the best it52 full-text completion is −6.31 (L13 vig-AZ), which is gibberish. English with cribs scores about −4.4.
 - **Verdict:** no English within the caps. Per the coach's plan, the autokey branch is now CLOSED: low prior, no survivor above null at L = 6–13.
+
+## it83/it84 — Coach W1 with the big wordlists: 1.03M English + German words → 3.63M keyword alphabets
+- **Alphabets:** 1.03M words (dwyl English plus enz German, with umlauts expanded), each built as keyed+AZ, keyed+KA and wrap, forward and reversed.
+- **it83 (a1), exact periodic test, p = 1–48, Q1-AZ/KA, Q2-AZ/KA, Q3, difference and sum forms:** controls 6/6.
+  - p ≤ 25: K4 has 0 passes; the 2 nulls have 4 + 2,732 and 28 + 6,888 (at p = 24/25).
+  - p = 34–48: K4 has 0; the nulls have 0–28.
+  - p = 26–33: passes occur at the same rate as the nulls; p = 27–29 is vacuous.
+- **it84 (W1 c), language score of every p = 30–33 pass over the crib-determined residues (about 70% of letters):**
+  - Planted controls: 4/4 came out on top, scoring −4.19 to −4.36 with readable English.
+  - K4's best is −5.86 (SCHLOBRAUEIN…, Q1-AZ p = 31: "…ABANWISSO…NINSAYCRQNADAO"), which is gibberish.
+  - The 5 null maxima are −5.62 to −5.78, so K4 sits below every null (Gumbel p ≈ 1).
+- **Verdict:** periodic Quagmire I–III with any of the 3.6M dictionary-keyword alphabets is dead or null-like at every p ≤ 48.

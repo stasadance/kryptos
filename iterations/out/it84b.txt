@@ -1,0 +1,4 @@
+control p=32: top -4.185 p=32 planted_on_top=True | ELFATLIBER...........EASTNORTHEASTOMETHING...........ONABLEIFTHBERLINCLOCK...........OMETHEYWOULD
+control p=33: top -4.362 p=33 planted_on_top=True | UREDSATI.............EASTNORTHEASTWILLBEV.............ESIDESITWBERLINCLOCK.............WEARSTHISS
+control p=31: top -4.309 p=31 planted_on_top=True | RHEPROTESTED.........EASTNORTHEASTOMHIMNOMA.........TIONWHATEVEBERLINCLOCK.........NETCOULDHARDLY
+control p=33: top -4.189 p=33 planted_on_top=True | FEUNDERS.............EASTNORTHEASTLESSDIF.............OPESHEWASBERLINCLOCK.............GLITTLEINF

@@ -147,3 +147,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it81: English running key from an unknown source: dead under AZ/KA (crib key fragments P<1e-5, duplicates H-1101). Under 42.8k keyword-keyed Q3 tableaux the best is -5.21 (IRREPARABLE, gibberish fragments), null P=0.025, not significant.
 - it82 (W1 a3): 253k keyword alphabets (Q1-Q3, plus Q4 with 138 motivated) × the 900k keygen streams, exact hash: K4 0 hits, nulls 0. Controls 6/6.
 - it80: PT-autokey L=12-13 (cap 5e9, 9 models): 61k survivors, best full-text -6.31, gibberish. The autokey branch is closed.
+- it83/84: periodic Q1-Q3 with 3.63M keyword alphabets (1.03M English+German words): p<=25 and p=34-48 have 0 passes. p=30-33 passes language-scored: K4 best -5.86, below every null max (-5.62..-5.78). Plants 6/6 and 4/4.
