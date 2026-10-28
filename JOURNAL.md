@@ -391,3 +391,16 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - L = 71–73: 4,857 survivors, each checked by only 1–3 crib letters. Best quadgram mean −6.52 against English −4.2, so none is English.
   - L ≥ 74: crib-vacuous (every crib position lies in the primer); this is just a running key from the primer.
 - **Conclusion.** CT-autokey is dead under every keyword alphabet for all non-vacuous lags. This extends w-mask (any mixed alphabet, L ≤ 31) and w-crib-algebra (AZ/KA, L ≤ 73).
+
+## 2026-10-28 — Iteration 48: other keyword-alphabet constructions
+- **Test.** `iterations/it48_alt_alphabets.py` reruns the exact kernels of it42, it43, it46 and it47 unchanged; their controls are already validated. Only the alphabet builder changes:
+  - KAfill: keyword, then the remaining letters in KRYPTOS-alphabet order.
+  - revfill: keyword, then the remaining letters Z…A.
+  - col: keyword plus the rest of A–Z written in rows, read down the columns left to right.
+  - colsort: the same grid, columns read in the keyword's alphabetical order.
+- **Result.** The pattern matches the plain-fill runs for all four builders.
+  - PT-autokey L ≤ 13: 0.
+  - Quagmire I–III: only p = 26, which is vacuous.
+  - Progressive: only p = 25 (chance), plus 4 OCCIDUNT/col Q3 passes at p = 24 that decrypt to gibberish (`GJWBNLLNJQ.....AJBDIQEASTNORTHEAST…`).
+  - CT-autokey: only L ≥ 70. The one L = 70 pass scores −7.99. The best L = 71–73 pass scores −6.11 against English −4.2.
+- **Conclusion.** The keyword-alphabet eliminations of it42–47 hold for all four common alternative constructions.
