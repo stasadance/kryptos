@@ -458,3 +458,14 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - PT-autokey with one arbitrary alphabet is **exactly refuted** for L = 6, L = 7 and, apart from one model each, L = 8, 9 and 10.
   - For the capped models at L ≤ 11, every solution found is non-English.
   - L = 12–13 is open beyond the cap. With ≤ 1 ENE-internal relation, the solution space there grows past enumeration, so a language-model completion is needed.
+
+## 2026-10-28 — Iteration 52: full-text completion of every it51 survivor; LM beam for L = 11–13 (failed)
+- **Stage 2** (`iterations/it52_fulltext.py`).
+  - Every crib-consistent it51 solution leaves at most 3 alphabet letters free. The breakdown is 4,862 with 0 free, 7,914 with 1, 1,973 with 2 and 99 with 3.
+  - Each solution was completed in all ways, decrypted over all 97 letters (forward 34–96, backward 20–0) and quadgram-scored.
+  - **Best of all: −6.33** (L = 13 vig/AZ). English 97-letter windows average −4.21, with a minimum of −4.73. Every survivor is gibberish over the full text, including the beau/AZ L = 6 family of 108.
+- **LM beam** (`iterations/c/beam52.c`, `it52_control.py`).
+  - The beam walks plaintext 34–62 with crib propagation and ranks states by quadgrams.
+  - Planted controls at L = 12 recovered **0/9**. With at most 1 ENE-internal relation, the beam fills with fluent junk (−3.47, better than English) and drops the truth. For vig/var with an AZ/KA key, every state dies at the BERLINCLOCK checks.
+  - Not usable; abandoned.
+- **Status.** H-2103 is closed for L = 6–10, apart from 3 capped models whose 10–10¹⁰-node survivors are all non-English. For L = 11–13 every survivor found is non-English, but the search is incomplete. Finishing L = 11–13 would need a different identifiability argument, so it is parked as low value.
