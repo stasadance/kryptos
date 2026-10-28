@@ -788,3 +788,9 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - Why: a per-position key costs log2 26 = 4.70 bits/letter, and two texts supply 2·D = 4.52 bits/letter at the 6-gram level, so the margin is below zero. Depth-2 with an OTP-like key is NOT identifiable with character n-grams at 97 letters. It needs a word-level model (D ≈ 3+) or a structured key.
 - Correction to STATUS row P ("IDENTIFIABLE with standard or one alphabet"): only with a word-level LM or a structured key. With an unstructured key it is MARGINAL at best.
 - K5-day procedure: (1) k5_depth.py; key letters at 64–74 equal → same key. (2) If the key is structured (class A/B/C), every exact screen and it88's sa2 run on K4+K5 jointly, which doubles the crib/text evidence. (3) If the key is unstructured, depth needs a word-level two-text decoder (not built). Benchmark tools: iterations/it89/{depth.c,bench.py}.
+
+## it90 — N6: Hill n=4 affine and n=5 (exact, per-row solve using EVERY crib letter in the row's residue)
+- Method: decryption form P = D·C + e mod 26. Row j of (D,e) must reproduce the plaintext at every crib position s+j over all blocks s ≡ o (mod n). Brute force over each row, AZ and KA numbering, every offset o. (A first pass that used only whole crib blocks was too weak: it left 457k "consistent" keys that broke the partial-block crib letters. It was replaced.)
+- Controls: random invertible Hill keys on English with cribs: all rows solvable at the true config, 5/5 for each of n=4 lin, n=4 aff, n=5 lin.
+- K4: n=4 linear 0/8 configs alive; n=4 AFFINE 0/8 alive (new); n=5 linear 0/10 alive (new). In each config at least one row has no solution. n=5 affine was interrupted by a container restart (to rerun).
+- Verdict: Hill n=4 (linear and affine) and n=5 linear are DEAD under AZ/KA numbering at every alignment.
