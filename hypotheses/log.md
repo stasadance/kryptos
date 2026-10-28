@@ -371,7 +371,7 @@
 - Test: exact linear consistency mod 2 and mod 13 of crib key values (workers/w-sources/scripts/dbl.py, dbl2.py); planted (7,10) KA-Vig recovered.
 - Result: every pair with L1+L2<=24 inconsistent in all 6 tableaux (incl. 7+10, 7+8, 8+10, 6+7, 7+11, 6+11); L1+L2>=25 survive equally for random CTs (controls 210-217 pairs vs K4 212) -> crib-untestable. Arbitrary-alphabet version open (F3 in findings/w-sources.md).
 
-### H-1502 K1/K2 tableau substitution with a TRANSPOSED key (keyword stream pushed into a K3-style square)   [status: REFUTED for AZ/KA tableaux (it66: any transposition, 0/49k keywords)]  w-sources 2026-10-26
+### H-1502 K1/K2 tableau substitution with a TRANSPOSED key (keyword stream pushed into a K3-style square)   [status: REFUTED for AZ/KA and all dictionary-keyed tableaux (it66, it67: any transposition)]  w-sources 2026-10-26
 - Claim: key stream = keyword repeated, written in width-w grid, read by keyed columns / K3 route; positions of PT/CT stay aligned.
 - Rationale / sources: Scheidt 2020 "substitution… push into this square… last step… mask"; "K1, two, three… K4 being the final"; Sanborn "matrix codes", "original matrix… all possible shifts" (Dunin 2003, S); NSA 1993 K3 one-step form.
 - Test: X28=X66 gate, then 24/24 cribs, AZ/KA x Vig/Beau/vBeau, keywords {KRYPTOS,PALIMPSEST,ABSCISSA,BERLIN,CLOCK}, w=4..31. Overlaps w-keygen T14.

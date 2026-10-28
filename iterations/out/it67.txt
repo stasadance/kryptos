@@ -1,0 +1,14 @@
+words 49116
+control Y=BLEEDS W=COMPUTER f=1: found=True hits(this Y)=10
+control Y=WHENSOEVER W=MATTING f=0: found=True hits(this Y)=159
+control Y=BERNARD W=ROOTS f=0: found=True hits(this Y)=1929
+control Y=VESSELS W=BANKER f=2: found=True hits(this Y)=22
+control Y=COUNTERPANED W=THINNING f=0: found=True hits(this Y)=311
+control Y=DEBIT W=INVAD f=2: found=True hits(this Y)=108
+control Y=DRINKING W=EMULATING f=2: found=True hits(this Y)=3
+control Y=MIXED W=SATYR f=1: found=True hits(this Y)=177
+control Y=DEVOTIONAL W=HEROSTRATUS f=0: found=True hits(this Y)=28
+control Y=SICULAE W=VIDENDI f=1: found=True hits(this Y)=192
+controls 10/10
+K4 hits 0
+by keyword length []

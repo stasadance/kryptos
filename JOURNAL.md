@@ -607,3 +607,10 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Dictionary:** the 49,119-keyword set from it42. Zero keywords of length ≤ 30 pass. The only passes are 676–769-letter corpus run-ons, not real keywords.
 - **Control:** a random dictionary keyword is repeated, randomly permuted, and used to encrypt English. The true keyword passed in 12/12 trials.
 - **Verdict:** H-1502 is refuted for the AZ/KA standard tableaux. A mixed-alphabet variant remains open but is crib-weak.
+
+## it67 — H-1502 with keyed tableaux (Quagmire III style)
+- **Hypothesis:** the it66 model, but with the tableau alphabet keyed by a dictionary word Y. The key stream is keyword W repeated, then put through any transposition.
+- **Test:** for every pair (Y, W), with 49k × 49k pairs and 3 forms (Vig/Beau/Var), check that the crib-derived key letters are a subset of W's letters with enough multiplicity. Bitmasks make this fast.
+- **Control:** random Y, W and form, with the key stream randomly permuted. 10/10 controls were found, and plants typically also produce 3–1900 incidental hits for their Y.
+- **Result:** K4 gives 0 hits across about 7e9 (Y, W, form) triples.
+- **Verdict:** H-1502 is refuted for any dictionary-keyed tableau and any transposition.
