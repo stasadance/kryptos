@@ -1,0 +1,7 @@
+control o=423 w=7 (2, 0, 3, 4, 5, 1, 6) rc AZ f=2: found=True hits=2
+control o=162 w=6 (1, 2, 5, 3, 0, 4) cr KA f=0: found=True hits=1
+control o=35 w=2 (0, 1) cr AZ f=2: found=True hits=1
+control o=61 w=6 (0, 5, 4, 3, 1, 2) cr AZ f=2: found=True hits=1
+controls 4/4
+it68 survivors from motivated sources: 2588
+K4 exact hits 0

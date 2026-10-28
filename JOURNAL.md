@@ -614,3 +614,15 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Control:** random Y, W and form, with the key stream randomly permuted. 10/10 controls were found, and plants typically also produce 3–1900 incidental hits for their Y.
 - **Result:** K4 gives 0 hits across about 7e9 (Y, W, form) triples.
 - **Verdict:** H-1502 is refuted for any dictionary-keyed tableau and any transposition.
+
+## it68 — Running key with the KEY transposed (any permutation of a 97-letter source window)
+- **Test:** the window's letter counts must cover the crib-derived key-letter counts. This was checked with sliding counts over 11.3M letters (21 sources), 6 standard models and all transpositions at once. Controls: 10/10.
+- **Result:** 9,746 window × model pairs pass, a rate of about 1.4e-4. The test is weak where the counts are flat (the tableau) and under KA-Vig, which only needs YYYY+Q. Breakdown:
+  - K1–K3 plaintext: 0 windows pass, so it is dead under any transposition.
+  - K1–K3 ciphertext: 10 windows pass (KA-Var).
+  - Tableau and Gutenberg texts: the rest.
+- **it68b follow-up:** the 2,588 survivors from motivated sources (K1–K3 CT and the tableau) were tried with exact columnar transpositions (w = 2–7, every column order, both directions). Controls: 4/4. K4 gives 0 hits.
+- **Verdict:**
+  - Dead: a K1–K3 plaintext running key under any key transposition.
+  - Dead: K1–K3 CT or tableau windows under columnar w ≤ 7.
+  - Open but untestable by counts: generic English windows.
