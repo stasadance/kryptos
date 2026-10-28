@@ -713,3 +713,11 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Capped:** the remaining 4 hit the cap: vig-a(q) with 0 solutions, beau-a(q) with 144, beau-AZ with 245, and var-a(q) with 60.
 - **Survivors:** all 449 were completed over the full text. The best scores are −6.60, −6.86 and −6.97 per quadgram, all gibberish (English is about −4.4).
 - **Verdict:** L=11 shows no English within 1e10 nodes. The a(q) models (one arbitrary alphabet) remain capped, so they are not exhaustively closed.
+
+## it81 — Running key from an unknown English source (both P and K English)
+- **it81 (two-stream beam, B = 20k, 6 standard tableaux):** controls score −3.91 to −4.06 with 34–61% of P recovered. K4 scores −4.44 to −4.51, and the nulls −4.52 to −4.55. K4's key text at the crib positions comes out as gibberish.
+- **it81b (direct check):** the crib-position key fragments under AZ/KA × 3 forms score −7.6 to −8.4, with P < 1e-5 against English 13/11-grams. This duplicates H-1101 (w-runkey §1), as the coach noted, and confirms it.
+- **it81c (Quagmire III with keyword-keyed tableaux, 42,825 distinct alphabets × 3 forms):** the crib-key fragments were English-scored. Controls ranked the true alphabet top in 5/5.
+  - K4's best is −5.21, from the alphabet keyed by IRREPARABLE (Vig). Its key fragments are CEFEEREDADFIZ / GWENTACTTWI, which are not English.
+  - Against 40 null maxima, P = 0.025. That is not significant once the families searched are counted; English fragments average −4.25.
+- **Verdict:** an English running key is dead under the standard tableaux, and null-like under dictionary-keyed Q3 tableaux. The rest of the work moves into the coach's W1 sweep.

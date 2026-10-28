@@ -144,3 +144,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it76: grid/cylinder key r(row)+c(col) under the fixed AZ/KA tableaux (6 models): dead for every width w<=25 and every offset. w>=26 is vacuous. Controls 6/6.
 - it77: Hagelin M-209/C-38 pin-lug key: crib-untestable (K4 and all nulls SAT).
 - it79: PT-autokey L=11 at cap 1e10: vig/var under AZ and KA plus beau-KA exactly dead; the 449 capped survivors are all gibberish (best -6.60).
+- it81: English running key from an unknown source: dead under AZ/KA (crib key fragments P<1e-5, duplicates H-1101). Under 42.8k keyword-keyed Q3 tableaux the best is -5.21 (IRREPARABLE, gibberish fragments), null P=0.025, not significant.

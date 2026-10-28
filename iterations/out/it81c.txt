@@ -1,0 +1,22 @@
+distinct keyed alphabets 42825
+control f=1: true score -3.84 rank 0 best -3.84
+control f=1: true score -4.18 rank 0 best -4.18
+control f=2: true score -4.35 rank 0 best -4.35
+control f=1: true score -4.42 rank 0 best -4.42
+control f=1: true score -4.53 rank 0 best -4.53
+K4 best -5.214
+  IREPABLCDFGHJKMNOQSTUVWXYZ f=0 -5.214
+  IREPABLYCDFGHJKMNOQSTUVWXZ f=0 -5.768
+  ABRUZICDEFGHJKLMNOPQSTVWXY f=0 -5.864
+  FOEMNABCDGHIJKLPQRSTUVWXYZ f=2 -5.983
+  DISPATCHBEFGJKLMNOQRUVWXYZ f=0 -5.990
+  FATENIGBCDHJKLMOPQRSUVWXYZ f=2 -5.991
+  AMORUSBCDEFGHIJKLNPQTVWXYZ f=0 -5.997
+  SOURCFABDEGHIJKLMNPQTVWXYZ f=0 -6.009
+  CLENHDABFGIJKMOPQRSTUVWXYZ f=2 -6.038
+  SCRAMBLEDFGHIJKNOPQTUVWXYZ f=0 -6.067
+null best -5.348
+null best -5.617
+null best -5.688
+null best -5.895
+null best -5.937
