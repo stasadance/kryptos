@@ -1,0 +1,8 @@
+control L=34 f=1 k=1: bad=0 mean=-4.37 acc=1.00 ..................................OTWORTHKNOWINGFORGIVEMEANDIFYBERLINCLOCKINDIFFERENCEDONOTMAKEME 37s
+control L=38 f=1 k=2: bad=0 mean=-4.80 acc=1.00 ......................................HSYMPTOMSINCREASEDANDHERHBERLINCLOCKTELYELIZABETHDIDNOTQUIT 36s
+control L=43 f=1 k=1: bad=0 mean=-4.79 acc=0.98 ...........................................NDNEVERSETTLEDARNETHBERLINCLOCKOUGHTTOBELADYLUCASQUIET 31s
+control L=48 f=1 k=2: bad=0 mean=-4.91 acc=0.92 ................................................SONOTOLDWINKHAMBERLINCLOCKRCYSSTEWARYLETMERECOMEE 28s
+control L=57 f=1 k=1: bad=0 mean=-5.10 acc=0.38 .........................................................UIVETHBERLINCLOCKALEGEPRIVEDDEVINSFANXAR 26s
+control L=61 f=1 k=2: bad=0 mean=-4.89 acc=0.44 .............................................................MMBERLINCLOCKINGBEGUNPLATHORONACRBOG 23s
+control L=68 f=1 k=1: bad=0 mean=-3.80 acc=0.38 ....................................................................NCLOCKETHHEHASANDTHEWITHETWIL 18s
+control L=71 f=1 k=2: bad=0 mean=-3.79 acc=0.15 .......................................................................OCKTHEDSTHERSANDERTINEAREB 20s

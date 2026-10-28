@@ -1,0 +1,9 @@
+control L=32 f=1 k=1: bad=0 mean=-4.20 acc=1.00 ................................STTHEFAMILYSHEWASINHOPESTHATTHEBERLINCLOCKDAFFORDSOMEOPPORTUNITYO 41s
+control L=37 f=1 k=1: bad=0 mean=-4.40 acc=1.00 .....................................MCHARLOTTETOOKHERSISTERANDBERLINCLOCKHEHOUSEEXTREMELYWELLPLE 35s
+control L=41 f=1 k=2: bad=0 mean=-4.66 acc=1.00 .........................................ASCAPABLEASANYOTHERWOMBERLINCLOCKOREXECUTIONDARCYSMILEDA 33s
+control L=48 f=1 k=1: bad=0 mean=-4.20 acc=1.00 ................................................WENTWHILETHEOTHBERLINCLOCKINGONLADYCATHERINEWASAL 29s
+control L=56 f=1 k=2: bad=0 mean=-4.36 acc=0.98 ........................................................CYRETURBERLINCLOCKENTATEDTIMESERIOUSLYHOW 25s
+control L=60 f=1 k=2: bad=0 mean=-4.51 acc=0.89 ............................................................INEBERLINCLOCKPROMININGINPLINATIONREF 26s
+control L=67 f=1 k=2: bad=0 mean=-4.11 acc=0.30 ...................................................................INCLOCKANDATTATESSESONSWHISWHI 23s
+control L=71 f=1 k=1: bad=0 mean=-3.52 acc=0.19 .......................................................................OCKETHENTHISTHEGREANDHERUS 19s
+control L=73 f=1 k=1: bad=0 mean=-3.46 acc=0.08 .........................................................................KEDTHEDTHATTHERSAGESTOMY 20s

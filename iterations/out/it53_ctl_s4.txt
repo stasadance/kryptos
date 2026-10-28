@@ -1,0 +1,8 @@
+control L=36 f=1 k=2: bad=0 mean=-4.67 acc=1.00 ....................................LFYOUAREALWAYSBUYINGBOOKSICBERLINCLOCKHENDTHENEGLECTOFAFAMILY 44s
+control L=41 f=1 k=1: bad=0 mean=-4.11 acc=1.00 .........................................NREJECTEDSHEASSUREDHIMBERLINCLOCKTENDEDTOPLAYANDTHESILEN 35s
+control L=47 f=1 k=2: bad=0 mean=-4.66 acc=1.00 ...............................................ALISMISREALTOADEBERLINCLOCKKESTHEFALSEREALISMOFOUR 34s
+control L=54 f=1 k=2: bad=0 mean=-4.55 acc=1.00 ......................................................NGWITHCURBERLINCLOCKLASKYOUNOQUESTIONSTHANK 28s
+control L=60 f=1 k=1: bad=0 mean=-4.75 acc=0.38 ............................................................ROMBERLINCLOCKMMETOBLEENDRAGEALLVESPY 22s
+control L=66 f=1 k=1: bad=0 mean=-4.18 acc=0.39 ..................................................................LINCLOCKWHENERESAREDISHOUSEMATI 24s
+control L=71 f=0 k=2: bad=0 mean=-3.70 acc=0.31 .......................................................................OCKENTINEDTHERDEDTHEENTIMP 22s
+control L=72 f=1 k=2: bad=0 mean=-3.57 acc=0.08 ........................................................................CKWASTANDTHEELSENTERETHEM 20s

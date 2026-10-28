@@ -1,0 +1,8 @@
+K4 L=34 f=1 k=1: bad=0 mean=-5.61 ..................................YWHJYSOUTRENCEATYMORINJOIELLIBERLINCLOCKSAWKYDRSDPROFHARKETASIL 40s
+K4 L=38 f=1 k=2: bad=0 mean=-5.49 ......................................MHECOGHEEULYDREHCCLOFACEOBERLINCLOCKFIXUNDWRAWSTHERIASGOUTB 37s
+K4 L=43 f=1 k=1: bad=0 mean=-5.41 ...........................................ATBATTOWNCATWASADSPIBERLINCLOCKQUCHESFODVLUNIONTMESYMP 33s
+K4 L=48 f=1 k=2: bad=0 mean=-5.46 ................................................OBBTAMTHETHROVEBERLINCLOCKTAPSANTESTGRKARQUATMTOA 31s
+K4 L=57 f=1 k=1: bad=0 mean=-4.93 .........................................................AVPMEMBERLINCLOCKSHESOMOROPOLICAUTSASIIW 25s
+K4 L=61 f=1 k=2: bad=0 mean=-4.65 .............................................................ZLBERLINCLOCKEDTWAITANTATHEFRUNGROWR 24s
+K4 L=68 f=1 k=1: bad=0 mean=-4.25 ....................................................................NCLOCKSATTHEPAYSIDONTWHILEFTT 22s
+K4 L=71 f=1 k=2: bad=0 mean=-3.76 .......................................................................OCKEDISTOTHATASINTHEGEINGA 20s

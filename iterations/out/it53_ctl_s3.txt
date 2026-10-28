@@ -1,0 +1,8 @@
+control L=34 f=1 k=2: bad=0 mean=-4.10 acc=1.00 ..................................DINTHEUNITEDSTATESYOUWILLHAVEBERLINCLOCKAWSOFTHECOUNTRYWHEREYOU 38s
+control L=39 f=1 k=1: bad=0 mean=-4.12 acc=1.00 .......................................SENUMERATIONOFTHEWINDOWSBERLINCLOCKEHOUSEANDHISRELATIONOFW 34s
+control L=47 f=1 k=1: bad=0 mean=-4.57 acc=0.92 ...............................................MRCOLLINSSEEMEANBERLINCLOCKTOVENCOURAGEMENTLORINCL 31s
+control L=52 f=1 k=2: bad=0 mean=-4.99 acc=0.38 ....................................................UVRSHIMURGSBERLINCLOCKATENALSTERHEMANTIEXHERP 28s
+control L=59 f=1 k=1: bad=0 mean=-4.15 acc=1.00 ...........................................................REITBERLINCLOCKENSUCHATHINGFORMETHEQUI 26s
+control L=64 f=1 k=2: bad=0 mean=-4.40 acc=0.45 ................................................................ERLINCLOCKSTOUTEDPETHEASCLATHEFLC 22s
+control L=69 f=1 k=1: bad=0 mean=-3.72 acc=0.32 .....................................................................CLOCKSHEDTHANDATHEROFHEREHEH 23s
+control L=71 f=2 k=2: bad=0 mean=-3.87 acc=0.23 .......................................................................OCKINTTHEOTHEMISTERUNANDSO 25s

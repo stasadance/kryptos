@@ -469,3 +469,18 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - Planted controls at L = 12 recovered **0/9**. With at most 1 ENE-internal relation, the beam fills with fluent junk (−3.47, better than English) and drops the truth. For vig/var with an AZ/KA key, every state dies at the BERLINCLOCK checks.
   - Not usable; abandoned.
 - **Status.** H-2103 is closed for L = 6–10, apart from 3 capped models whose 10–10¹⁰-node survivors are all non-English. For L = 11–13 every survivor found is non-English, but the search is incomplete. Finishing L = 11–13 would need a different identifiability argument, so it is parked as low value.
+
+## 2026-10-28 — Iteration 53: CT-autokey under one arbitrary alphabet, key read as AZ/KA index (H-1208 follow-up)
+- **Hypothesis.** a(C_i) = a(P_i) ⊕ K(C_{i−L}), with K = a(c′), AZ index or KA index; ⊕ = Vig / Beau / Var; L = 1–73. w-mask z3 had covered only K = a(c′), and it47 only keyword alphabets.
+- **Stage 1** (z3, `iterations/it53_ctautokey_arb.py --z3`).
+  - Every model is UNSAT for L ≤ 31.
+  - At L = 32–73 there are about 70 crib-feasible configs. All of them have at most 13 crib checks, and every L ≥ 34 has only BERLINCLOCK checks. The a(c′) survivors match w-mask §3.5.
+- **Stage 2.**
+  - Annealing over the alphabet: quadgrams on P[L..96] plus a crib penalty, 30 restarts × 2M steps. Each surviving config with an AZ/KA key (33 configs) was run on K4 and on a planted control at the same L, f and k.
+  - **Controls recover the truth (accuracy ≥ 0.89) in 18/33**, every one at L ≤ 60. Above about L = 60 the decrypted span is under 37 letters, and fluent junk outscores the truth (accuracy 0.1–0.45). So those configs are information-limited (H-2102).
+  - Every config whose own control passed has a K4 best of −4.88 to −5.94, against −4.1 to −4.9 for its control. Each is at least 0.37 below its control, so no English solution exists for these 18. All K4 bests are gibberish (`it53_table.txt`).
+  - **Key = a(c′):** annealing fails its planted controls (accuracy 0.25–0.41 at L = 41–60). The value a(c) − a(c′) makes the landscape chaotic, so those configs stay undecided.
+- **Conclusion.**
+  - CT-autokey with an AZ/KA-indexed key under one arbitrary alphabet is dead for L ≤ 31 (exact) and for the 18 identifiable configs at L = 32–60.
+  - The configs at L > 60 are information-limited.
+  - The a(c′) variant is undecided above L = 31.

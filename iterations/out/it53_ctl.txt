@@ -1,0 +1,4 @@
+control L=70 f=1 k=0: bad=0 mean=-3.98 acc=0.33 ......................................................................LOCKEDINITTHISONEDTHEISFITI 69s
+control L=60 f=0 k=0: bad=0 mean=-5.64 acc=0.38 ............................................................YCEBERLINCLOCKACSHEARTTARKEQMUDEDAYCL 76s
+control L=41 f=1 k=0: bad=0 mean=-5.57 acc=0.25 .........................................WOHOTUZZOKNEFAREARSORRBERLINCLOCKSUMYFVNANEDRURINTHOURNI 89s
+control L=34 f=1 k=2: bad=0 mean=-4.10 acc=1.00 ..................................DINTHEUNITEDSTATESYOUWILLHAVEBERLINCLOCKAWSOFTHECOUNTRYWHEREYOU 94s
