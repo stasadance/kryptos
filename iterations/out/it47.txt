@@ -1,0 +1,18 @@
+control IRREPROACHABLE L=9 f=1 kr=2: found=True total=1
+control LOIN L=60 f=2 kr=1: found=True total=1
+control DELATI L=67 f=2 kr=2: found=True total=1
+control CLEAVE L=24 f=2 kr=2: found=True total=1
+control TERITORUM L=14 f=2 kr=1: found=True total=1
+control BLANCH L=64 f=0 kr=0: found=True total=1
+controls 6/6
+K4: 10172490 crib-exact; by L: [(71, 243), (72, 422), (73, 4192), (74, 442071), (75, 442071), (76, 442071), (77, 442071), (78, 442071), (79, 442071), (80, 442071), (81, 442071), (82, 442071), (83, 442071), (84, 442071), (85, 442071), (86, 442071), (87, 442071), (88, 442071), (89, 442071), (90, 442071), (91, 442071), (92, 442071), (93, 442071), (94, 442071), (95, 442071), (96, 442071)]
+(0.0, 0, 'ZYLENE', 96, 2, 2)
+(0.0, 0, 'ZYLENE', 96, 2, 1)
+(0.0, 0, 'ZYLENE', 96, 2, 0)
+(0.0, 0, 'ZYLENE', 96, 1, 2)
+(0.0, 0, 'ZYLENE', 96, 1, 1)
+(0.0, 0, 'ZYLENE', 96, 1, 0)
+(0.0, 0, 'ZYLENE', 96, 0, 2)
+(0.0, 0, 'ZYLENE', 96, 0, 1)
+(0.0, 0, 'ZYLENE', 96, 0, 0)
+(0.0, 0, 'ZYLENE', 95, 2, 2)

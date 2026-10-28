@@ -381,3 +381,13 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - Space: 49,119 keywords × {Q1AZ, Q1KA, Q2AZ, Q2KA, Q3} × Vig/Beau × p = 1–25 × s = 1–25. **Controls 6/6.**
 - **Result.** **0 consistent at p ≤ 24.** All 816 passes are at p = 25. That period has only 3 cross-crib constraints (positions 21/71, 22/72, 23/73), which predicts about 1,400 chance passes, so 816 is chance level.
 - **Conclusion.** Progressive periodic keys under keyword Quagmire I–III alphabets are dead for p ≤ 24.
+
+## 2026-10-28 — Iteration 47: CT-autokey under a keyword-mixed alphabet, every lag
+- **Test.** `iterations/it47_ctautokey_keyword.py`.
+  - Space: 49,119 keywords × L = 1–96 × 9 models.
+  - With CT-autokey every position i ≥ L decrypts directly, so the crib check is exact, and survivors give full text for i ≥ L. **Controls 6/6**, each the unique hit.
+- **Result.**
+  - **L ≤ 70: 0 survivors.**
+  - L = 71–73: 4,857 survivors, each checked by only 1–3 crib letters. Best quadgram mean −6.52 against English −4.2, so none is English.
+  - L ≥ 74: crib-vacuous (every crib position lies in the primer); this is just a running key from the primer.
+- **Conclusion.** CT-autokey is dead under every keyword alphabet for all non-vacuous lags. This extends w-mask (any mixed alphabet, L ≤ 31) and w-crib-algebra (AZ/KA, L ≤ 73).
