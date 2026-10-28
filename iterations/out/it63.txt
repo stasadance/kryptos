@@ -1,0 +1,13 @@
+controls recovered 45/45
+pt1_bgn fwd: offsets 843 hits [] undecided 0
+pt1_bgn rev: offsets 843 hits [] undecided 0
+pt1_one fwd: offsets 763 hits [] undecided 0
+pt1_one rev: offsets 763 hits [] undecided 0
+pt2_bgn fwd: offsets 836 hits [] undecided 0
+pt2_bgn rev: offsets 836 hits [] undecided 0
+pt2_one fwd: offsets 773 hits [] undecided 0
+pt2_one rev: offsets 773 hits [] undecided 0
+all_bgn fwd: offsets 1680 hits [] undecided 0
+all_bgn rev: offsets 1680 hits [] undecided 0
+all_one fwd: offsets 1537 hits [] undecided 0
+all_one rev: offsets 1537 hits [] undecided 0

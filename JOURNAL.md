@@ -574,3 +574,11 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - iid keys over ≤ 4 symbols (Gronsfeld digits 0–3: 0.017).
   Families near the edge: p = 6 (0.036), digits 0–4 (0.037), digits 0–5 (0.048). An English running key (0.148) and an iid uniform key (0.225) remain consistent.
 - **Next:** this supports a high-entropy key (running key, or a long or aperiodic key), which matches the earlier exact-UNSAT results.
+
+## it63 — Running key from the Cyrillic Projector plaintext
+- **Hypothesis:** the K4 running key is the plaintext of Sanborn's other CIA-linked sculpture, the Cyrillic Projector. Its plaintext is a KGB agent-handling text plus the KGB memo on Sakharov's Pugwash letter. This source is not part of H-1102.
+- **Source:** the Russian text as published on habr.com/ru/post/469717. It was transliterated two ways: BGN without diacritics, and one Latin letter per Cyrillic letter. The texts were taken separately and joined, read forwards and reversed, and wrapped cyclically.
+- **Test:** the exact crib check at every offset, for all 45 role models (it23_scan.run).
+- **Control:** encrypt English text (with the cribs planted) using the real key text at a random offset, once per model. The scan recovered 45/45.
+- **Result:** 0 hits and 0 undecided across about 20k offset × direction checks, in every model.
+- **Next:** continue the loop.
