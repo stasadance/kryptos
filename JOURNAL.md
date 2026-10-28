@@ -554,3 +554,13 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - **One alphabet: 0 survivors** (exact).
   - **Two alphabets: 1 survivor**, the primes starting from the 151st prime (877) at offset 150. It is unmotivated and at chance rate (1 of 4000 sequence-offset pairs). Full-text annealing on it gives −540 (−5.75 per quadgram), which is gibberish.
 - **Conclusion.** None of these simple sequences is K4's key, under one or two alphabets.
+
+## 2026-10-28 — Iteration 61: progressive periodic keys through one arbitrary alphabet
+- **Hypothesis.** The key is k_i = w_{i mod p} + s·i ("lin") or w_{i mod p} + s·⌊i/p⌋ ("blk"), with s = 1–25 and w arbitrary, through ONE arbitrary alphabet, in Vig, Beau or Var form. it46 had tested this only with keyword alphabets.
+- **Test** (`iterations/it61_progressive_arb.py`): exact z3 for each (p, s, form, kind). Planted controls: 4/4 SAT.
+- **Result** (`out/it61.txt`, p = 1–19; the run was stopped there).
+  - **Every s, form and kind is UNSAT at p = 1–7, 9, 14 and 19.**
+  - Partly SAT at p = 8 and 10 (48 of 75 per kind), 13 (lin 13/75), and 15 (25/75).
+  - Mostly SAT at p = 11, 12, 16, 17 and 18.
+  - Null at p = 8 (shuffled K4): 14/40 SAT for s = 1, against 1/40 for s = 0. The drift loosens the constraints, so the SAT results sit at chance level.
+- **Conclusion.** A progressive periodic key through any single mixed alphabet is dead at p ≤ 7, 9, 14 and 19. At the other periods it is crib-feasible at chance rates, which makes it the same information-limited case as the periodic families (H-2102).
