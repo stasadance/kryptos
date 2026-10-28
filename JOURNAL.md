@@ -404,3 +404,14 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - Progressive: only p = 25 (chance), plus 4 OCCIDUNT/col Q3 passes at p = 24 that decrypt to gibberish (`GJWBNLLNJQ.....AJBDIQEASTNORTHEAST…`).
   - CT-autokey: only L ≥ 70. The one L = 70 pass scores −7.99. The best L = 71–73 pass scores −6.11 against English −4.2.
 - **Conclusion.** The keyword-alphabet eliminations of it42–47 hold for all four common alternative constructions.
+
+## 2026-10-28 — Iteration 49: Antipodes K4 run vs Kryptos K4 (H-508), from photos
+- **Data.** Elonka Dunin's Antipodes photo set (elonka.com/kryptos/sanborn/antipodes/images1-2.html), 18 images of about 850 px. Antipodes7 and Antipodes12 show the K4 run. Copies are in `/mnt/project-files/k4/data/antipodes/`.
+- **Reading.** The run occupies 4 rows:
+  - `…SSTTRTVDOHW?OBK`
+  - `RUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTW`
+  - `TQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZF`
+  - `PKWGDKZXTJCDIGKUHUAUEKCAR␣EMUFPHZ…` (after a blank, K1 starts again)
+  - That gives 3 + 34 + 35 + 25 = 97 letters.
+- **Result.** All about 90 legible letters match the Kryptos K4 ciphertext exactly. The first 1–2 letters of each row sit on the curved left edge and are not sharp enough to confirm, but row lengths force the same 97-letter count. The run starts right after the "?" (supports H-211). It ends with a single blank before K1 restarts, with no extra or extra-dotted letters.
+- **Status.** H-508 is **not supported**: no difference found in the legible 90+ letters. The ~6 edge letters stay unverified at this resolution; a higher-resolution photo would settle them.
