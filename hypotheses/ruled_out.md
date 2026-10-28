@@ -106,3 +106,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - w-keygen (900k streams) and w-route (3.18M) generator nulls with ONE wrong crib letter or a 1-2 letter slip between the cribs (H-2104): 1 chance hit (SHADOWFORCES progressive, gibberish best -617.8), else 0; controls 48/48, null 0 — iterations/it35_keygen_route_err.py, JOURNAL it35 — 2026-10-27
 
 - Periodic substitution then crib-preserving block/strip shuffle (H-904; unknown crib offset delta mod p): tableaux Vig/Beau AZ/KA all delta p<=23; Quagmire I-III p<=11; Quagmire IV p<=7,9; GEN (arbitrary per-class bijections) p<=5,7,9 — exact, controls 75/75. Period 7 impossible for every family/offset — iterations/it39*.py, JOURNAL it39 — 2026-10-28
+- Quagmire IV (independent arbitrary PT/CT alphabets, Vig and Beau style) period 12, plain alignment — z3 UNSAT; closes the case w-crib-algebra §2 left undecided — iterations/it39d_quag.py, JOURNAL it39 — 2026-10-28
