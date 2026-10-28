@@ -721,3 +721,11 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - K4's best is −5.21, from the alphabet keyed by IRREPARABLE (Vig). Its key fragments are CEFEEREDADFIZ / GWENTACTTWI, which are not English.
   - Against 40 null maxima, P = 0.025. That is not significant once the families searched are counted; English fragments average −4.25.
 - **Verdict:** an English running key is dead under the standard tableaux, and null-like under dictionary-keyed Q3 tableaux. The rest of the work moves into the coach's W1 sweep.
+
+## it82 — Coach W1(a3): keyword alphabets × the 900k-stream keygen library, by exact hash
+- **Alphabets:** 253,202 keyword alphabets: the 49k vocabulary × {keyed + AZ, keyed + KA, wrap after the last keyword letter} × {forward, reversed}, plus AZ and KA.
+- **Tableaux:** Q1, Q2 and Q3, plus Q4 with 138 motivated alphabets in both roles; Vig/vBeau (difference) and Beau (sum).
+- **Streams:** 900,272 keygen streams (periodic, progressive, chain-add mod 26/10, interrupted, keyed-columnar, two-key), each normalised over its 24 crib values and hashed with sign. That gives 869k entries, with an expected chance collision count of 3.5e-19.
+- **Result:** controls hit 6/6. K4 has 0 hits, and the 3 nulls also have 0.
+- **Verdict:** none of these keyword-alphabet tableaux paired with any keygen stream fits the cribs.
+- **Note:** the route and transkey libraries are not stored on disk and would need regenerating. The control printout mislabels the Q1/Q2 base alphabet letter ('K'/'A' instead of KA/AZ); this is cosmetic only.

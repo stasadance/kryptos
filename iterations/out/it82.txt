@@ -1,0 +1,15 @@
+library streams 900272
+hash entries 869471
+alphabets 253202 motivated 138
+expected chance collisions ~ 3.5e-19
+control F1-progressive: hits 1 [('Q1', 'diff', np.int64(0), 'K')]
+control F2-twokey: hits 1 [('Q1', 'diff', np.int64(0), 'A')]
+control F1-progressive: hits 1 [('Q1', 'diff', np.int64(0), 'A')]
+control F1-progressive: hits 3 [('Q3', 'diff', np.int64(0), np.int64(0)), ('Q4', 'diff', 0, np.int64(0)), ('Q4', 'diff', np.int64(0), 0)]
+control F1-progressive: hits 1 [('Q1', 'diff', np.int64(0), 'K')]
+control F1-progressive: hits 3 [('Q3', 'diff', np.int64(0), np.int64(0)), ('Q4', 'diff', 0, np.int64(0)), ('Q4', 'diff', np.int64(0), 0)]
+controls 6/6
+K4 hits 0
+null hits 0
+null hits 0
+null hits 0
