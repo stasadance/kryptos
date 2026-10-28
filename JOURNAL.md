@@ -591,3 +591,12 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - Rejected at planted P < 0.01: p = 2–9, 12, 13. Marginal: p = 14 (0.025), 10 (0.043), 11 (0.064). Those columns are too short to decide.
   - So the lag-7 excess is not period-7 structure.
 - **Context:** a web check found the K4 plaintext is still not public. It was sold at auction in Nov 2025.
+
+## it65 — Any digraphic substitution, with an optional single null
+- **Hypothesis:** K4 is a digraphic cipher, i.e. an arbitrary 676-entry table. This covers Playfair, two-square, four-square and Hill-2.
+- **Structural kills:**
+  - K4 has 97 letters, which is odd, so a pure digraphic cipher needs a null.
+  - All 26 letters occur, so every 25-letter-grid cipher is dead outright: Playfair, 5×5 two-square and four-square, and 5×5 Bifid.
+- **Test:** the number of repeated aligned digraphs. This is invariant to the table, and the maximum is taken over alignments and over any one deleted null.
+- **Result:** K4 scores 4. The null (shuffled K4) averages 3.21, with P(null ≥ K4) = 0.37. The planted control (English plus a random table plus a null) averages 8.85, with P(planted ≤ K4) = 0.062.
+- **Verdict:** K4 is null-like. A general 26-letter digraphic cipher is disfavoured at about 6% but not rejected; the test is weak at 97 letters.

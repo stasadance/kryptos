@@ -130,3 +130,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it62: by IC alone (invariant under any alphabet and any transposition), these families are rejected at P<0.02: monoalphabetic, periodic p<=5, and key alphabets with <=4 symbols. K4 IC 0.0361.
 - it63: running key = the Cyrillic Projector plaintext (KGB text and Sakharov memo, BGN or 1:1 transliteration, fwd/rev, all 45 models) has 0 crib-exact hits. Controls 45/45.
 - it64: transposition then period-p substitution (p arbitrary alphabets) is rejected by column IC at p=2-9, 12, 13 (planted P<0.01). The lag-7 excess is not periodicity.
+- it65: 25-letter grid ciphers (Playfair, 2/4-square, Bifid 5x5) are dead because K4 uses all 26 letters. A general digraphic table is disfavoured (digraph repeats null-like, planted P=0.062), not rejected.
