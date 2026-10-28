@@ -146,3 +146,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it79: PT-autokey L=11 at cap 1e10: vig/var under AZ and KA plus beau-KA exactly dead; the 449 capped survivors are all gibberish (best -6.60).
 - it81: English running key from an unknown source: dead under AZ/KA (crib key fragments P<1e-5, duplicates H-1101). Under 42.8k keyword-keyed Q3 tableaux the best is -5.21 (IRREPARABLE, gibberish fragments), null P=0.025, not significant.
 - it82 (W1 a3): 253k keyword alphabets (Q1-Q3, plus Q4 with 138 motivated) × the 900k keygen streams, exact hash: K4 0 hits, nulls 0. Controls 6/6.
+- it80: PT-autokey L=12-13 (cap 5e9, 9 models): 61k survivors, best full-text -6.31, gibberish. The autokey branch is closed.

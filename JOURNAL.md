@@ -729,3 +729,8 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Result:** controls hit 6/6. K4 has 0 hits, and the 3 nulls also have 0.
 - **Verdict:** none of these keyword-alphabet tableaux paired with any keygen stream fits the cribs.
 - **Note:** the route and transkey libraries are not stored on disk and would need regenerating. The control printout mislabels the Q1/Q2 base alphabet letter ('K'/'A' instead of KA/AZ); this is cosmetic only.
+
+## it80 — PT-autokey at L=12–13, all 9 models, node cap 5e9
+- **Run:** every model hit the cap. The search produced 61,232 crib-consistent solutions.
+- **Result:** the best it52 full-text completion is −6.31 (L13 vig-AZ), which is gibberish. English with cribs scores about −4.4.
+- **Verdict:** no English within the caps. Per the coach's plan, the autokey branch is now CLOSED: low prior, no survivor above null at L = 6–13.
