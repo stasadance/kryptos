@@ -752,3 +752,10 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - Method: 24-value crib fingerprint hash (it82), resumable 37 chunks. Controls inherited from it82 (6/6).
 - Result: K4 0 hits / 37 chunks; null0 (non-crib letters shuffled) 0 hits / 37 chunks. Expected chance ~1e-15.
 - Verdict: DEAD at this scale. Next: it86 error-tolerant hash (single crib deletion, BERLINCLOCK ±1).
+
+## it86 — W3 error-tolerant crib hash (on it85 space)
+- Hypothesis: it85 missed a true key because one crib letter is wrong (carving/crib error) or one letter is omitted/inserted between the cribs.
+- Method: 26 hash variants (24 single-crib deletions on 23 values; BERLINCLOCK key positions shifted ±1). Same 3.63M alphabets × Q1-AZ/KA, Q2-AZ/KA, Q3 × diff/sum × 900k keygen streams. Expected chance ~2e-15.
+- Controls (it86b): 6/6 planted (3 deletions, 3 shifts) hit, 0/12000 decoys hit; exact hash misses deletion plants (tolerance needed and working).
+- Result: K4 0 hits / 37 chunks; null0 0 hits / 37 chunks.
+- Verdict: DEAD, including 1-error tolerance. Next: route/transkey stream fingerprints (coach item 1).
