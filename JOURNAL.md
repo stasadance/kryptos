@@ -698,3 +698,8 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - Every width w ≤ 25 is DEAD for all offsets and models.
   - The distinct-disk variant (each tableau row used once) also gives 0 for K4, but it is untested by the controls, so it is not claimed.
 - **Verdict:** the fixed-tableau grid/cylinder key is dead for line widths up to 25 (this includes 7, 21, 24 and 25). Wider lines are crib-untestable.
+
+## it77 — Hagelin M-209 / C-38 style pin-and-lug key (Beaufort AZ, periods 26, 25, 23, 21, 19, 17)
+- **Test:** exact z3 over the pins, the lug weights (sum ≤ 27) and a constant.
+- **Result:** K4 is SAT, and 5/5 nulls are also SAT. This is the predicted outcome: only the period-21 wheel reuses pins across the cribs (63 − 21 = 2 × 21), and the other wheels' pins are free.
+- **Verdict:** a Hagelin-type key is crib-untestable. No control was needed, since there was no rejection to validate.
