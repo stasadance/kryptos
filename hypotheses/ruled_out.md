@@ -134,3 +134,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it66 (H-1502): repeated keyword + ANY transposition of the key stream, AZ/KA × Vig/Beau/Var: the cribs need 12-16 distinct key letters. 0 of 49k keywords of length <=30 pass. Controls 12/12.
 - it67: H-1502 with keyed tableaux (Y from 49k words) × keyword W (49k) × 3 forms × any transposition: 0 hits. Controls 10/10.
 - it68: running key with the key permuted by any transposition: K1-K3 PT windows fail the count test (dead). K1-K3 CT and tableau survivors under columnar w<=7: 0 exact hits. Controls 10/10, 4/4.
+- it69 (H-708): one omitted or inserted CT letter between the cribs, with a periodic Q3 key through one arbitrary alphabet: UNSAT at p=1-13 for both d=±1 and all forms. Controls 6/6.

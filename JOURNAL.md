@@ -626,3 +626,9 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - Dead: a K1–K3 plaintext running key under any key transposition.
   - Dead: K1–K3 CT or tableau windows under columnar w ≤ 7.
   - Open but untestable by counts: generic English windows.
+
+## it69 — H-708: one omitted or inserted CT letter between the cribs, with a periodic key under one arbitrary alphabet
+- **Model:** the key index of BERLINCLOCK shifts by d = ±1, like K2's missing S. The key is periodic Quagmire III (key 0..25) through one arbitrary alphabet, in Vig/Beau/Var form. Each case is an exact z3 check at p = 1–48.
+- **Control:** encrypt, then delete or insert one CT letter. The true (p, d) was SAT in 6/6 runs, and 10/10 in an extra batch. A first plant had a bug at d = −1; it was fixed, and the K4 runs were unaffected.
+- **Result:** p = 1–13 is UNSAT for both d and all three forms. Some larger periods are feasible: 14, 15, 16 and 20 appear for particular (d, form) pairs, and 21–34 and 40–48 are scattered. That is about the null rate from it54, where 36% of periods were feasible at p = 23.
+- **Verdict:** a single omitted or inserted letter does not revive short-period one-alphabet keys. That leaves H-707/H-708 open only for longer periods or other families.
