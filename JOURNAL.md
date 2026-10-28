@@ -564,3 +564,13 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - Mostly SAT at p = 11, 12, 16, 17 and 18.
   - Null at p = 8 (shuffled K4): 14/40 SAT for s = 1, against 1/40 for s = 0. The drift loosens the constraints, so the SAT results sit at chance level.
 - **Conclusion.** A progressive periodic key through any single mixed alphabet is dead at p ≤ 7, 9, 14 and 19. At the other periods it is crib-feasible at chance rates, which makes it the same information-limited case as the periodic families (H-2102).
+
+## it62 — IC test of model families, independent of alphabet and transposition
+- **Hypothesis:** the index of coincidence (IC) is invariant under any relabelling of CT and PT letters, and under any transposition. So K4's IC alone can reject families for every alphabet and every transposition layer.
+- **Test:** for each family, simulate 4000 97-letter CTs (P&P English with the K4 cribs planted, random alphabet and key) and compare with K4's IC of 0.0361 using a one-sided P(IC ≤ K4). The simulated samples serve as the planted control: each family's own CTs fall inside its own distribution by construction.
+- **Result:** K4's IC is below the uniform-key expectation (0.0384). Families rejected at P < 0.02:
+  - monoalphabetic (P = 0);
+  - periodic keys with p ≤ 4 (p = 5: 0.018);
+  - iid keys over ≤ 4 symbols (Gronsfeld digits 0–3: 0.017).
+  Families near the edge: p = 6 (0.036), digits 0–4 (0.037), digits 0–5 (0.048). An English running key (0.148) and an iid uniform key (0.225) remain consistent.
+- **Next:** this supports a high-entropy key (running key, or a long or aperiodic key), which matches the earlier exact-UNSAT results.

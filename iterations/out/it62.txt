@@ -1,0 +1,18 @@
+K4 IC = 0.0361  (English ~0.066, uniform 0.0385)
+monoalphabetic (k=0)                   mean IC 0.0643  P(<=K4)=0.0000  P(>=K4)=1.0000
+iid key digits 0..1 (Gronsfeld-like)   mean IC 0.0508  P(<=K4)=0.0003  P(>=K4)=0.9998
+iid key digits 0..2 (Gronsfeld-like)   mean IC 0.0465  P(<=K4)=0.0035  P(>=K4)=0.9978
+iid key digits 0..3 (Gronsfeld-like)   mean IC 0.0442  P(<=K4)=0.0168  P(>=K4)=0.9865
+iid key digits 0..4 (Gronsfeld-like)   mean IC 0.0428  P(<=K4)=0.0370  P(>=K4)=0.9695
+iid key digits 0..5 (Gronsfeld-like)   mean IC 0.0420  P(<=K4)=0.0483  P(>=K4)=0.9617
+iid key digits 0..7 (Gronsfeld-like)   mean IC 0.0408  P(<=K4)=0.0810  P(>=K4)=0.9313
+iid key digits 0..9 (Gronsfeld-like)   mean IC 0.0401  P(<=K4)=0.1105  P(>=K4)=0.9080
+iid key digits 0..12 (Gronsfeld-like)  mean IC 0.0395  P(<=K4)=0.1495  P(>=K4)=0.8665
+periodic p=2, random shifts            mean IC 0.0511  P(<=K4)=0.0000  P(>=K4)=1.0000
+periodic p=3, random shifts            mean IC 0.0477  P(<=K4)=0.0027  P(>=K4)=0.9972
+periodic p=4, random shifts            mean IC 0.0448  P(<=K4)=0.0100  P(>=K4)=0.9912
+periodic p=5, random shifts            mean IC 0.0437  P(<=K4)=0.0180  P(>=K4)=0.9848
+periodic p=6, random shifts            mean IC 0.0423  P(<=K4)=0.0357  P(>=K4)=0.9708
+periodic p=7, random shifts            mean IC 0.0417  P(<=K4)=0.0530  P(>=K4)=0.9550
+English running key (AZ index)         mean IC 0.0392  P(<=K4)=0.1480  P(>=K4)=0.8758
+iid uniform key                        mean IC 0.0384  P(<=K4)=0.2253  P(>=K4)=0.8050
