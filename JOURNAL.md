@@ -328,3 +328,9 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - K4's best config satisfies only 4 of 10 eligible pairs (V1) and 5 of 18 (V2). **No config is fully satisfied.**
   - Null (200 permuted-crib CTs): max satisfied pairs has mean 4.1 and 95th percentile 5. K4 is exactly at the null.
 - **Conclusion.** **H-802 is REFUTED** for both pre-1997 layouts, all four name orders, both fills and all models. The far faces don't matter: every alignment is already killed on the read faces. Robustness: one mis-read name changes only one face's alphabet, and K4's best configs miss most of their pairs, not one face's worth. This closes the Weltzeituhr per-face-alphabet line (with H-801, H-803 and H-804 already refuted).
+
+## 2026-10-28 — Iteration 41: the World Clock's own city text as a running key (one unknown alphabet)
+- **Idea.** If BERLINCLOCK points at the Weltzeituhr, the key may be the clock's text itself: the city names read around the drum.
+- **Test.** `iterations/it23_scan.py`, the exact crib test under one unknown mixed alphabet, 45 models; its kernel was validated by the it23 controls. Inputs: the read faces (UTC−9…+3/+4) of both layouts, in 5 orders: upper+lower per face, lower+upper, upper only, lower only, and the whole upper band then the whole lower band. Each text is scanned forwards and reversed, at every offset. Texts are 195–608 letters, in `data/clock_runkey/`.
+- **Result.** 0 hits, 0 undecided, across all 20 text/direction combinations.
+- **Conclusion.** The clock's legible text is not a running key under any one-alphabet model. The far faces are still unread, so a key window lying wholly on them stays untested.
