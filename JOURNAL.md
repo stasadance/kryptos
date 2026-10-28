@@ -794,3 +794,8 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - Controls: random invertible Hill keys on English with cribs: all rows solvable at the true config, 5/5 for each of n=4 lin, n=4 aff, n=5 lin.
 - K4: n=4 linear 0/8 configs alive; n=4 AFFINE 0/8 alive (new); n=5 linear 0/10 alive (new). In each config at least one row has no solution. n=5 affine was interrupted by a container restart (to rerun).
 - Verdict: Hill n=4 (linear and affine) and n=5 linear are DEAD under AZ/KA numbering at every alignment.
+
+## it91 — N5: better search for Quagmire IV with arbitrary alphabets (classes E/G). Gate not met, so K4 was not run.
+- Tool: iterations/it91/pt.c. Parallel tempering (16 replicas, geometric T 0.4–12), 6-gram LM. Crib-locked: B's crib cipher letters are pinned to A(P)+sh every step (later with rank-preserving placement of the free letters). There is also a B-side parametrization (DIRB) and heat-bath moves over the shifts (GIBBS).
+- Plants (English with cribs, random A, B and shifts), acc ≥ 0.8 = recovered: p=1 4/4; p=2 4/4; p=4 1/4 (acc 0.36–0.86); p=8 0/4 for every variant (found ≈ −145 vs true ≈ −100); p=20 0/12 for every variant, ladder and LM (4-gram or 6-gram). Found < true in nearly all → SEARCH-limited, as w-anneal found (0/294).
+- Verdict: the coach's gate (≥80% of 50 plants per period) fails from p=4 up, far below the target p16–28. Classes E/G stay MARGINAL/open and search-limited. Parking N5 until there's a new algorithmic idea, e.g. a nested search (outer B and shifts, inner monoalphabetic solve of the u-text, which recovers 100% at p=1) or Lasry-style keyword-structured hill-climbing. Arbitrary-alphabet Quagmire IV at 97 letters is beyond plain stochastic search.

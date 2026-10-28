@@ -23,8 +23,9 @@ def plant(n, aff, seed):
     for s in range(off, 97 - n + 1, n): c[s:s + n] = (M @ p[s:s + n] + b) % 26
     ct = ''.join(A[x] for x in c); cn = counts(ct, n, aff)
     return all(min(v) > 0 for k, v in cn.items() if k == ((('AZ' if A == H.AZ else 'KA'), off)))
-for n in (4, 5):
-    for aff in (False, True):
+CFG = [tuple(map(int, x.split(':'))) for x in sys.argv[1].split(',')] if len(sys.argv) > 1 else [(4, 0), (4, 1), (5, 0), (5, 1)]
+for n, aff in CFG:
+    if True:
         pl = sum(plant(n, aff, 90 + s) for s in range(5))
         cn = counts(H.CT, n, aff); alive = {k: v for k, v in cn.items() if min(v) > 0}
         print(f'n={n} {"aff" if aff else "lin"}: plants {pl}/5; K4 alive configs {len(alive)}/{len(cn)}', {k: v for k, v in alive.items()}, flush=True)
