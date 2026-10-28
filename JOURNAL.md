@@ -703,3 +703,7 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - **Test:** exact z3 over the pins, the lug weights (sum ≤ 27) and a constant.
 - **Result:** K4 is SAT, and 5/5 nulls are also SAT. This is the predicted outcome: only the period-21 wheel reuses pins across the cribs (63 − 21 = 2 × 21), and the other wheels' pins are free.
 - **Verdict:** a Hagelin-type key is crib-untestable. No control was needed, since there was no rejection to validate.
+
+## it78 — Decidability map
+- **Contents:** a consolidated map of DEAD, crib-untestable and open families from it51–it77, plus an information budget. It is in findings/decidability_map.md.
+- **Main point:** most remaining viable families are crib-untestable rather than open. Progress now needs either new constraints (more plaintext, physical clues) or language scoring over large key spaces, which the no-brute-force rule excludes.
