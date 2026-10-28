@@ -508,3 +508,15 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - Also dead: L = 1, 4, 5, 10, 11, 18–20, 22–25, 42, 45.
   - The test is weak per lag (random ciphertexts pass about 46% of the time at small L), so other lags stay open under two alphabets.
 - **Conclusion.** The lag-7 excess cannot come from ciphertext autokey at lag 7, for any pair of alphabets. Plaintext autokey at lag 7 is already exactly dead under one alphabet (it51). H-903 loses both autokey explanations; what remains is chance (global P ≈ 0.12) or a transposition or structural effect.
+
+## 2026-10-28 — Iteration 56: autokey under ANY Latin-square tableau (exact both ways)
+- **Model.** C_i = T[r_i][P_i], with T any 26×26 Latin square and row r_i = C_{i−L} (CT-autokey) or P_{i−L} (PT-autokey). This covers Vig/Beau/Var and Quagmire I–IV with any alphabets, and any relabelling of the key letters.
+- **Test** (`iterations/it56_latin_autokey.py`). Every crib position whose row letter is known gives a filled cell (row, P, C). A partial Latin square must have (row, col)→val, (row, val)→col and (col, val)→row all functional.
+  - The cribs give at most 24 cells. By Evans' theorem, any consistent partial Latin square of order 26 with fewer than 26 cells can be completed. So the check is exact in both directions: fail = impossible for every tableau, pass = some tableau fits the cribs.
+  - Planted controls pass 288/288 for each kind.
+- **Result** (`out/it56.txt`).
+  - **CT-autokey is dead for every tableau** at L = 1–11, 13–31, 33, 35, 42, 49, 50, 53, 55, 58 and 65.
+    - **L = 12 survives** (24 cells; random ciphertexts pass 23% of the time). Its single-alphabet forms are already dead (it53 z3), so only a tableau that is not a one-alphabet Vigenère family fits.
+    - Lags ≥ 32 pass at near-null rates (about 78%).
+  - **PT-autokey is dead for every tableau** at L = 1–4 and 42 only. For L ≥ 5, too few crib cells have a known row.
+- **Conclusion.** Ciphertext autokey of any tableau is excluded at every lag ≤ 31 except 12. An arbitrary tableau at L = 12 fits the cribs exactly but has 26² unknowns, so it is unidentifiable without structure.
