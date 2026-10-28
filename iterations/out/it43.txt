@@ -1,0 +1,9 @@
+control ARCHO Q2KA V p=10: found=True, configs passing=138
+control ATTACHMENTS Q1AZ B p=5: found=True, configs passing=162
+control NOVELS Q3 B p=7: found=True, configs passing=143
+control GETTING Q1AZ B p=3: found=True, configs passing=176
+control INTERCHANGE Q3 B p=12: found=True, configs passing=72
+control PULP Q2KA V p=3: found=True, configs passing=169
+controls 6/6
+K4: 15531 crib-consistent configs; fully determined (all classes fixed): 0
+consistent by period: [(26, 15531)]

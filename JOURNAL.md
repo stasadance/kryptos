@@ -343,3 +343,12 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
   - **Controls: 6/6** planted keyword/L/model configs recovered. Each was the only hit among 2,001 keywords, so the false-positive rate is ≈ 0.
 - **Result.** **K4: 0 crib-exact configs.**
 - **Conclusion.** PT-autokey with L ≤ 13 is dead for every keyword alphabet in this 49k vocabulary, under all 9 models. That includes H-1207's Beaufort lag 7 with a keyword alphabet. Arbitrary (non-keyword) alphabets stay search-limited (H-2103 open).
+
+## 2026-10-28 — Iteration 43: Quagmire I/II/III with a keyword-mixed alphabet, periods 1–26
+- **Why.** w-crib-algebra found Q1, Q2 and Q3 crib-consistent at several periods (13, 16, 19, 23, 30…) with *arbitrary* alphabets, which is untestable. Sanborn's alphabets are keyword-mixed, and that restriction is exactly enumerable.
+- **Test.** `iterations/it43_quag_keyword.py`.
+  - Space: 49,119 keywords × {Q1 with AZ or KA cipher alphabet, Q2 with AZ or KA plain alphabet, Q3} × Vig/Beau × p = 1–26.
+  - The cribs fix every class they touch. For p ≤ 13 every class is fixed, so a pass gives a full decrypt.
+  - **Controls: 6/6** planted configs recovered with their exact plaintext.
+- **Result.** **0 consistent configs at p = 1–25.** All 15,531 passes sit at p = 26, where the cribs share a single residue (73 ≡ 21 mod 26), so the test is almost vacuous there.
+- **Conclusion.** Quagmire I–III with any keyword alphabet from the 49k vocabulary are dead at every period ≤ 25. Combined with w-crib-algebra, the surviving Quagmire space is arbitrary non-keyword alphabets, or p ≥ 26.
