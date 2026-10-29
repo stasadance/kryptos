@@ -155,3 +155,4 @@ Format: - approach — why eliminated — evidence/source — who/date
 - it90: Hill n=4 affine and n=5 linear (AZ/KA numbering, every block offset; every crib letter used per row) — 0 configs consistent, plants 5/5. DEAD.
 - Classes E/G (Quagmire IV p16–28, Q3 p23/26–33 with ARBITRARY alphabets) — PARKED, search-limited, not refuted: it91 PT (6-gram, crib-locked; plants p1 4/4, p2 4/4, p4 1/4, p8 0/4, p20 0/12) and it92 nested search (p4 0/4, p8 0/4, p20 0/4); w-anneal 0/294. Keyword-built alphabets for these classes are DEAD (it83–87).
 - it90: Hill n=5 AFFINE — crib-undecidable (5/10 configs consistent, ~1e9 keys each); full-text search unvalidated, K4 best inside the null range. Low prior, not refuted.
+- it93: Trifid (any 27-cell cube, 27th symbol unseen), periods 2–40 all offsets + 41–97 offset 0 — K4 0/876 configs crib-feasible under full-text SA (plants 26/26 recovered; null0 0/876). DEAD.

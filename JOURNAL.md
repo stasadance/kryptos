@@ -809,3 +809,9 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - Exact per-row solve (every crib letter per row): 5 of 10 (numbering, offset) configs stay crib-consistent (AZ o1, AZ o4, KA o0, KA o3, KA o4), with up to 1352 solutions per row (~1e9 keys per config). Plants 5/5 consistent. So Hill n=5 affine is CRIB-UNDECIDABLE: 30 unknowns against ~24 crib equations.
 - Full-text attempt: the true key was verified to be among the row solutions. But neither SA over row choices nor coordinate-exhaustive ascent nor bigram-cycle DP plus 5-gram rescoring recovered the plants reliably (1/4, 1/4, 0/1). K4 best per-letter 5-gram −2.05 to −2.79 (English ≈ −1.1), inside the shuffled-K4 range (−2.11 to −2.71). No candidate; the search isn't validated.
 - Verdict: Hill n=4 (lin+aff) and n=5 linear are DEAD. n=5 affine is crib-undecidable, with no English-level decrypt found; low prior (97 is prime). Left open/low priority.
+
+## it93 — N6: Trifid (27-cell cube: 26 letters + one never-seen symbol), every period and offset, full-text SA
+- Tool: iterations/it93/trifid.c. SA over the cube arrangement (27!); decrypt per block (n, o); 6-gram LM; crib violations and the 27th symbol in the plaintext penalised (λ=25); R=8 × 1.5M.
+- Plants (English with cribs, random cube, CT required to have no 27th symbol): 26/26 recovered (acc ≥ 0.96) across (n,o) = (2,0) (10,0) (10,6) (11,5) (12,6) (13,2) (14,0) (20,0) (25,0) (40,3) (50,0) (70,0) (97,0). Every plant reached crib feasibility.
+- K4: n=2..40 at all offsets plus n=41..97 at offset 0 (876 configs): 0 configs reach crib feasibility. Matched null0 (shuffled K4, same 876 configs and seeds): 0 as well. K4 = null.
+- Verdict: Trifid with any cube, any period and any alignment is DEAD. This includes the n=10/11/12/13 alignments that z3 left SAT, because z3 used only the 12 fully-crib-sourced constraints and the full decrypt never satisfies all 24 cribs.
