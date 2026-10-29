@@ -10,36 +10,46 @@ The round-7 text is kept below §0. Lines changed by round 8 are marked **[r8]**
 - Classes E/G (periodic Q4/Q3 with arbitrary alphabets at the surviving periods) are PARKED as search-limited. Parallel tempering and a nested search both fail planted controls from p ≈ 4–8 up (it91–92).
 - K5 depth with an unstructured key is model-limited with character n-grams (2·D = 4.52 < 4.70 bits/letter). See findings/k5_day_procedure.md.
 
-## 0. Decidability frontier (single table, through it92) [r8]
-D measured on held-out text, 58M-letter training: 4-gram 1.82, 5-gram 2.11, 6-gram 2.26 bits/letter (tools/lm/build_lm.py).
+## 0. Decidability frontier (single table, through it93) [r8]
+D measured on held-out text, 58M-letter training: 4-gram 1.82, 5-gram 2.11, 6-gram 2.26 bits/letter (tools/lm/build_lm.py). Cribs: 24 letters ≈ 113 bits with a known alphabet.
 
-| Class | Status | Evidence (latest) | What would decide it |
-|---|---|---|---|
-| Textbook single-layer ciphers (mono, periodic AZ/KA, Playfair-type, Porta, Enigma-like, 25-letter grids, M-94, Hill n≤5 lin / n=4 aff) | DEAD | §2; it62, it65, it75; **it90: Hill n=4 affine and n=5 linear, 0 configs consistent, plants 5/5** | — |
-| A. Structured generator + fixed AZ/KA tableau | DEAD for every motivated generator (~21M configs) | exact screens; it86 1-error tolerance closed for keyword alphabets | a new generator idea (cribs decide it instantly) |
-| B. Structured generator + ONE mixed alphabet | DEAD for the stored libraries | w-keygen/w-route/w-transkey vig1/beau1/Q3; **it87: Q1/Q2 with any one arbitrary alphabet, 0/24M** | a new generator idea |
-| Keyword-built alphabets (any tableau, Q1–Q4) | DEAD at dictionary scale | it42–47, it82–86 (3.63M alphabets; periodic, libraries, autokey, running key; 1-error tolerant) | — |
-| C. Concrete stream + TWO arbitrary alphabets | CLOSED for the 258 keygen + 1,142 route survivors | **it88: crib-exact SA, plants 19/20; K4 best −478.7 vs null E[max] −456, p≈1** | 46 Gromark primers and 13.9k transkey Q4 survivors not run (low marginal value) |
-| D. Unstructured / OTP-like key | NOT IDENTIFIABLE from K4 alone | H-2001 proof | K5 depth needs a word-level LM (it89) |
-| E. Q4 periodic p16–28, arbitrary alphabets | PARKED (search-limited) | w-anneal 0/294; **it91 PT 0/12 @p20, 0/4 @p8; it92 nested 0/4 @p8, 0/4 @p20** | a new algorithm, more plaintext, or K5 (structured key) |
-| F. Q4 periodic p≥30 | NOT IDENTIFIABLE | spurious optima beat English | — |
-| G. Q3/Q1/Q2 periodic survivors (V30, V41, B23, B26–33, B46–52), arbitrary alphabet | p≤33 PARKED (search-limited), p≥41 NOT | as E | as E |
-| H. GEN periodic p≥8 | NOT IDENTIFIABLE | w-anneal | — |
-| Autokey (PT/CT, any tableau) | CLOSED to L=13 for PT-autokey (it51, it79, it80); CT-autokey per §2 / decidability map | it80: best −6.31 vs English ≥ −4.73 | — |
-| Chaocipher, Hagelin M-209 | CRIB-UNTESTABLE | it74 lemma (~1e11 wheel pairs), it77 | more plaintext |
-| L. Weltzeituhr per-face alphabets (H-802) | DEAD on the read faces (the conjunction kills every alignment; the far faces can't revive one) | it40 | — |
-| M. English running key, unknown alphabet(s) | MARGINAL; dead under the standard tableaux and keyed Q3 | H-1101, it81 | word-level LM |
-| N. Trifid (27th symbol absent) | partly dead (periods 2–9, 11–13) | w-mask | Trifid-27 exact (queued) |
-| P. K4+K5 in depth | **[r8] structured key: IDENTIFIABLE; unstructured key: MARGINAL (model-limited with char n-grams)** | **it89: 0/56 plants with the 4- and 6-gram, found ≥ true** | findings/k5_day_procedure.md |
+### 0.1 DEAD (exact contradiction or full-text null, with validated plants)
+| Class | Evidence |
+|---|---|
+| Mono, periodic p≤5, ≤4-symbol keys (any alphabet, any transposition) | IC (it62) |
+| Periodic Vig/Beau/vBeau (AZ/KA, any reachable p); Q1–Q3 at the dead periods; Q4 at 11, 12, 18, 22, 36, 44 | §2; it54 |
+| Fixed-point-free ciphers (Playfair, Porta, Enigma-like); 25-letter grids; M-94 | S@33, K@74; it65; it75 |
+| Hill n=2,3 (lin/aff), n=4 (lin/aff), n=5 linear | §2; it90 (plants 5/5) |
+| Trifid, any cube, periods 2–97, all offsets | it93: K4 0/876 crib-feasible = null 0/876; plants 26/26 |
+| Transposition → periodic, p=2–9, 12, 13 | column IC (it64) |
+| Autokey: PT-autokey to L=13 (any mixed alphabet); CT-autokey per §2 | it51, it79, it80 |
+| Gromark / Gronsfeld / Vimark (fixed or keyword alphabets) | it57–60; §2 |
+| Every structured generator (~21M: keygen, routes, transposed streams) under fixed tableaux or ONE arbitrary alphabet | exact screens; it87 (Q1/Q2 any alphabet 0/24M) |
+| Keyword-built alphabets at dictionary scale (3.63M; EN+DE), all tableaux × periodic p≤48, every stored stream, autokey, running key; 1-error tolerant | it42–47, it82–86 |
+| Concrete stored streams + TWO arbitrary alphabets (keygen 258, route 1,142 survivors) | it88: K4 best −478.7 vs null E[max] −456; plants 19/20 |
+| Grid keys r+c (fixed tableaux w≤25; one alphabet w=6, 9, 19, 21) | it72, it76 |
+| Repeated keyword through any transposition; K1–K3/Cyrillic/motivated texts as running key; English running key under the 18 standard tableaux | it63, it66–68, H-1101, it81 |
+| Weltzeituhr per-face keyed alphabets (H-802) | it40 (every alignment killed on the read faces) |
 
+### 0.2 OPEN but UNTESTABLE with present data, and the exact new fact that would reopen each
+| Class | Why it is untestable now | Exact new fact that reopens it |
+|---|---|---|
+| D. Unstructured / OTP-like position key (1–2 alphabets) | key entropy 4.70 bits/letter > any language redundancy; false-positive rate 1 (H-2001) | K5 CT with the same key **plus** a word-level two-text decoder (char 6-gram 2·D = 4.52 < 4.70; it89), or a concrete key-generation rule |
+| E. Q4 periodic p16–28, arbitrary alphabets | search-limited: PT and nested search recover 0/12 plants at p=20, 0/8 at p=8 (it91–92; w-anneal 0/294) | the keyword(s) or either alphabet (then class C/B: decidable), ~15 more plaintext letters, or a new algorithm that passes ≥80% plants |
+| F. Q4 periodic p≥30 | information-limited: spurious optima beat English | more plaintext (each letter +4.7 bits) or K5 depth with a structured key |
+| G. Q3/Q1/Q2 periodic survivors (V30, V41, B23, B26–33, B46–52), arbitrary alphabet | p≤33 search-limited (as E); p≥41 information-limited | as E/F |
+| H. GEN periodic p≥8 (independent alphabet per class) | nulls beat English by ~80 log10 | the period's alphabets from another source (e.g. K5 depth), or many more cribs |
+| Chaocipher | ~1e11 wheel pairs consistent with any CT (it74 lemma) | the wheel start alphabets (one wheel cuts it to a crib test) |
+| Hagelin M-209 / C-38 | pin/lug space too large for 24 cribs (it77) | lug or pin settings, or a longer known-plaintext run |
+| M. English running key, unknown mixed alphabet(s) | needs D ≫ 2.3 | the source text (then exact), or a word-level LM |
+| Hill n=5 affine | 5/10 configs crib-consistent with ~1e9 keys each; full-text search unvalidated (it90) | block alignment/numbering from a source, or more cribs (≥6 more letters per row) |
+| Grid keys at w=7 and other widths at the null rate; free small-digit keys m≥6 | feasible at the null rate (it70, it72) | the digit/grid rule |
+| Stored Q4 survivors not run: 46 Gromark primers, 13.9k transkey Q4 survivors | low marginal value (same generators already dead in A/B) | a motivation pointing at these specific streams |
+| Two-stage / masked systems (Scheidt "masking", Sanborn "matrix/visual" methods) | no concrete model to test | any concrete description of stage 1 or 2 (NSA 2007 summary, Hannon notes) |
+| P. K4+K5 in depth | **[r8] structured key: IDENTIFIABLE; unstructured: MARGINAL** (it89: 0/56 plants with char LMs) | K5 CT; follow findings/k5_day_procedure.md |
 
-This file summarizes rounds 1-7 (tasks T1-T21). Detail lives in `findings/*.md`, `hypotheses/log.md` and `hypotheses/ruled_out.md`.
-The identifiability calculations and synthetic experiments behind section 4 are in `findings/w-synth.md` (scripts: `workers/w-synth/scripts/`).
-
-**Bottom line.** K4 is not solved, and we have no candidate.
-- Every textbook single-layer family is excluded. So is every structured key generator we could motivate, when it runs under a fixed AZ/KA tableau or under one mixed (K1/K2-style) alphabet. That is about 21M exact configurations, with 0 hits and validated plants.
-- What is still open is mostly **not identifiable from 97 letters plus 24 cribs**. This is true in principle, not just because our searches are weak.
-- There is one important exception, new this round. Any **concrete key stream** under two arbitrary alphabets *is* identifiable by full-text annealing. Earlier rounds called it "crib-untestable", but it can be tested (§4, §6 task 1).
+### 0.3 Statistical anomalies any new model must reproduce (test first)
+Width-7 doublets (FW 0.0041), width-21 vertical bigrams (FW 0.0047), lag-7 roughness (FW 0.09; the NSA's "interval 7"). No dead or open model above reproduces them.
 
 ## (round-7 text follows)
 
