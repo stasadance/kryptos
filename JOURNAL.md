@@ -804,3 +804,8 @@ Broad survey by parallel workers. Outcome: the classical families are ruled out 
 - Tool: iterations/it92/nest.c. Outer SA over B values and shifts (gauge s0=0); u_i = B(C_i) − s_r; cribs pin A on 13 letters (structure violations penalised); inner greedy hill-climb over the free letters' values, warm-started; 6-gram LM.
 - Plants (acc ≥ 0.8 = recovered): p=4 0/4 (best acc 0.55; 2/4 never reached crib consistency); p=8 0/4 (acc ≤ 0.41); p=20 0/4 (acc ≤ 0.18; found −134..−152 vs true −91..−115).
 - Verdict: the gate (≥80% at p=8 and p=20) fails. Per coach rev 7, classes E/G (Q4 p16–28, Q3 p23/26–33 with arbitrary alphabets) are PARKED as search-limited. Evidence: it91 PT and it92 nested search, plants 0/12 at p=20, 0/8 at p=8; w-anneal 0/294. K4 not run.
+
+## it90 (cont.) — Hill n=5 affine
+- Exact per-row solve (every crib letter per row): 5 of 10 (numbering, offset) configs stay crib-consistent (AZ o1, AZ o4, KA o0, KA o3, KA o4), with up to 1352 solutions per row (~1e9 keys per config). Plants 5/5 consistent. So Hill n=5 affine is CRIB-UNDECIDABLE: 30 unknowns against ~24 crib equations.
+- Full-text attempt: the true key was verified to be among the row solutions. But neither SA over row choices nor coordinate-exhaustive ascent nor bigram-cycle DP plus 5-gram rescoring recovered the plants reliably (1/4, 1/4, 0/1). K4 best per-letter 5-gram −2.05 to −2.79 (English ≈ −1.1), inside the shuffled-K4 range (−2.11 to −2.71). No candidate; the search isn't validated.
+- Verdict: Hill n=4 (lin+aff) and n=5 linear are DEAD. n=5 affine is crib-undecidable, with no English-level decrypt found; low prior (97 is prime). Left open/low priority.
