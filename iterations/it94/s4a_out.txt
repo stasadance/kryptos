@@ -1,0 +1,12 @@
+K4: D7 = 5  V21 = 11
+shuffled-K4  P(D7>=5)=5.50e-04 (x1.0)  P(V21>=11)=3.00e-04 (x1.0)  both=0.0e+00  meanD7=1.53 meanV21=3.60
+OTP          P(D7>=5)=8.50e-04 (x1.5)  P(V21>=11)=1.59e-03 (x5.3)  both=1.0e-05  meanD7=1.59 meanV21=4.07
+periodic-7   P(D7>=5)=2.11e-03 (x3.8)  P(V21>=11)=9.82e-03 (x32.7)  both=1.8e-04  meanD7=1.63 meanV21=4.96
+grid-7       P(D7>=5)=1.75e-03 (x3.2)  P(V21>=11)=1.75e-03 (x5.8)  both=2.0e-05  meanD7=1.63 meanV21=4.08
+grid-14      P(D7>=5)=1.38e-03 (x2.5)  P(V21>=11)=1.78e-03 (x5.9)  both=1.0e-05  meanD7=1.61 meanV21=4.07
+grid-21      P(D7>=5)=1.09e-03 (x2.0)  P(V21>=11)=2.04e-03 (x6.8)  both=3.0e-05  meanD7=1.60 meanV21=4.13
+periodic-21  P(D7>=5)=1.06e-03 (x1.9)  P(V21>=11)=3.69e-03 (x12.3)  both=0.0e+00  meanD7=1.60 meanV21=4.38
+gromark2     P(D7>=5)=7.20e-04 (x1.3)  P(V21>=11)=1.21e-01 (x401.7)  both=1.7e-04  meanD7=1.42 meanV21=7.41
+gromark10    P(D7>=5)=7.60e-04 (x1.4)  P(V21>=11)=4.16e-03 (x13.9)  both=1.0e-05  meanD7=1.56 meanV21=4.45
+ptauto7      P(D7>=5)=1.02e-03 (x1.9)  P(V21>=11)=4.75e-03 (x15.8)  both=2.0e-05  meanD7=1.61 meanV21=4.55
+ctauto7      P(D7>=5)=4.20e-04 (x0.8)  P(V21>=11)=2.25e-03 (x7.5)  both=0.0e+00  meanD7=1.57 meanV21=4.15
