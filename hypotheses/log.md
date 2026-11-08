@@ -507,3 +507,9 @@
 - it86 (W3): the same with 1-error tolerance (24 single-crib deletions, BERLINCLOCK ±1): K4 0 hits; plants 6/6. (The it85/86 "null0" runs shuffled only non-crib letters, so they were vacuous; the evidence is the analytic rate plus the plants.)
 - it87: SUPERSET. Quagmire I/II with ANY one arbitrary alphabet (the other AZ/KA), exact, over keygen (900k), w-route (3.18M) and w-transkey (19.2M × 4 numberings): 0 hits; plants 20/20. Quagmire IV with two arbitrary alphabets passes at the chance rate (2.6% of Latin survivors vs 2.5% random), so it is crib-undecidable and goes to it88 (class-C full-text SA).
 - Open: Q4 D×D (low priority); Q4 two-arbitrary on the stream libraries (it88).
+
+### it96 Coach housekeeping on swarm audits (s025/s080/s081/s082)   [status: CONFIRMED corrections]  solver 2026-11-08
+- Hill n=4 affine FRAGILE (2-error lower bound, plants ok); n=4 linear ≥3.
+- Column IC: p=7 MARGINAL (P 0.007–0.017), p=18 DEAD (P ≤ 0.002, low power).
+- Q3 Beau 48/50 UNSAT (dead), 27–29 vacuous; survivor list fixed in STATUS.
+- EAST crib = grade S.

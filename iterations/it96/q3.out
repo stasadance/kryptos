@@ -1,0 +1,28 @@
+vacuous 27
+vacuous 28
+vacuous 29
+vacuous 53
+vacuous 54
+vacuous 55
+vacuous 56
+vacuous 57
+vacuous 58
+vacuous 59
+K4 Q3 V 46 unsat
+K4 Q3 B 46 sat
+K4 Q3 V 47 unsat
+K4 Q3 B 47 sat
+K4 Q3 V 48 unsat
+K4 Q3 B 48 unsat
+K4 Q3 V 49 unsat
+K4 Q3 B 49 sat
+K4 Q3 V 50 unsat
+K4 Q3 B 50 unsat
+K4 Q3 V 51 unsat
+K4 Q3 B 51 sat
+plant B 48 0 sat
+plant B 48 1 sat
+plant B 48 2 sat
+plant B 50 0 sat
+plant B 50 1 sat
+plant B 50 2 sat

@@ -2,7 +2,7 @@
 
 | Pos   | Ciphertext     | Plaintext      | Source / year |
 |-------|----------------|----------------|---------------|
-| 22-25 | FLRV           | EAST           | Sanborn, 2020 (with NORTHEAST) |
+| 22-25 | FLRV           | EAST           | Sanborn, 2020 (with NORTHEAST). Grade S: no Sanborn-stated position; 22-25 inferred from "immediately before NORTHEAST" (s081, it96). Robust core = 20 letters 26-34, 64-74 |
 | 26-34 | QQPRNGKSS      | NORTHEAST      | Sanborn, 2020 |
 | 64-69 | NYPVTT         | BERLIN         | Sanborn, 2010 |
 | 70-74 | MZFPK          | CLOCK          | Sanborn, 2014 |

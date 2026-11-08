@@ -19,9 +19,9 @@ D measured on held-out text, 58M-letter training: 4-gram 1.82, 5-gram 2.11, 6-gr
 | Mono, periodic p≤5, ≤4-symbol keys (any alphabet, any transposition) | IC (it62) |
 | Periodic Vig/Beau/vBeau (AZ/KA, any reachable p); Q1–Q3 at the dead periods; Q4 at 11, 12, 18, 22, 36, 44 | §2; it54 |
 | Fixed-point-free ciphers (Playfair, Porta, Enigma-like); 25-letter grids; M-94 | S@33, K@74; it65; it75 |
-| Hill n=2,3 (lin/aff), n=4 (lin/aff), n=5 linear | §2; it90 (plants 5/5) |
+| Hill n=2,3 (lin/aff), n=4 (lin/aff), n=5 linear | §2; it90 (plants 5/5). n=4 affine is FRAGILE: 2 CT errors can't be excluded (s025, it96); n=4 linear needs ≥3 |
 | Trifid, any cube, periods 2–97, all offsets | it93: K4 0/876 crib-feasible = null 0/876; plants 26/26 |
-| Transposition → periodic, p=2–9, 12, 13 | column IC (it64) |
+| Transposition (letter-agnostic) → periodic, p=2–6, 8, 9, 12, 13, 18 | column IC (it64; audit s082/it96: p=7 is MARGINAL, P 0.007–0.017; p=18 added, P ≤ 0.002, low power) |
 | Autokey: PT-autokey to L=13 (any mixed alphabet); CT-autokey per §2 | it51, it79, it80 |
 | Gromark / Gronsfeld / Vimark (fixed or keyword alphabets) | it57–60; §2 |
 | Every structured generator (~21M: keygen, routes, transposed streams) under fixed tableaux or ONE arbitrary alphabet | exact screens; it87 (Q1/Q2 any alphabet 0/24M) |
@@ -37,7 +37,7 @@ D measured on held-out text, 58M-letter training: 4-gram 1.82, 5-gram 2.11, 6-gr
 | D. Unstructured / OTP-like position key (1–2 alphabets) | key entropy 4.70 bits/letter > any language redundancy; false-positive rate 1 (H-2001) | K5 CT with the same key **plus** a word-level two-text decoder (char 6-gram 2·D = 4.52 < 4.70; it89), or a concrete key-generation rule |
 | E. Q4 periodic p16–28, arbitrary alphabets | search-limited: PT and nested search recover 0/12 plants at p=20, 0/8 at p=8 (it91–92; w-anneal 0/294) | the keyword(s) or either alphabet (then class C/B: decidable), ~15 more plaintext letters, or a new algorithm that passes ≥80% plants |
 | F. Q4 periodic p≥30 | information-limited: spurious optima beat English | more plaintext (each letter +4.7 bits) or K5 depth with a structured key |
-| G. Q3/Q1/Q2 periodic survivors (V30, V41, B23, B26–33, B46–52), arbitrary alphabet | p≤33 search-limited (as E); p≥41 information-limited | as E/F |
+| G. Q3/Q1/Q2 periodic survivors (V30, V41, B23, B26, B30–33, B46, B47, B49, B51, B52; 27–29 and ≥53 vacuous), arbitrary alphabet | p≤33 search-limited (as E); p≥41 information-limited | as E/F |
 | H. GEN periodic p≥8 (independent alphabet per class) | nulls beat English by ~80 log10 | the period's alphabets from another source (e.g. K5 depth), or many more cribs |
 | Chaocipher | ~1e11 wheel pairs consistent with any CT (it74 lemma) | the wheel start alphabets (one wheel cuts it to a crib test) |
 | Hagelin M-209 / C-38 | pin/lug space too large for 24 cribs (it77) | lug or pin settings, or a longer known-plaintext run |
@@ -77,11 +77,11 @@ Robust = survives ≤2 wrong CT letters and 1 omission between cribs. Audit = in
 | Fixed-point-free ciphers (Playfair, Porta, Enigma-like) | S→S@33, K→K@74 | 1 error yes, 2 no | confirmed |
 | Periodic Vig/Beau/vBeau, AZ/KA, PA=CA or mixed, every reachable period (incl. 27-29 by decrypt) | crib algebra + decrypts (w-crib §1, w-errtol §2) | Yes. Error-revived periods force gibberish | confirmed (also 49-52) |
 | Any periodic substitution with arbitrary alphabets (GEN) p ∈ {1-7,9,10,14,15,17,21,25,34,42,43,45,50} | crib bijection conflicts | **Fragile**: p=10/25/50 revived by 1 error; most p≥6 by 1 omission. p=7 needs 3 errors (robust) | confirmed |
-| Periodic (any alphabets) after a transposition, p ≤ 13 except 7, 10, 11 | pooled column IC | Yes | confirmed |
-| Quagmire III (one mixed alphabet), all periods except Vig 30, 41 / Beau 23, 26-33, 46, 47, 49, 51, 52 | z3 (w-crib §2) | p=7, 10 robust to ≤2 errors | confirmed |
+| Periodic (any alphabets) after a letter-agnostic transposition, p ≤ 13 except 7, 10, 11, plus p=18 | pooled column IC | p=5, 13 not robust to ~3 well-placed errors (s082) | confirmed |
+| Quagmire III (one mixed alphabet), all periods except Vig 30, 41 / Beau 23, 26, 30-33, 46, 47, 49, 51, 52 (27-29 vacuous) | z3 (w-crib §2; non-z3 re-derivation s080; it96) | p=7, 10 robust to ≤2 errors | confirmed |
 | Quagmire I/II/IV at the listed dead periods (Q4: 11, 12, 18, 22, 36, 44) | exact solvers | inherits GEN fragility | confirmed; Q4 p=12 added by audit |
 | CT-/PT-autokey (fixed tableaux); CT-autokey L≤31 and PT-autokey Vig L≤10 with a mixed alphabet | w-crib §3, w-mask §3.5-3.6 | mostly; CT-autokey L=69-73 fragile | confirmed |
-| Hill n=2,3 (linear and affine), n=4 linear | per-row solve | n≤3 robust; n=4 fragile (1 error) | confirmed |
+| Hill n=2,3 (linear and affine), n=4 linear and affine | per-row solve | n≤3 robust (≥6); n=4 linear ≥3 errors; n=4 affine FRAGILE (≥2, i.e. 2 errors may revive; s025, it96) | confirmed |
 | **[r8]** Hill n=4 affine, n=5 linear (AZ/KA, every offset, every crib letter per row) | it90 exact per-row brute force | not error-tested | plants 5/5 |
 | Gromark/Gronsfeld with a standard plain alphabet; Gromark with any fixed or keyword alphabet (b2-16, primers 2-6); Vimark with AZ/KA | w-crib §7, w-gromark §2-4, w-sources §5 | std-alphabet proof fragile (1 pair) | confirmed (index slip fixed) |
 | Columnar transposition (either order) with cribs in place, widths 2-75 | contiguity proof | n/a | **overclaimed**: widths 76-96 can fix the cribs (H-704 class) |
@@ -113,7 +113,7 @@ H(K) is the key entropy after gauge symmetries. A ratio H/B < ~0.8 means identif
 | D. Unstructured position key, 1-2 alphabets (H-1203, "OTP-like") | ≥456+88 | >1.4 | >2 | **NOT IDENTIFIABLE** (proof: H-2001, false-positive rate 1) | — | needs a generator idea or K5 depth |
 | E. Quagmire IV periodic, p=16-28 | 242-299 | 0.66-0.81 | 0.97-1.20 | **MARGINAL** (in principle yes; search-limited) | w-anneal: 0/150 recovered, true > found | better two-alphabet search or keyword alphabets |
 | F. Quagmire IV periodic, p≥30 (incl. vacuous 53-60) | ≥308 | ≥0.84 | ≥1.24 | **NOT** (spurious optima beat English) | w-anneal: found ≥ true in 125/126 controls at p≥37 | — |
-| G. Q3/Q1/Q2 periodic survivors (Q3 V30, V41; B23, B26-33, B46-52) | 88+4.7(p−1): 192 (p23), 225 (p30), 277 (p41), 328 (p52) | 0.52-0.89 | 0.77-1.32 | p≤33 **MARGINAL**; p≥41 **NOT** | B26, B28, B51, V27 disfavoured (w-probable §3.3) | crib-exact Q3 annealer (not built) |
+| G. Q3/Q1/Q2 periodic survivors (Q3 V30, V41; B23, B26, B30-33, B46, B47, B49, B51, B52) | 88+4.7(p−1): 192 (p23), 225 (p30), 277 (p41), 328 (p52) | 0.52-0.89 | 0.77-1.32 | p≤33 **MARGINAL**; p≥41 **NOT** | B26, B28, B51, V27 disfavoured (w-probable §3.3) | crib-exact Q3 annealer (not built) |
 | H. GEN periodic p≥8 (independent alphabet per class) | 373-434 (from K4's class letters) | >1.0 | >1.5 | **NOT IDENTIFIABLE** | w-anneal §3: nulls beat English by ~80 log10 | — |
 | I. Error-revived periodic (H-1004/1005: GEN/Q4 p=10, 21, 25, 42, 50) | Q4 p10 ≈ 219; p21 ≈ 266; GEN ≥ 380 | 0.6-1.0+ | 0.9-1.5 | Q4 p10 **MARGINAL**; rest **NOT** | w-errtol: power ≤0.04 | — |
 | J. PT-autokey Beau, mixed alphabet, L=6-8, 10-12 (H-1207) | 88 (cribs seed every residue) | 0.24 | 0.35 | **IDENTIFIABLE** (earlier SA failure was search, not information) | — | exact/propagation search (task 3) |

@@ -44,7 +44,7 @@ Format: - approach — why eliminated — evidence/source — who/date
   - FRAGILE: pure-transposition "3 E vs 2 E" argument (1 error) — exclusion still stands on IC/chi².
   - FRAGILE: GEN periodic arbitrary-alphabet exclusion — p=10,25,50 revived by 1 error (only conflict E22→F/O72→F); p=4,6,14,15,17,21,34,42,43,45 by 2; most p≥6 by one omission between cribs. p=1,2,3,9 robust (≥6), p=5,7 need 3. Quagmire I/II/IV periods inherit this fragility.
   - FRAGILE: Gromark/Gronsfeld "standard plain alphabet impossible" (single pair R28/C73→P / k72−k28) — 1 error.
-  - FRAGILE: Hill n=4 linear (C=KP) — 1 error suffices (AZ, offset 3). Hill n=2,3 robust (≥5).
+  - Hill n=4 linear: ≥3 errors (it96/s025 combined enc+dec bound; the old "1 error" came from the C=KP row test only). FRAGILE: Hill n=4 affine (it90 DEAD) — lower bound 2 errors at AZ/KA offsets 0 and 3, so 2 errors can't be excluded. Hill n=2,3 robust (≥6).
   - FRAGILE: CT-autokey L=69-73, PT-autokey direct checks L=11,12,30,31,51,52 (1-2 errors); others robust.
   - 1-error-safe only: fixed-point-free ciphers (needs both 33 and 74 wrong).
   - ROBUST: mono (11), periodic Vig/Beau/vBeau AZ/KA p≤25 (≥3, and omissions only open crib-vacuous periods); their 1-2-error-revivable periods 26,30,31,32,51,52 decrypt to gibberish; Gronsfeld digit keys (11-16 positions >9); all statistical (IC/chi²) exclusions.
@@ -156,3 +156,8 @@ Format: - approach — why eliminated — evidence/source — who/date
 - Classes E/G (Quagmire IV p16–28, Q3 p23/26–33 with ARBITRARY alphabets) — PARKED, search-limited, not refuted: it91 PT (6-gram, crib-locked; plants p1 4/4, p2 4/4, p4 1/4, p8 0/4, p20 0/12) and it92 nested search (p4 0/4, p8 0/4, p20 0/4); w-anneal 0/294. Keyword-built alphabets for these classes are DEAD (it83–87).
 - it90: Hill n=5 AFFINE — crib-undecidable (5/10 configs consistent, ~1e9 keys each); full-text search unvalidated, K4 best inside the null range. Low prior, not refuted.
 - it93: Trifid (any 27-cell cube, 27th symbol unseen), periods 2–40 all offsets + 41–97 offset 0 — K4 0/876 configs crib-feasible under full-text SA (plants 26/26 recovered; null0 0/876). DEAD.
+- it96 (coach housekeeping, swarm s025/s080/s081/s082 audit):
+  - Hill n=4 affine: FRAGILE. Exact lower bound max(enc, dec relaxation) = 2 CT errors (AZ0 o0/o3, KA0 o0/o3); other configs 3-4. n=4 linear ≥3 (AZ0/KA0/AZ1/KA1). Plants: 0 errors → 0, 2 errors → ≤2. The it90 DEAD stands at 0 errors only.
+  - Transposition → periodic column IC: p=7 is MARGINAL (P 0.007 perm, 0.007 columnar, 0.017 identity), not DEAD. p=18 DEAD at P 0.0005-0.002 (low power, ~0.19). p=2-6, 8, 9, 12, 13 confirmed. Valid for letter-agnostic transpositions only.
+  - Q3 one alphabet: Beau p=48 and p=50 UNSAT (z3; plants 6/6 SAT), so they are not survivors. p=27-29 are vacuous (no class holds 2 crib letters), not survivors. Correct list: V30, V41, B23, B26, B30-33, B46, B47, B49, B51, B52.
+  - EAST@22-25 is grade S (position inferred from adjacency, not Sanborn-stated). Robust crib core = 20 letters (26-34, 64-74), both self-encryptions included.

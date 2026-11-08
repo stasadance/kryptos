@@ -1,0 +1,30 @@
+aff AZ0 off 0 enc 0 dec (2, (0, 1)) bound 2
+aff AZ0 off 1 enc 4 dec (2, (0, 2)) bound 4
+aff AZ0 off 2 enc 3 dec (3, (0, 1, 5)) bound 3
+aff AZ0 off 3 enc 0 dec (2, (0, 1)) bound 2
+aff KA0 off 0 enc 2 dec (2, (0, 3)) bound 2
+aff KA0 off 1 enc 3 dec (2, (0, 3)) bound 3
+aff KA0 off 2 enc 4 dec (2, (0, 2)) bound 4
+aff KA0 off 3 enc 0 dec (2, (0, 3)) bound 2
+lin AZ0 off 0 enc 4 dec (3, (0, 1, 2)) bound 4
+lin AZ0 off 1 enc 4 dec (3, (0, 1, 2)) bound 4
+lin AZ0 off 2 enc 4 dec (4, (0, 1, 3, 5)) bound 4
+lin AZ0 off 3 enc 1 dec (3, (0, 1, 3)) bound 3
+lin KA0 off 0 enc 2 dec (3, (0, 1, 6)) bound 3
+lin KA0 off 1 enc 4 dec (3, (0, 1, 3)) bound 4
+lin KA0 off 2 enc 4 dec (3, (0, 2, 5)) bound 4
+lin KA0 off 3 enc 4 dec (3, (0, 2, 5)) bound 4
+lin AZ1 off 0 enc 0 dec (3, (0, 1, 2)) bound 3
+lin AZ1 off 1 enc 4 dec (3, (0, 1, 5)) bound 4
+lin AZ1 off 2 enc 4 dec (3, (0, 1, 5)) bound 4
+lin AZ1 off 3 enc 0 dec (3, (0, 1, 2)) bound 3
+lin KA1 off 0 enc 6 dec (3, (0, 1, 6)) bound 6
+lin KA1 off 1 enc 5 dec (3, (0, 2, 6)) bound 5
+lin KA1 off 2 enc 8 dec (3, (0, 1, 4)) bound 8
+lin KA1 off 3 enc 3 dec (3, (0, 2, 3)) bound 3
+plant 0 err 0 at [] true off 0 num KRY bound(true) (0, (0, ()))
+plant 1 err 0 at [] true off 0 num KRY bound(true) (0, (0, ()))
+plant 2 err 0 at [] true off 1 num KRY bound(true) (0, (0, ()))
+plant 0 err 2 at [24, 30] true off 0 num ABC bound(true) (0, (2, (0, 2)))
+plant 1 err 2 at [64, 65] true off 2 num KRY bound(true) (0, (1, (4,)))
+plant 2 err 2 at [22, 66] true off 0 num KRY bound(true) (0, (2, (0, 1)))
